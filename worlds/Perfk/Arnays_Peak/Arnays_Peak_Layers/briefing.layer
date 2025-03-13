@@ -114,11 +114,3 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
 }
-SCR_DestructibleEntity : "{D0FAE63E6FEFCEA5}PrefabLibrary/Walls/Net/GameProofFence_01_5m.et" {
- components {
-  PK_PrefabDeleterComponent "{64CEB5FDC3A796A2}" {
-  }
- }
- coords 7141.048 0.008 3650.167
- angleY -78.565
-}

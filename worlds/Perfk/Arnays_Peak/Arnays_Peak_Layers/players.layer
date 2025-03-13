@@ -73,6 +73,14 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
   }
  }
 }
+Vehicle Building_location01 : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+   Enabled 1
+  }
+ }
+ coords 3500.39 171.987 4674.836
+}
 $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_PHQ_P.et" {
  {
   components {

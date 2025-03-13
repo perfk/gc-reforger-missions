@@ -108,10 +108,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-PK_EntityDeleter {
- coords 7111.354 342.656 3663.4
- m_fRadius 35
-}
 PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  coords 1971.376 155.398 1956.825
  m_sTitle "Overview"
