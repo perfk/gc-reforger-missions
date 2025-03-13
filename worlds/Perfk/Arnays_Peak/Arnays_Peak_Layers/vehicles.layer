@@ -1,0 +1,48 @@
+Vehicle Ural4320_transport_covered_CIV_base1 : "{4BFB3CA9E83385D2}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_base.et" {
+ coords 1799.819 153.394 1851.537
+ angleX 2.829
+ angleY 161.901
+ angleZ 0.017
+}
+Vehicle UAZ469_base1 : "{99F1610551D54D17}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_base.et" {
+ coords 1808.493 155.338 1818.706
+ angleX 3.567
+ angleY 151.342
+ angleZ -0.93
+}
+$grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ MH6M1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+    Enabled 1
+   }
+  }
+  coords 8398.377 111.531 7114.758
+ }
+ MH6M2 {
+  coords 8381.62 111.531 7114.726
+ }
+ MH6M3 {
+  coords 8416.448 111.531 7117.142
+ }
+ MH6M4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+    Enabled 1
+   }
+  }
+  coords 8433.202 111.531 7117.174
+ }
+}
+Vehicle Ural4320_transport_covered_CIV_blue1 : "{F66EAD0D2016B6BA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_blue.et" {
+ coords 1806.577 154.827 1827.224
+ angleX 2.82
+ angleY 157.089
+ angleZ -0.221
+}
+Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
+ coords 1803.179 154.049 1840.022
+ angleX 2.828
+ angleY 163.003
+ angleZ 0.071
+}

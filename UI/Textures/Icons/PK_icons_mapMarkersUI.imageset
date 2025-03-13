@@ -1,0 +1,18 @@
+ImageSetClass {
+ RefSize 1270 880
+ Textures {
+  ImageSetTextureClass {
+   screenSize FHD
+   size 1270 880
+   path "{3758B79575198D16}UI/Textures/Icons/PK_icons_mapMarkersUI-126_atlas.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass test {
+   Name "test"
+   Pos 231 51
+   Size 800 800
+   Flags 0
+  }
+ }
+}
