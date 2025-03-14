@@ -2,7 +2,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 2757.608 138.819 9058.796
   m_sTitle "Situation"
-  m_sTextData "A local warlord going by the pseudonym Abu Bergers has been wreaking havoc on local security forces in the Anizay region. CIA analysts have been able to track his location to a compound in the north west of the region, and two squads of the 1st Battalion, 75th Ranger Regiment have been tasked with raiding this compound to kill or capture the target and secure any intelligence on site."
+  m_sTextData "A local warlord has taken over the Arnay hilltop, what was previous a place of worship now houses the warlords new villa."\
+  ""\
+  "Two squads of the 1st Battalion, 75th Ranger Regiment have been tasked with raiding this compound to kill or capture the target."\
+  ""
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -12,7 +15,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission"
   m_sTextData "Assault the marked compound and either eliminate all insurgents or secure the multi-storey building in the compound, holding it for 3 minutes."\
   ""\
-  "Complete this within the next 45 minutes."
+  "Complete this within the next 45 minutes."\
+  ""
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -20,9 +24,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 2764.646 144.601 9136.898
   m_sTitle "Service & Support"
-  m_sTextData "Two Black Hawks are available for transport and overwatch, crewed by the 160th SOAR."\
+  m_sTextData "Two Black Hawks and Four Little Birds are available for transport and overwatch, crewed by the 160th SOAR."\
   ""\
-  "4x wirecutters are available on top of a crate near the blackhawks."
+  "UH60 Black Hawk:"\
+  "Seats: 2 pilots, 2 gunners, 11 backseats"\
+  "Contains: 556 "\
+  ""\
+  "MH6 Little bird:"\
+  "Seats: 2 pilots, 6 skids and 2 backseats"\
+  ""
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -31,7 +41,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2761.087 145.671 9160.585
   m_sTitle "Command & Signal"
   m_sTextData "Ground net: 48.0 Mhz"\
-  "Air net: 50.0 Mhz"
+  "Air net: 50.0 Mhz"\
+  ""\
+  "Platoon HQ (1-6)"\
+  "1st Squard (1-1)"\
+  "2nd Squard (1-2)"\
+  ""\
+  "Air is Super 6-1, 6-2, 6-3, 6-4 depending on the amount of birds in use"\
+  ""
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -59,19 +76,42 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 2748.46 145.886 9159.165
   m_sTitle "Mission notes"
-  m_sTextData "Mission by arc"\
+  m_sTextData "Mission by Perfk"\
   ""\
-  "2 minute setup timer, 45 minute TL"\
+  "2 minute setup timer, 45 minute Time Limit"\
   ""\
-  "Insurgents AO limited to compound and the 2 storey across the road from it."\
-  ""\
-  "If using wirecutters on the wall barbed wire you may need to look straight ahead instead of up at the wire for the prompt to appear, it's a bit jank."\
+  "Insurgents AO limited to compound (large walls)"\
   ""\
   "End conditions:"\
   "100% Insurgent casualties or HQ captured for 3 minutes - US Victory"\
-  "80% US casualties or 45 minutes pass after setup - Insurgent Victory"
+  "80% US casualties or 45 minutes pass after setup - Insurgent Victory"\
+  ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
+ }
+ {
+  coords 1971.376 155.398 1956.825
+  m_sTitle "Overview"
+  m_sTextData "1.5:1 US:INSURGENT"\
+  ""\
+  "US Special Forces raid a Villa occupied by insurgent forces."\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}
+$grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ MH6M3 {
+  coords 8427.549 111.532 7160.462
+  angleY 180
+ }
+ MH6M4 {
+  coords 8426.761 111.531 7112.422
+  angleY 180
+ }
+ MH6M5 {
+  coords 8426.104 111.53 7092.74
+  angleY 180
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {

@@ -108,15 +108,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- coords 1971.376 155.398 1956.825
- m_sTitle "Overview"
- m_sTextData "1.5:1 US:INSURGENT"\
- ""\
- "US Special Forces raid a familiar compound occupied by insurgent forces loyal to the infamous warlord Abu Bergers."
- m_bEmptyFactionVisibility 1
- m_bShowForAnyFaction 1
-}
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
  coords 1808.815 157.816 1811.624
  m_queryRadius 10
