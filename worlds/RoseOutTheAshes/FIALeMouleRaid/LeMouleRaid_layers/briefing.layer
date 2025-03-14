@@ -24,12 +24,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Player Unit:"\
   "2x Light Infantry Squads"\
   "2x MG Teams"\
+  "Located east of objective at grid 044-049"\
   ""\
   "Ib. Enemy Forces:"\
   "1x Patrol on MSR at Richemont"\
   "At least 1x Rifle Platoon and 1x BTR-70 located at objective."\
-  "Expect heavy QRF once the command post is secured."\
-  ""
+  "Expect heavy QRF once the command post is secured."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 1

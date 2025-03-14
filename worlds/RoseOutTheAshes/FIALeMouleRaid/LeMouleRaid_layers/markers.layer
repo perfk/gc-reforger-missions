@@ -22,9 +22,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 4415.65 63.771 4993.134
-  m_MarkerColor 0 0.502 0.125 1
+  m_MarkerColor 0 0.013 0.005 1
   m_sQuadName "point-of-interest"
-  m_fWorldSize 75
+  m_fWorldSize 95
   m_sDescription "Start Location"
   m_bVisibleForEmptyFaction 1
   m_iZOrder 1
@@ -80,5 +80,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
   m_iZOrder 1
   m_bShowForAnyFaction 1
+ }
+ {
+  coords 4415.65 63.771 4993.134
+  m_MarkerColor 0 0.503 0.125 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 75
+  m_sDescription "Start Location"
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
  }
 }
