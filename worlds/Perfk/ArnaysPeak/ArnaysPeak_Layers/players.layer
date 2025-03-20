@@ -36,7 +36,7 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Gr
     m_iSquadCallsign 1
    }
   }
-  coords 7130.938 345.154 3638.234
+  coords 7916.992 345.154 3638.234
   m_aUnitPrefabSlots {
    "{2084E881C56F4F14}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_HAT_P.et"
   }

@@ -4,15 +4,55 @@ Vehicle Ural4320_transport_covered_CIV_base1 : "{4BFB3CA9E83385D2}Prefabs/Vehicl
  angleY 161.901
  angleZ 0.017
 }
-Vehicle UAZ469_base1 : "{99F1610551D54D17}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_base.et" {
- coords 1808.493 155.338 1818.706
- angleX 3.567
- angleY 151.342
- angleZ -0.93
+Vehicle S105_rally1 : "{5555DCAFADB8CE2A}Prefabs/Vehicles/Wheeled/S105/S105_rally.et" {
+ components {
+  PK_EntityProtectorComponent "{64E8EC1F09D43614}" {
+  }
+ }
+ coords 7156.123 342.656 3632.725
+ angleY 132.282
+}
+$grp Vehicle : "{99F1610551D54D17}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_base.et" {
+ UAZ469_base1 {
+  coords 1808.493 155.338 1818.706
+  angleX 3.567
+  angleY 151.342
+  angleZ -0.93
+ }
+ UAZ469_base2 {
+  components {
+   PK_EntityProtectorComponent "{64E8EC1F040F579F}" {
+   }
+  }
+  coords 7135.38 342.338 3608.782
+  angleY 39.265
+ }
+}
+Vehicle UAZ469_covered_CIV_red1 : "{A4D16A62B432451A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_red.et" {
+ components {
+  PK_EntityProtectorComponent "{64E8EC1F0637B0AD}" {
+  }
+ }
+ coords 7149.044 342.656 3625.369
+ angleY 47.491
+}
+Vehicle S1203_transport_brown1 : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {
+ components {
+  PK_EntityProtectorComponent "{64E8EC1F0A790F3B}" {
+  }
+ }
+ coords 7138.116 342.656 3622.134
 }
 Vehicle MH6M2 : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
  coords 8427.707 111.531 7136.779
  angleY 180
+}
+Vehicle S105_base1 : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
+ components {
+  PK_EntityProtectorComponent "{64E8EC1F0F55A116}" {
+  }
+ }
+ coords 7143.178 342.656 3622.215
 }
 $grp Vehicle : "{F503F71C08BE3F7D}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
  AUS_UH60_armed2 {

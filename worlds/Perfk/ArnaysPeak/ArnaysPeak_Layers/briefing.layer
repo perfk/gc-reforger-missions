@@ -145,9 +145,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 8524.664 340.33 3608.485
-  m_sImageSet "{61A5AECB783317EC}UI/Textures/Icons/PK_icons_mapMarkersUI.imageset"
-  m_sImageSetGlow "{61A5AECB783317EC}UI/Textures/Icons/PK_icons_mapMarkersUI.imageset"
-  m_sQuadName "ArnaysPeak_overview"
+  m_sImageSet "{61A5AECB783317EC}worlds/Perfk/UI/Textures/Icons/pk_icons_mapMarkersUI.imageset"
+  m_sImageSetGlow "{61A5AECB783317EC}worlds/Perfk/UI/Textures/Icons/pk_icons_mapMarkersUI.imageset"
+  m_sQuadName "overview"
   m_fWorldSize 1920
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1

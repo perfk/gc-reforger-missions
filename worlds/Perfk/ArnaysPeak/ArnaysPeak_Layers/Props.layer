@@ -73,273 +73,1527 @@ $grp GenericEntity : "{051DF821376D5572}Prefabs/Models/props/tem_claypot3.et" {
  }
 }
 SCR_DestructibleBuildingEntity : "{100EC7537BBA1384}Prefabs/Models/houses/tem_villa1.et" {
+ components {
+  PK_EntityProtectorComponent "{64E8E5862508822B}" {
+  }
+ }
  coords 7112.892 0.118 3660.063
  angleY -75.4
+ {
+  EnvironmentProbeEntity {
+   ID "62CAD01F0D296B61"
+   components {
+    PK_EntityProtectorComponent "{64E8E586867E8D56}" {
+    }
+   }
+   {
+    ProbeVolume {
+     ID "54FE653E68DF1A3B"
+     components {
+      PK_EntityProtectorComponent "{64E8E586804139B4}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3D15FF"
+   components {
+    PK_EntityProtectorComponent "{64E8E58626B1942D}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3EA99D"
+   components {
+    PK_EntityProtectorComponent "{64E8E58620F3FCF4}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3EA9A2"
+   components {
+    PK_EntityProtectorComponent "{64E8E58622850A05}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3D15F7"
+   components {
+    PK_EntityProtectorComponent "{64E8E5863F41F45B}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3D15F8"
+   components {
+    PK_EntityProtectorComponent "{64E8E5863EB82A46}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3D15F4"
+   components {
+    PK_EntityProtectorComponent "{64E8E58638E70F3F}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3D15F2"
+   components {
+    PK_EntityProtectorComponent "{64E8E5863AB57BB0}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3D38D5"
+   components {
+    PK_EntityProtectorComponent "{64E8E5861243BA4B}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3D38D6"
+   components {
+    PK_EntityProtectorComponent "{64E8E586EDBB8BBC}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3D38D4"
+   components {
+    PK_EntityProtectorComponent "{64E8E586EFC52E80}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3D83CC"
+   components {
+    PK_EntityProtectorComponent "{64E8E586E9669149}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3C1742"
+   components {
+    PK_EntityProtectorComponent "{64E8E586E8C4244E}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3C4C5E"
+   components {
+    PK_EntityProtectorComponent "{64E8E586EBA4FB5D}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3CEDA7"
+   components {
+    PK_EntityProtectorComponent "{64E8E586E5094D5B}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3D83D0"
+   components {
+    PK_EntityProtectorComponent "{64E8E586E4E22E27}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D236890"
+   components {
+    PK_EntityProtectorComponent "{64E8E586E65521E7}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D3CEDA1"
+   components {
+    PK_EntityProtectorComponent "{64E8E586E1DC626C}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D202E1C"
+   components {
+    PK_EntityProtectorComponent "{64E8E586E35066D1}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2038B4"
+   components {
+    PK_EntityProtectorComponent "{64E8E586E22923BA}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D204A22"
+   components {
+    PK_EntityProtectorComponent "{64E8E586FDB4B952}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D20729E"
+   components {
+    PK_EntityProtectorComponent "{64E8E586FF3E9104}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D20729F"
+   components {
+    PK_EntityProtectorComponent "{64E8E586FEE52A2F}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2080DB"
+   components {
+    PK_EntityProtectorComponent "{64E8E586F863DD34}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D216F63"
+   components {
+    PK_EntityProtectorComponent "{64E8E586FB35A8C6}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2170A0"
+   components {
+    PK_EntityProtectorComponent "{64E8E586FA967D7F}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D21D53B"
+   components {
+    PK_EntityProtectorComponent "{64E8E586F47463EC}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D21D53C"
+   components {
+    PK_EntityProtectorComponent "{64E8E586F72B2B7F}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D21EF2C"
+   components {
+    PK_EntityProtectorComponent "{64E8E586F6AEAF7C}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D221474"
+   components {
+    PK_EntityProtectorComponent "{64E8E586F0114CB1}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D221477"
+   components {
+    PK_EntityProtectorComponent "{64E8E586F3C86463}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D228DD0"
+   components {
+    PK_EntityProtectorComponent "{64E8E586F2A65721}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D228DD1"
+   components {
+    PK_EntityProtectorComponent "{64E8E586CC310D7C}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D22C660"
+   components {
+    PK_EntityProtectorComponent "{64E8E586CE50E770}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D22DE92"
+   components {
+    PK_EntityProtectorComponent "{64E8E586C9EB8777}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2315E2"
+   components {
+    PK_EntityProtectorComponent "{64E8E586CB0058B6}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D236892"
+   components {
+    PK_EntityProtectorComponent "{64E8E586C5511E1D}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D237C00"
+   components {
+    PK_EntityProtectorComponent "{64E8E586C42BEA26}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D237C0F"
+   components {
+    PK_EntityProtectorComponent "{64E8E586C793B25C}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D238E06"
+   components {
+    PK_EntityProtectorComponent "{64E8E586C6A27429}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D238E07"
+   components {
+    PK_EntityProtectorComponent "{64E8E586C061D563}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D23A453"
+   components {
+    PK_EntityProtectorComponent "{64E8E586C3C5BB52}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2471C0"
+   components {
+    PK_EntityProtectorComponent "{64E8E586C2A4D6EC}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D24F8E7"
+   components {
+    PK_EntityProtectorComponent "{64E8E586DC334F05}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D251C67"
+   components {
+    PK_EntityProtectorComponent "{64E8E586DFC4F7D2}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D258774"
+   components {
+    PK_EntityProtectorComponent "{64E8E586DEA53568}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D258775"
+   components {
+    PK_EntityProtectorComponent "{64E8E586D8CCD452}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D25FC74"
+   components {
+    PK_EntityProtectorComponent "{64E8E586DA7AA0F3}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D263689"
+   components {
+    PK_EntityProtectorComponent "{64E8E586D45FB7C6}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2636F6"
+   components {
+    PK_EntityProtectorComponent "{64E8E586D7FC995C}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D264AB8"
+   components {
+    PK_EntityProtectorComponent "{64E8E586D6B5EFC6}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D267812"
+   components {
+    PK_EntityProtectorComponent "{64E8E586D06D6A31}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D26A174"
+   components {
+    PK_EntityProtectorComponent "{64E8E586D3C84C09}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2711D8"
+   components {
+    PK_EntityProtectorComponent "{64E8E586AD55DFB6}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D277088"
+   components {
+    PK_EntityProtectorComponent "{64E8E586AC98FC81}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D27708B"
+   components {
+    PK_EntityProtectorComponent "{64E8E586AE591C4B}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D27F084"
+   components {
+    PK_EntityProtectorComponent "{64E8E586A9D0590B}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D27F085"
+   components {
+    PK_EntityProtectorComponent "{64E8E586AB9CF1B8}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2A00AA"
+   components {
+    PK_EntityProtectorComponent "{64E8E586A5B6F767}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2A00AD"
+   components {
+    PK_EntityProtectorComponent "{64E8E586A775766D}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2A3D68"
+   components {
+    PK_EntityProtectorComponent "{64E8E586A177D28A}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2B53C1"
+   components {
+    PK_EntityProtectorComponent "{64E8E586A02D2294}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2B53C2"
+   components {
+    PK_EntityProtectorComponent "{64E8E586A38908B5}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2B656F"
+   components {
+    PK_EntityProtectorComponent "{64E8E586BD73690F}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2B88EB"
+   components {
+    PK_EntityProtectorComponent "{64E8E586BCD71741}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2BAD45"
+   components {
+    PK_EntityProtectorComponent "{64E8E586BE72B0EA}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2BE23E"
+   components {
+    PK_EntityProtectorComponent "{64E8E586B9CFD9BE}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2BE286"
+   components {
+    PK_EntityProtectorComponent "{64E8E586B8BC2886}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2BE287"
+   components {
+    PK_EntityProtectorComponent "{64E8E586BA032F34}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2BFDB0"
+   components {
+    PK_EntityProtectorComponent "{64E8E586B5EABD9A}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2A3D69"
+   components {
+    PK_EntityProtectorComponent "{64E8E586B74A392D}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2A3D6A"
+   components {
+    PK_EntityProtectorComponent "{64E8E586B633347C}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2A3D6B"
+   components {
+    PK_EntityProtectorComponent "{64E8E586B1A69638}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2A3D64"
+   components {
+    PK_EntityProtectorComponent "{64E8E586B36E9978}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2A3D65"
+   components {
+    PK_EntityProtectorComponent "{64E8E586B22CA813}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2ABA7D"
+   components {
+    PK_EntityProtectorComponent "{64E8E5868DECA4C8}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2ABA7E"
+   components {
+    PK_EntityProtectorComponent "{64E8E5868CA252B1}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D296B79"
+   components {
+    PK_EntityProtectorComponent "{64E8E5868E1A4592}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2ABA7F"
+   components {
+    PK_EntityProtectorComponent "{64E8E5868928DEDB}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D296B7E"
+   components {
+    PK_EntityProtectorComponent "{64E8E58688EBBD88}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D296B7F"
+   components {
+    PK_EntityProtectorComponent "{64E8E5868BB378BE}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D296B7C"
+   components {
+    PK_EntityProtectorComponent "{64E8E586850848DA}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D296B7D"
+   components {
+    PK_EntityProtectorComponent "{64E8E586842DBEEB}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D296B66"
+   components {
+    PK_EntityProtectorComponent "{64E8E586838DFA49}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D296B65"
+   components {
+    PK_EntityProtectorComponent "{64E8E5869DE5FB70}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D296B6A"
+   components {
+    PK_EntityProtectorComponent "{64E8E5869F0DC400}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D296B6E"
+   components {
+    PK_EntityProtectorComponent "{64E8E5869EDF082A}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2915F4"
+   components {
+    PK_EntityProtectorComponent "{64E8E58699E4A4D2}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2915F5"
+   components {
+    PK_EntityProtectorComponent "{64E8E5869BC1D382}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D296B6C"
+   components {
+    PK_EntityProtectorComponent "{64E8E5869A901C97}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D292F53"
+   components {
+    PK_EntityProtectorComponent "{64E8E586917BCA72}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D280ABF"
+   components {
+    PK_EntityProtectorComponent "{64E8E58690F894CE}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D299305"
+   components {
+    PK_EntityProtectorComponent "{64E8E58693A2A996}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D280A83"
+   components {
+    PK_EntityProtectorComponent "{64E8E58765246B2D}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E58764A62252}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D280A84"
+   components {
+    PK_EntityProtectorComponent "{64E8E587663458FB}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E58761E5F176}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D28854C"
+   components {
+    PK_EntityProtectorComponent "{64E8E58760A38553}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E587623C5957}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D28854F"
+   components {
+    PK_EntityProtectorComponent "{64E8E5877C5FEA01}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E5877F2AABAB}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D28E792"
+   components {
+    PK_EntityProtectorComponent "{64E8E5877966D4EE}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E58778EE2139}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D28E793"
+   components {
+    PK_EntityProtectorComponent "{64E8E5877A7F712E}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E58775D14B22}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2E5458"
+   components {
+    PK_EntityProtectorComponent "{64E8E58777001264}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E587730982DF}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2E5459"
+   components {
+    PK_EntityProtectorComponent "{64E8E58772E8F243}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E5874C6C5407}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2EDDCA"
+   components {
+    PK_EntityProtectorComponent "{64E8E5874FE6219F}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E5874939DE69}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2EF69D"
+   components {
+    PK_EntityProtectorComponent "{64E8E58748F0C229}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E5874BBCE72B}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2EF69E"
+   components {
+    PK_EntityProtectorComponent "{64E8E5874573B32E}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E58744D6FD40}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2F30AE"
+   components {
+    PK_EntityProtectorComponent "{64E8E587465A0B12}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E587411CAEA6}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2F542E"
+   components {
+    PK_EntityProtectorComponent "{64E8E58740EF8782}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E58743BECE97}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2F542F"
+   components {
+    PK_EntityProtectorComponent "{64E8E5875D685580}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E5875CD0B368}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2F8D97"
+   components {
+    PK_EntityProtectorComponent "{64E8E5875F9E9224}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E5875EAE6531}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2F8D98"
+   components {
+    PK_EntityProtectorComponent "{64E8E587587DF3EB}" {
+    }
+   }
+   {
+    LightEntity {
+     ID "62CA7168004FA1C8"
+     components {
+      PK_EntityProtectorComponent "{64E8E5875B33CC6A}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2EF69F"
+   components {
+    PK_EntityProtectorComponent "{64E8E5875A8F5CB5}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2EF699"
+   components {
+    PK_EntityProtectorComponent "{64E8E58754C2F605}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2EF69A"
+   components {
+    PK_EntityProtectorComponent "{64E8E5875669BBC1}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2EA1EC"
+   components {
+    PK_EntityProtectorComponent "{64E8E5875126CDF0}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2EA1ED"
+   components {
+    PK_EntityProtectorComponent "{64E8E587534B0F63}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2EA1F2"
+   components {
+    PK_EntityProtectorComponent "{64E8E587520E62B5}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2EA1F0"
+   components {
+    PK_EntityProtectorComponent "{64E8E5872C72968C}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2D19FB"
+   components {
+    PK_EntityProtectorComponent "{64E8E5872F0DD0E6}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2D7A43"
+   components {
+    PK_EntityProtectorComponent "{64E8E5872EBFACEA}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2EA1F6"
+   components {
+    PK_EntityProtectorComponent "{64E8E587286F473C}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2D19F9"
+   components {
+    PK_EntityProtectorComponent "{64E8E5872BC1FEBB}" {
+    }
+   }
+  }
+  GenericEntity {
+   ID "62CAD01F0D2D19FA"
+   components {
+    PK_EntityProtectorComponent "{64E8E5872AA0A8B1}" {
+    }
+   }
+  }
+ }
 }
 $grp GameEntity : "{154012943824AC3D}Prefabs/Models/props/tem_candle2.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587D75956FA}" {
+   }
+  }
   coords 7121.83 343.474 3680.932
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587D6D37ED6}" {
+   }
+  }
   coords 7118.57 343.591 3682.716
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587D34E9496}" {
+   }
+  }
   coords 7114.593 343.586 3683.073
  }
 }
 Tree : "{32D49499553890EE}Prefabs/Models/Trees/tem_fiberplant.et" {
+ components {
+  PK_EntityProtectorComponent "{64E8E587D2F81F19}" {
+  }
+ }
  coords 7075.746 0.112 3661.45
  angleY -147.33
 }
 $grp SCR_DestructibleEntity : "{370D070696AE8D98}Prefabs/Models/props/tem_brick_debris2_big.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587AC788344}" {
+   }
+  }
   coords 7116.799 340.715 3627.258
   scale 0.78
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587AF2E0006}" {
+   }
+  }
   coords 7127.66 342.656 3643.498
   scale 0.78
  }
 }
 $grp SCR_DestructibleEntity : "{38F92531BC097DA3}Prefabs/Models/walls/tem_wall_l4_10m.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587AE897A3A}" {
+   }
+  }
   coords 7145.246 0.28 3586.123
   angleY 116.621
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587A844091E}" {
+   }
+  }
   coords 7147.641 0.109 3594.064
   angleY 92.931
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587AB073474}" {
+   }
+  }
   coords 7145.102 -0.46 3602.324
   angleY -127.308
  }
 }
 $grp SCR_DestructibleEntity : "{40DD0F02620B15A7}Prefabs/Models/walls/tem_wall_L_5mS.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587AAF60257}" {
+   }
+  }
   coords 7143.387 0.053 3664.788
   angleY 91.14
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587A5AD75CA}" {
+   }
+  }
   coords 7142.82 0.004 3669.585
   angleY 74.842
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587A7D17FF2}" {
+   }
+  }
   coords 7140.004 0.041 3675.913
   angleY 58.905
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587A6B14786}" {
+   }
+  }
   coords 7137.233 0.258 3680.008
   angleY 52.318
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587A06D4CE6}" {
+   }
+  }
   coords 7133.953 -0.077 3683.804
   angleY 45.397
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587A3D8388E}" {
+   }
+  }
   coords 7130.486 -0.239 3687.373
   angleY 45.397
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587BD15DA0D}" {
+   }
+  }
   coords 7125.046 -0.074 3692.972
   angleY 45.397
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587BC825154}" {
+   }
+  }
   coords 7121.292 -0.017 3696.224
   angleY 36.022
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587B9D655FF}" {
+   }
+  }
   coords 7117.032 -0.132 3698.831
   angleY 26.536
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587BB1F0C19}" {
+   }
+  }
   coords 7112.313 0 3700.25
   angleY 7.002
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587BACE390E}" {
+   }
+  }
   coords 7132.96 1.036 3621.786
   angleY 112.982
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587B4188150}" {
+   }
+  }
   coords 7086.107 0.942 3640.766
   angleY 32.928
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587B7881B5A}" {
+   }
+  }
   coords 7090.15 -0.179 3637.882
   angleY 40.329
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587B03640A1}" {
+   }
+  }
   coords 7093.745 0.607 3634.486
   angleY 47.578
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587B39F8F56}" {
+   }
+  }
   coords 7097.279 -0.268 3630.947
   angleY 46.33
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5878D6CA818}" {
+   }
+  }
   coords 7100.986 -0.648 3627.53
   angleY 41.406
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5878CD15E3D}" {
+   }
+  }
   coords 7083.804 0.778 3646.805
   angleY 105.152
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5878F98D151}" {
+   }
+  }
   coords 7084.452 -0.622 3651.747
   angleY 89.28
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5878960E79A}" {
+   }
+  }
   coords 7084.415 -0.749 3656.696
   angleY 89.28
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587888B6D10}" {
+   }
+  }
   coords 7084.753 0.183 3661.834
   angleY 99.117
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58785488339}" {
+   }
+  }
   coords 7085.858 -0.239 3668.981
   angleY 99.117
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5878439C27D}" {
+   }
+  }
   coords 7086.651 -0.027 3674.096
   angleY 99.117
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58786C48086}" {
+   }
+  }
   coords 7086.099 -0.042 3678.974
   angleY 69.514
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5878043EC0D}" {
+   }
+  }
   coords 7084.508 -0.005 3682.988
   angleY 69.514
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587824A99AA}" {
+   }
+  }
   coords 7134.556 0.44 3626.602
   angleY 103.6
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5879C1BB095}" {
+   }
+  }
   coords 7135.414 -0.329 3631.179
   angleY 99.174
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5879FCAA849}" {
+   }
+  }
   coords 7136.822 -0.622 3635.967
   angleY 113.66
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58799A78679}" {
+   }
+  }
   coords 7139.494 -0.365 3643.134
   angleY 102.793
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5879BFFDA89}" {
+   }
+  }
   coords 7140.438 -0.096 3647.99
   angleY 98.882
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587954E68A4}" {
+   }
+  }
   coords 7141.699 -0.007 3654.893
   angleY 102.385
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5879402B659}" {
+   }
+  }
   coords 7123.963 0.441 3609.616
   angleY -40.04
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5879794C3A7}" {
+   }
+  }
   coords 7142.763 0.373 3659.795
   angleY 102.385
  }
 }
 $grp SCR_DestructibleEntity : "{40DD0F02620B15A8}Prefabs/Models/walls/tem_wall_L_2m5_cornerS.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5879145C3C7}" {
+   }
+  }
   coords 7109.106 0 3699.922
   angleY -4.498
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E587930E2F28}" {
+   }
+  }
   coords 7131.154 0.228 3619.11
   angleY -149.216
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58792EBF763}" {
+   }
+  }
   coords 7125.779 0.826 3612.523
   angleY 132.944
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5846DAA4760}" {
+   }
+  }
   coords 7083.726 -0.396 3643.199
   angleY -64.085
  }
 }
 $grp SCR_DestructibleEntity : "{5DE7578BF5D04A93}Prefabs/Models/walls/tem_wall_stoneS.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5846FC7BADA}" {
+   }
+  }
   coords 7078.821 0.49 3665.591
   angleY 18.626
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E584698C8E26}" {
+   }
+  }
   coords 7080.806 0.551 3659.032
   angleY 292.131
  }
 }
 $grp GenericEntity : "{69A5FD5417490109}Prefabs/Models/props/tem_woodmarket1.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5846B7CA81A}" {
+   }
+  }
   coords 7106.05 340.567 3631.418
   angleY 130.63
   scale 2.01
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5846AD077A1}" {
+   }
+  }
   coords 7131.383 339.797 3620.687
   angleY 24.648
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E584658CE670}" {
+   }
+  }
   coords 7124.268 339.411 3611.605
   angleY 46.083
  }
 }
 GenericEntity : "{6C30F54BB3E65FCE}Prefabs/Models/walls/tem_window_wood1.et" {
+ components {
+  PK_EntityProtectorComponent "{64E8E584676801FB}" {
+  }
+ }
  coords 7104.781 341.496 3629.82
  angleY -139.484
 }
 $grp GenericEntity : "{7406162153742D30}Prefabs/Models/props/tem_Pot_Pattern3.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58466DD10E4}" {
+   }
+  }
   coords 7122.188 342.658 3681.999
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58460466FCD}" {
+   }
+  }
   coords 7114.585 342.656 3682.508
  }
 }
 $grp GenericEntity : "{A0119298545260AE}Prefabs/Models/Rocks/tem_big_cliff1.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58463C8C717}" {
+   }
+  }
   coords 7072.844 -16.995 3691.337
   angleY 152.338
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58462B7DD6C}" {
+   }
+  }
   coords 7082.333 -17.971 3705.113
   angleY 121.018
  }
 }
 GenericEntity : "{B83FE90A072E5C8F}Prefabs/Models/Rocks/tem_rock6.et" {
+ components {
+  PK_EntityProtectorComponent "{64E8E5847CD9AD97}" {
+  }
+ }
  coords 7155.66 301.52 3643.995
  angleY 96.087
  Flags 1027
 }
 $grp GenericEntity : "{C660620A1760A631}Prefabs/Models/props/tem_Table_Wood2.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5847FBBF4BA}" {
+   }
+  }
   coords 7122.026 342.541 3681.04
   angleY -145.984
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58479771202}" {
+   }
+  }
   coords 7118.93 342.656 3682.66
   angleY -145.984
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5847834D930}" {
+   }
+  }
   coords 7114.854 342.656 3683.2
   angleY -145.984
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5847BF2665F}" {
+   }
+  }
   coords 7114.844 342.656 3683.171
   angleY -145.984
  }
 }
 $grp SCR_DestructibleEntity : "{D0FAE63E6FEFCEA5}PrefabLibrary/Walls/Net/GameProofFence_01_5m.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5847AA6DF4F}" {
+   }
+  }
   coords 7138.866 342.649 3615.335
   angleY -126.62
   Flags 3
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5847419E0E8}" {
+   }
+  }
   coords 7141.048 342.648 3650.167
   angleY -78.565
   Flags 3
@@ -347,30 +1601,54 @@ $grp SCR_DestructibleEntity : "{D0FAE63E6FEFCEA5}PrefabLibrary/Walls/Net/GamePro
 }
 $grp SCR_DestructibleEntity : "{D8C54D71ED1424E6}Prefabs/Models/walls/tem_wall_L_2m5_gateS.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58477F9BA31}" {
+   }
+  }
   coords 7138.362 341.807 3639.431
   angleY 113.992
   Flags 1027
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58476AFE60E}" {
+   }
+  }
   coords 7128.117 342.449 3690.494
   angleY -135.825
   Flags 1027
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E584701F0FCC}" {
+   }
+  }
   coords 7103.892 342.092 3625.039
   angleY 42.738
   Flags 1027
  }
 }
 GenericEntity : "{DAF6B1C250F964B0}Prefabs/Structures/Market/StandCar.et" {
- coords 7127.666 342.326 3627.583
+ components {
+  PK_EntityProtectorComponent "{64E8E58473B3289C}" {
+  }
+ }
+ coords 7127.666 341.921 3627.583
  angleY -22.04
 }
 $grp GenericEntity : "{DDB591E04EE44B2E}Prefabs/Models/props/tem_claypot5.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5844D878510}" {
+   }
+  }
   coords 7121.106 342.656 3681.056
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5844F69C0ED}" {
+   }
+  }
   coords 7118.288 342.656 3683.251
  }
 }
@@ -384,6 +1662,8 @@ SCR_DestructibleBuildingEntity : "{E0ACB2BAE4EC89F3}Prefabs/Models/houses/tem_mi
     }
    }
   }
+  PK_EntityProtectorComponent "{64E8E5844E2F43A1}" {
+  }
   RigidBody "{62946B830554DF4A}" {
    ModelGeometry 1
    Static 1
@@ -395,30 +1675,58 @@ SCR_DestructibleBuildingEntity : "{E0ACB2BAE4EC89F3}Prefabs/Models/houses/tem_mi
 }
 $grp GenericEntity : "{EA02EE011A45230F}Prefabs/Models/props/tem_bench2.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58449E48E79}" {
+   }
+  }
   coords 7122.027 342.656 3680.066
   angleY -56.895
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5844B6E1CAA}" {
+   }
+  }
   coords 7118.471 342.656 3681.917
   angleY -56.895
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E5844A2B6090}" {
+   }
+  }
   coords 7120.005 342.656 3682.683
   angleY -98.892
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58445C9D045}" {
+   }
+  }
   coords 7119.005 342.656 3683.605
   angleY -98.892
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58444AFCDF7}" {
+   }
+  }
   coords 7115.401 342.569 3682.402
   angleY -56.895
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E58440148C9D}" {
+   }
+  }
   coords 7114.036 342.656 3683.125
   angleY -131.903
  }
  {
+  components {
+   PK_EntityProtectorComponent "{64E8E584439C3FD8}" {
+   }
+  }
   coords 7115.751 342.656 3683.506
   angleY 169.562
  }
