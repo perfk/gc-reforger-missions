@@ -57,7 +57,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "US Army"
        }
        SCR_CallsignInfo "{55CCB792CCD598D3}" {
-        m_sCallsign "75 Rangers (SL acts as JTAC)"
+        m_sCallsign "75 Rangers"
        }
        SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
         m_sCallsign "160th SOAR"
@@ -130,41 +130,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
       m_sCallsignCharacterWithRoleFormat "%2 %3: %4"
      }
     }
-   }
-  }
- }
-}
-$grp GenericEntity : "{25A6AF67C5C1FEDA}Prefabs/Structures/Signs/Warnings/SignStop_01_pole.et" {
- {
-  coords 5910.968 203.365 2461.307
-  angleY -5.391
-  {
-   GenericEntity {
-    ID "569AF606E4CCF388"
-    coords 0 0 0
-    angleY 170.85
-   }
-  }
- }
- {
-  coords 5916.773 203.322 2461.424
-  angleY 9.475
-  {
-   GenericEntity {
-    ID "569AF606E4CCF388"
-    coords 0 0 0
-    angleY 170.85
-   }
-  }
- }
- {
-  coords 5922.595 203.236 2460.919
-  angleY 15.987
-  {
-   GenericEntity {
-    ID "569AF606E4CCF388"
-    coords 0 0 0
-    angleY 170.85
    }
   }
  }
@@ -261,14 +226,4 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
  }
  m_suppressGameEnd 1
-}
-Vehicle AH6M_GAU1 : "{A317D959A4248173}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19.et" {
- coords 8479.873 111.555 6575.288
- angleY 90
-}
-SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- coords 1806.02 155.093 1828.844
- m_fWarnRadius 100
- m_fZoneRadius 120
- m_fZoneTeleportedRadius 125
 }
