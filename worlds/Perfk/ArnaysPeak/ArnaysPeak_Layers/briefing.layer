@@ -100,20 +100,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bShowForAnyFaction 1
  }
 }
-$grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
- MH6M3 {
-  coords 8427.549 111.532 7160.462
-  angleY 180
- }
- MH6M4 {
-  coords 8426.761 111.531 7112.422
-  angleY 180
- }
- MH6M5 {
-  coords 8426.104 111.53 7092.74
-  angleY 180
- }
-}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
   coords 8405.041 111.532 7096.101

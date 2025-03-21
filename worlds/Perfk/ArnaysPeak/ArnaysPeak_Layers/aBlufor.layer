@@ -1,0 +1,46 @@
+SCR_AIGroup alpha16 : "{50405007E4967EEE}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/P/Group_USA_2020_RiflePHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{64EB2B009653C089}" {
+  }
+ }
+ coords 8592.927 111.531 6536.901
+ m_aUnitPrefabSlots {
+  "{D18131EDC15F76FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_PL_P.et" "{C21CBEEB70866DD3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_Sergeant_P.et" "{0968B9123279513A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_RTO_P.et" "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_Medic_P.et" "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_Medic_P.et"
+ }
+ m_sCustomNameSet ""
+}
+SCR_AIGroup SoloGuy : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_Squad_P.et" {
+ coords 5903.775 201.036 2450.993
+ m_aUnitPrefabSlots {
+  "{2084E881C56F4F14}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_HAT_P.et"
+ }
+ m_sCustomNameSet "Archaeologist"
+ m_bSetPlayable 1
+}
+$grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/P/Group_USA_2020_RifleSquad_P.et" {
+ alpha11 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{64EB2B036B5B23E4}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8595.458 111.531 6530.371
+ }
+ alpha12 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{64EB2B0367845C52}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 8595.905 111.532 6542.873
+ }
+}

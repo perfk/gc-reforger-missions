@@ -1,0 +1,185 @@
+$grp GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ IP_D_INTERACT {
+  components {
+   ActionsManagerComponent "{647748C987C0BCEF}" {
+    ActionContexts {
+     UserActionContext "{647748C9871C4E81}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+      Height 0
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C83D707C5B}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "WEST Insertion point"
+      }
+      ActionTitle "WEST Insertion point"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "WEST Insertion point"
+      m_locationName "IP_D"
+     }
+    }
+   }
+  }
+  coords 5913.417 204.547 2473.373
+  Flags 2098179
+ }
+ IP_A_INTERACT {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{782F3CF6824055D6}Assets/Props/Fabric/Flags/Data/Flag_2_3_Red.emat"
+   }
+   ActionsManagerComponent "{647748C989962145}" {
+    ActionContexts {
+     UserActionContext "{647748C98A34A72A}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+      Height 0
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C99F09B766}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "NORTH Insertion point"
+      }
+      ActionTitle "Main Gate - Insertion Point"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "Main Gate - Insertion Point"
+      m_locationName "IP_A"
+     }
+    }
+   }
+  }
+  coords 5909.402 204.503 2479.342
+ }
+ IP_B_INTERACT {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{782F3CF6824055D6}Assets/Props/Fabric/Flags/Data/Flag_2_3_Red.emat"
+   }
+   ActionsManagerComponent "{647748C9CF5ED4E1}" {
+    ActionContexts {
+     UserActionContext "{647748C9CAB392F8}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C9A4707521}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "EAST Insertion point"
+      }
+      ActionTitle "Back Gate - Insertion Point"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "Back Gate - Insertion Point"
+      m_locationName "IP_B"
+     }
+    }
+   }
+  }
+  coords 5915.746 204.557 2483.632
+ }
+ IP_C_INTERACT {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{782F3CF6824055D6}Assets/Props/Fabric/Flags/Data/Flag_2_3_Red.emat"
+   }
+   ActionsManagerComponent "{647748C987C0BCEF}" {
+    ActionContexts {
+     UserActionContext "{647748C9871C4E81}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+      Height 0
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C83D707C5B}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "SOUTH Insertion point"
+      }
+      ActionTitle "Drainage Pipe - Insertion Point"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "Drainage Pipe - Insertion Point"
+      m_locationName "IP_C"
+     }
+    }
+   }
+  }
+  coords 5919.443 204.536 2477.749
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ IP_A {
+  coords 7093.367 301.645 3408.883
+  angleY 48.774
+  m_MarkerColor 0 0.255 1 1
+  m_sQuadName "join"
+  m_fWorldSize 80
+  m_sDescription "Main Gate - Insertion Point"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+ }
+ IP_B {
+  coords 6997.29 284.137 3794.906
+  angleY 172.743
+  m_MarkerColor 0 0.255 1 1
+  m_sQuadName "join"
+  m_fWorldSize 80
+  m_sDescription "Back Gate - Insertion Point"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+ }
+ IP_C {
+  coords 7230.895 290.22 3800.304
+  angleY -111.404
+  m_MarkerColor 0 0.255 1 1
+  m_sQuadName "join"
+  m_fWorldSize 80
+  m_sDescription "Drainage Pipe - Insertion Point"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+ }
+ IP_D {
+  coords 3296.183 203.042 1743.728
+  angleY 82.727
+  m_MarkerColor 0 0.255 1 1
+  m_sQuadName "join"
+  m_fWorldSize 80
+  m_sDescription "West Insertion Point"
+  m_aVisibleForFactions {
+   "none"
+  }
+ }
+}

@@ -44,7 +44,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 1750.162 155.001 1927.09
- m_iFreezeTime 120000
+ m_iFreezeTime 300000
  m_bHolsterWeapon 1
  {
   SCR_FactionManager "632F5E6266F6AD4B" {
@@ -52,12 +52,32 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    Factions {
     SCR_Faction "{5CC8DE37E1FF0F7A}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792CD021D5C}" {
+        m_sCallsign "US Army"
+       }
+       SCR_CallsignInfo "{55CCB792CCD598D3}" {
+        m_sCallsign "75 Rangers (SL acts as JTAC)"
+       }
+       SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
+        m_sCallsign "160th SOAR"
+       }
+       SCR_CallsignInfo "{55CCB792CCB4D441}" {
+        m_sCallsign "#AR-Callsign_US_Company_A"
+       }
+      }
       m_aPlatoonNames {
        SCR_CallsignInfo "{55CCB792CE6E998D}" {
-        m_sCallsign "1"
+        m_sCallsign "Alpha - 1"
        }
        SCR_CallsignInfo "{55CCB792CE18FB44}" {
-        m_sCallsign "Super"
+        m_sCallsign "Bravo - 2"
+       }
+       SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+        m_sCallsign "Bandit"
+       }
+       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+        m_sCallsign "4"
        }
       }
       m_aSquadNames {
@@ -73,9 +93,15 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
         m_sCallsign "3"
        }
+       SCR_CallsignInfo "{64EB2B02AF7F0EF4}" {
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{64EB2B1E95061E2C}" {
+        m_sCallsign "5"
+       }
       }
-      m_sCallsignGroupFormat "%2-%3"
-      m_sCallsignCharacterFormat "%2-%3: %4"
+      m_sCallsignGroupFormat "%1 (%2-%3)"
+      m_sCallsignCharacterFormat "(%2-%3) %4"
      }
     }
     SCR_Faction "{632925D53C7F1148}" {
@@ -104,6 +130,41 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
       m_sCallsignCharacterWithRoleFormat "%2 %3: %4"
      }
     }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{25A6AF67C5C1FEDA}Prefabs/Structures/Signs/Warnings/SignStop_01_pole.et" {
+ {
+  coords 5910.968 203.365 2461.307
+  angleY -5.391
+  {
+   GenericEntity {
+    ID "569AF606E4CCF388"
+    coords 0 0 0
+    angleY 170.85
+   }
+  }
+ }
+ {
+  coords 5916.773 203.322 2461.424
+  angleY 9.475
+  {
+   GenericEntity {
+    ID "569AF606E4CCF388"
+    coords 0 0 0
+    angleY 170.85
+   }
+  }
+ }
+ {
+  coords 5922.595 203.236 2460.919
+  angleY 15.987
+  {
+   GenericEntity {
+    ID "569AF606E4CCF388"
+    coords 0 0 0
+    angleY 170.85
    }
   }
  }
@@ -201,15 +262,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  }
  m_suppressGameEnd 1
 }
-$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- {
-  coords 8404.552 111.531 7119.552
-  m_fWarnRadius 100
- }
- {
-  coords 1806.02 155.093 1828.844
-  m_fWarnRadius 100
-  m_fZoneRadius 120
-  m_fZoneTeleportedRadius 125
- }
+Vehicle AH6M_GAU1 : "{A317D959A4248173}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19.et" {
+ coords 8479.873 111.555 6575.288
+ angleY 90
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 1806.02 155.093 1828.844
+ m_fWarnRadius 100
+ m_fZoneRadius 120
+ m_fZoneTeleportedRadius 125
 }

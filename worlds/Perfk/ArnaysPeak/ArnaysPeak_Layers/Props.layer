@@ -1,5 +1,5 @@
 PK_EntityDeleter {
- coords 7111.336 342.656 3664.892
+ coords 7111.334 342.656 3664.892
  m_fRadius 35
 }
 SplineShapeEntity {
@@ -1579,25 +1579,14 @@ $grp GenericEntity : "{C660620A1760A631}Prefabs/Models/props/tem_Table_Wood2.et"
   angleY -145.984
  }
 }
-$grp SCR_DestructibleEntity : "{D0FAE63E6FEFCEA5}PrefabLibrary/Walls/Net/GameProofFence_01_5m.et" {
- {
-  components {
-   PK_EntityProtectorComponent "{64E8E5847AA6DF4F}" {
-   }
+SCR_DestructibleEntity : "{D0FAE63E6FEFCEA5}PrefabLibrary/Walls/Net/GameProofFence_01_5m.et" {
+ components {
+  PK_EntityProtectorComponent "{64E8E5847419E0E8}" {
   }
-  coords 7138.866 342.649 3615.335
-  angleY -126.62
-  Flags 3
  }
- {
-  components {
-   PK_EntityProtectorComponent "{64E8E5847419E0E8}" {
-   }
-  }
-  coords 7141.048 342.648 3650.167
-  angleY -78.565
-  Flags 3
- }
+ coords 7141.048 342.648 3650.167
+ angleY -78.565
+ Flags 3
 }
 $grp SCR_DestructibleEntity : "{D8C54D71ED1424E6}Prefabs/Models/walls/tem_wall_L_2m5_gateS.et" {
  {

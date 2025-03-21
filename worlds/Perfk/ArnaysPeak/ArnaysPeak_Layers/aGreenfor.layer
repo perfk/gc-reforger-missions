@@ -1,0 +1,45 @@
+SCR_AIGroup bravo21 : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_Squad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{632F59C83E67471B}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 8516.86 111.531 6582.676
+ angleY -90
+ m_aUnitPrefabSlots {
+  "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{262B3C71D7FEFE59}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_BREACH_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{FF19CA397D21C540}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_LAT_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{262B3C71D7FEFE59}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_BREACH_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et"
+ }
+ m_bPlayable 1
+ m_aUnitPrefabColorTeams {
+  "None" "Red" "Red" "Red" "Red" "Blue" "Blue" "Blue" "Blue"
+ }
+ m_aUnitPrefabOverrideIcons {
+  "Team Lead" "Team Lead" "None" "Grenadier" "Anti-Tank" "Team Lead" "None" "Grenadier" "Medic"
+ }
+}
+Vehicle MH6M2 : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ coords 8502.436 111.555 6575.868
+ angleY 90
+}
+SCR_AIGroup bandit1 : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_PHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{632F59C83B58501A}" {
+   m_iCompanyCallsign 2
+   m_iPlatoonCallsign 2
+   m_iSquadCallsign 1
+  }
+ }
+ coords 8506.375 111.555 6578.013
+ m_aUnitPrefabSlots {
+  "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot_P.et"
+ }
+ m_sCustomNameSet ""
+}
