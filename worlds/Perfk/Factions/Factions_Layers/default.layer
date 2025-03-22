@@ -1,0 +1,43 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 6426.195 160.369 6427.763
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6429.288 161.211 6437.67
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ coords 6413.235 160.281 6432.306
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE6E998D}" {
+        m_sCallsign "0"
+       }
+       SCR_CallsignInfo "{55CCB792CE18FB44}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{64E2F8969162FA65}" {
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{64E2F89691A0E697}" {
+        m_sCallsign "5"
+       }
+       SCR_CallsignInfo "{64ECF79A1D942125}" {
+        m_sCallsign "6"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

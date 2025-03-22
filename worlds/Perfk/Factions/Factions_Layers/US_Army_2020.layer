@@ -1,0 +1,59 @@
+$grp SCR_AIGroup : "{43DE722B3E3F4C24}Prefabs/Groups/BLUFOR/US/Army_1980_Rifles/P/Group_US_Army_1980_RifleSquad_P.et" {
+ x1stPlatoon1stSquard {
+  components {
+   PS_GroupCallsignAssigner "{64ECF794B6151C49}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6400.669 158.225 6414.857
+  m_sCustomNameSet "1st Platoon 1st Squad"
+ }
+ x1stPlatoon2ndSquard {
+  components {
+   PS_GroupCallsignAssigner "{64ECF794B6151C49}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6368.507 158.328 6442.015
+  m_sCustomNameSet "1st Platoon 2nd Squad"
+ }
+ x1stPlatoon3rdSquard {
+  components {
+   PS_GroupCallsignAssigner "{64ECF794B6151C49}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 6379.867 158.435 6426.57
+  m_sCustomNameSet "1st Platoon 3rd Squad"
+ }
+ x1stPlatoon4thSquard {
+  components {
+   PS_GroupCallsignAssigner "{64ECF794B6151C49}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 6383.134 158.54 6422.031
+  m_sCustomNameSet "1st Platoon Weapons Squad"
+ }
+}
+SCR_AIGroup x0CompanyHQ : "{619A2B1910FCE9A0}Prefabs/Groups/BLUFOR/US/Army_1980_Rifles/P/Group_US_Army_1980_RifleCoyHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{64ECF794A6F2489A}" {
+  }
+ }
+ coords 6392.765 159.051 6423.038
+ m_sCustomNameSet "Company Headquarters"
+}
+SCR_AIGroup x1stPlatoon0Headquarters : "{C42280A6985BFE69}Prefabs/Groups/BLUFOR/US/Army_1980_Rifles/P/Group_US_Army_1980_RiflePHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{64ECF794BE42E285}" {
+   m_iPlatoonCallsign 1
+  }
+ }
+ coords 6397.687 158.582 6416.685
+ m_sCustomNameSet "1st Platoon Headquarters"
+}
