@@ -1,3 +1,7 @@
+Vehicle M998_covered_USAF_D1 : "{3F5936DB9D87969C}Prefabs/Vehicles/Wheeled/M998/M998_covered_USAF_D.et" {
+ coords 3063.711 144.045 8507.275
+ angleY -80.988
+}
 SCR_AIGroup alpha16 : "{50405007E4967EEE}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/P/Group_USA_2020_RiflePHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
@@ -6,19 +10,11 @@ SCR_AIGroup alpha16 : "{50405007E4967EEE}Prefabs/Groups/BLUFOR/US/Army_2020_Rifl
   PS_GroupCallsignAssigner "{64EB2B009653C089}" {
   }
  }
- coords 8592.927 111.531 6536.901
+ coords 3073.761 143.125 8491.25
  m_aUnitPrefabSlots {
   "{D18131EDC15F76FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_PL_P.et" "{C21CBEEB70866DD3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_Sergeant_P.et" "{0968B9123279513A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_RTO_P.et" "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_Medic_P.et" "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_Medic_P.et"
  }
  m_sCustomNameSet ""
-}
-SCR_AIGroup SoloGuy : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_Squad_P.et" {
- coords 5903.775 201.036 2450.993
- m_aUnitPrefabSlots {
-  "{2084E881C56F4F14}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_HAT_P.et"
- }
- m_sCustomNameSet "Archaeologist"
- m_bSetPlayable 1
 }
 $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/P/Group_USA_2020_RifleSquad_P.et" {
  alpha11 {
@@ -30,7 +26,8 @@ $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/
     m_iSquadCallsign 1
    }
   }
-  coords 8595.458 111.531 6530.371
+  coords 3126.507 144.219 8506.386
+  angleY 77.231
  }
  alpha12 {
   components {
@@ -41,6 +38,281 @@ $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/
     m_iSquadCallsign 2
    }
   }
-  coords 8595.905 111.532 6542.873
+  coords 3129.693 144.217 8418.46
+  angleY 80.699
  }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 3055.419 143.125 8503.795
+ angleY -21.726
+ m_fWarnRadius 150
+ m_fZoneRadius 160
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+   components {
+    SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+     m_fRadius 150
+    }
+   }
+  }
+ }
+}
+$grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
+ M1025_armed_M2HB_USAF_D1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3006.255 143.126 8501.989
+  angleY 69.379
+ }
+ M1025_armed_M2HB_USAF_D2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3005.045 143.156 8507.046
+  angleY 69.379
+ }
+ M1025_armed_M2HB_USAF_D3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3001.355 143.163 8515.909
+  angleY 69.379
+ }
+ M1025_armed_M2HB_USAF_D4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2999.957 143.125 8520.555
+  angleY 69.379
+ }
+ M1025_armed_M2HB_USAF_D5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3006.046 143.125 8542.564
+  angleY 159.245
+ }
+ M1025_armed_M2HB_USAF_D6 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3010.4 143.128 8544.345
+  angleY 159.245
+ }
+ M1025_armed_M2HB_USAF_D7 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3001.201 143.169 8540.512
+  angleY 159.245
+ }
+ M1025_armed_M2HB_USAF_D8 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2996.574 143.243 8538.679
+  angleY 159.245
+ }
+ M1025_armed_M2HB_USAF_D9 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3014.911 143.125 8546.473
+  angleY 159.245
+ }
+}
+Vehicle M997_maxi_ambulance_USAF_D1 : "{FD6C3FAC03F8E761}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_USAF_D.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{5D84B4781EDAB5E8}" {
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{5D84B4786B3EF591}" {
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{5D84B47840F6D0A1}" {
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{64EB613D511C776A}" {
+     SlotTemplate InventoryStorageSlot Saline {
+      Prefab "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
+     }
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{64EB613D292B8D8F}" {
+     SlotTemplate InventoryStorageSlot Saline {
+      Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+     }
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{64EB613D27B326E1}" {
+     SlotTemplate InventoryStorageSlot Saline {
+      Prefab "{D0434D5215B54181}Prefabs/Items/Medicine/MetoprololInjection/ACE_Medical_MetoprololInjection.et"
+     }
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{64EB613D3D69253B}" {
+     SlotTemplate InventoryStorageSlot Saline {
+      Prefab "{02DD34077F51F65E}Prefabs/Items/Medicine/NaloxoneInjection/ACE_Medical_NaloxoneInjection.et"
+     }
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{64EB613D387CED7B}" {
+     SlotTemplate InventoryStorageSlot Saline {
+      Prefab "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
+     }
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{64EB613D37A4EFFB}" {
+     SlotTemplate InventoryStorageSlot Saline {
+      Prefab "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et"
+     }
+     NumSlots 40
+    }
+   }
+  }
+ }
+ coords 3060.237 143.55 8511.771
+ angleY -87.986
 }

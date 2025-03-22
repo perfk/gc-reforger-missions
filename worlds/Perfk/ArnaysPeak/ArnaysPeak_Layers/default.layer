@@ -134,6 +134,14 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
+SCR_AIGroup SoloGuy : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_Squad_P.et" {
+ coords 5903.775 201.036 2450.993
+ m_aUnitPrefabSlots {
+  "{2084E881C56F4F14}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_HAT_P.et"
+ }
+ m_sCustomNameSet "Archaeologist"
+ m_bSetPlayable 1
+}
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
  coords 1808.815 157.816 1811.624
  m_queryRadius 10
