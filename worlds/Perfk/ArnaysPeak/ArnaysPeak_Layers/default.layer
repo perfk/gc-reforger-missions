@@ -51,33 +51,36 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     UIInfo SCR_FactionUIInfo "{5CC8B5EDA0CDBD62}" {
+      Name "Army & Rangers"
+      Icon "{EB7F65DBC9392557}UI/Textures/Editor/EditableEntities/Factions/EditableEntity_Faction_USA.edds"
+     }
      m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
       m_aCompanyNames {
        SCR_CallsignInfo "{55CCB792CD021D5C}" {
-        m_sCallsign "US Army"
        }
        SCR_CallsignInfo "{55CCB792CCD598D3}" {
-        m_sCallsign "75 Rangers"
        }
        SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
-        m_sCallsign "160th SOAR"
        }
        SCR_CallsignInfo "{55CCB792CCB4D441}" {
-        m_sCallsign "#AR-Callsign_US_Company_A"
        }
       }
       m_aPlatoonNames {
        SCR_CallsignInfo "{55CCB792CE6E998D}" {
-        m_sCallsign "Alpha - 1"
+        m_sCallsign "0"
        }
        SCR_CallsignInfo "{55CCB792CE18FB44}" {
-        m_sCallsign "Bravo - 2"
+        m_sCallsign "1"
        }
        SCR_CallsignInfo "{55CCB792CE02ECFA}" {
-        m_sCallsign "Bandit"
+        m_sCallsign "2"
        }
        SCR_CallsignInfo "{55CCB792CE2A44BD}" {
-        m_sCallsign "4"
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{64E30A2DAD85F2C6}" {
+        m_sCallsign "Bandit"
        }
       }
       m_aSquadNames {
@@ -100,7 +103,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "5"
        }
       }
-      m_sCallsignGroupFormat "%1 (%2-%3)"
       m_sCallsignCharacterFormat "(%2-%3) %4"
      }
     }

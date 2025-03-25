@@ -1,0 +1,6 @@
+SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_RifleSquad_P.et" {
+ coords 7126.496 341.656 3622.896
+ m_aUnitPrefabSlots {
+  "{0DCDE5E5F35920C8}worlds/Perfk/ArnaysPeak/Prefabs/Characters/Character_GC_SEPARATIST_SL_P_Warlord.et" "{7DD60D6C28A1C722}worlds/Perfk/ArnaysPeak/Prefabs/Characters/Character_GC_SEPARATIST_Rifleman_P_Guard.et"
+ }
+}

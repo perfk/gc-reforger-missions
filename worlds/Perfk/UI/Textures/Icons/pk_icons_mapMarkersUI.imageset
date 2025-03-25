@@ -1,17 +1,17 @@
 ImageSetClass {
- RefSize 1272 880
+ RefSize 778 932
  Textures {
   ImageSetTextureClass {
    screenSize FHD
-   size 1272 880
-   path "{C34696B8E89EBD9E}worlds/Perfk/UI/Textures/Icons/pk_icons_mapMarkersUI-100_atlas.edds"
+   size 778 932
+   path "{1A847EBCB6F7B6FB}worlds/Perfk/UI/Textures/Icons/pk_icons_mapMarkersUI-56_atlas.edds"
   }
  }
  Images {
   ImageSetDefClass overview {
    Name "overview"
-   Pos 2 2
-   Size 1264 872
+   Pos 1 1
+   Size 775 929
    Flags 0
   }
  }

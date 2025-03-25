@@ -1,0 +1,114 @@
+$grp GenericEntity : "{25A6AF67C5C1FEDA}Prefabs/Structures/Signs/Warnings/SignStop_01_pole.et" {
+ {
+  coords 5910.968 203.365 2461.307
+  angleY -5.391
+  {
+   GenericEntity {
+    ID "569AF606E4CCF388"
+    coords 0 0 0
+    angleY 170.85
+   }
+  }
+ }
+ {
+  coords 5916.773 203.322 2461.424
+  angleY 9.475
+  {
+   GenericEntity {
+    ID "569AF606E4CCF388"
+    coords 0 0 0
+    angleY 170.85
+   }
+  }
+ }
+ {
+  coords 5922.595 203.236 2460.919
+  angleY 15.987
+  {
+   GenericEntity {
+    ID "569AF606E4CCF388"
+    coords 0 0 0
+    angleY 170.85
+   }
+  }
+ }
+}
+Vehicle Ural4320_transport_covered_CIV_base1 : "{4BFB3CA9E83385D2}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_base.et" {
+ coords 6425.354 209.534 2472.72
+ angleX -0.346
+ angleY 64.542
+ angleZ -2.808
+}
+$grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INSURGENT_RifleSquad_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{632F59C8BC2D6D09}" {
+   }
+  }
+  coords 5901.34 203.396 2445.076
+  angleY -13.713
+  m_aUnitPrefabSlots {
+   "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et" "{040BCEE9A8091FEB}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Medic_P.et" "{B599A1329E64DBF0}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_MG_P.et" "{535CFD9552641200}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Sharpshooter_P.et"
+  }
+  m_sCustomNameSet "Cell HQ"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{632F59C8BFFEF286}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5911.234 203.816 2448.211
+  angleY -13.713
+  m_aUnitPrefabSlots {
+   "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et" "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et" "{FACE11650F1C8827}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_GL_P.et" "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
+  }
+  m_sCustomNameSet "Cell 1"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{632F59C8BAB40F90}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5921.307 203.09 2446.813
+  angleY -13.713
+  m_aUnitPrefabSlots {
+   "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et" "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et" "{FACE11650F1C8827}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_GL_P.et" "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
+  }
+  m_sCustomNameSet "Cell 2"
+ }
+}
+Vehicle UAZ469_base1 : "{99F1610551D54D17}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_base.et" {
+ coords 1808.493 155.338 1818.706
+ angleX 3.567
+ angleY 151.342
+ angleZ -0.93
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 5911.961 203.322 2362.163
+ angleY -21.726
+ m_fWarnRadius 100
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+   components {
+    SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+     m_fRadius 74
+    }
+   }
+  }
+ }
+}
+Vehicle Ural4320_transport_covered_CIV_blue1 : "{F66EAD0D2016B6BA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_blue.et" {
+ coords 1806.577 154.827 1827.224
+ angleX 2.82
+ angleY 157.089
+ angleZ -0.221
+}
+Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
+ coords 1803.179 154.049 1840.022
+ angleX 2.828
+ angleY 163.003
+ angleZ 0.071
+}

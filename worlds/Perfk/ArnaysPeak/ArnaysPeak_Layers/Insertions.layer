@@ -146,7 +146,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 80
   m_sDescription "Main Gate - Insertion Point"
   m_aVisibleForFactions {
-   "GC_INSURGENT"
+   "none"
   }
  }
  IP_B {
@@ -157,7 +157,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 80
   m_sDescription "Back Gate - Insertion Point"
   m_aVisibleForFactions {
-   "GC_INSURGENT"
+   "none"
   }
  }
  IP_C {
@@ -168,7 +168,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 80
   m_sDescription "Drainage Pipe - Insertion Point"
   m_aVisibleForFactions {
-   "GC_INSURGENT"
+   "none"
   }
  }
  IP_D {
