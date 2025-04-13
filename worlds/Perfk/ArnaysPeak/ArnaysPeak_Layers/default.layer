@@ -41,6 +41,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_iStartingMinutes 30
     }
    }
+   m_iSetMonth 6
   }
  }
  coords 1750.162 155.001 1927.09
@@ -137,7 +138,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  }
 }
 SCR_AIGroup SoloGuy : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_Squad_P.et" {
- coords 5903.775 201.036 2450.993
+ coords 7131.193 318.864 3444.503
  m_aUnitPrefabSlots {
   "{2084E881C56F4F14}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_HAT_P.et"
  }

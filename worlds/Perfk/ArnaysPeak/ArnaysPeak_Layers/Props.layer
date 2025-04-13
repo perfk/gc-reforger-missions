@@ -72,6 +72,12 @@ $grp GenericEntity : "{051DF821376D5572}Prefabs/Models/props/tem_claypot3.et" {
   coords 7117.981 342.656 3682.731
  }
 }
+GenericEntity : "{093B80C905F01E4C}Prefabs/Structures/Wreck/eurovan.et" {
+ coords 7131.734 318.514 3442.359
+ angleX -10.36
+ angleY -161.55
+ angleZ 0.276
+}
 SCR_DestructibleBuildingEntity : "{100EC7537BBA1384}Prefabs/Models/houses/tem_villa1.et" {
  components {
   PK_EntityProtectorComponent "{64E8E5862508822B}" {
@@ -1131,6 +1137,12 @@ $grp SCR_DestructibleEntity : "{370D070696AE8D98}Prefabs/Models/props/tem_brick_
   scale 0.78
  }
 }
+GenericEntity : "{3872E0C19D19A045}Prefabs/Structures/Wreck/pickup.et" {
+ coords 7139.072 320.953 3453.7
+ angleX 12.537
+ angleY 18.367
+ angleZ 1.367
+}
 $grp SCR_DestructibleEntity : "{38F92531BC097DA3}Prefabs/Models/walls/tem_wall_l4_10m.et" {
  {
   components {
@@ -1449,6 +1461,12 @@ $grp SCR_DestructibleEntity : "{40DD0F02620B15A8}Prefabs/Models/walls/tem_wall_L
   angleY -64.085
  }
 }
+GenericEntity : "{5AF40B46F72A78A5}Prefabs/Structures/Wreck/uazminibus2.et" {
+ coords 7134.008 324.511 3469.767
+ angleX 13.061
+ angleY 4.991
+ angleZ 21.128
+}
 $grp SCR_DestructibleEntity : "{5DE7578BF5D04A93}Prefabs/Models/walls/tem_wall_stoneS.et" {
  {
   components {
@@ -1535,6 +1553,12 @@ $grp GenericEntity : "{A0119298545260AE}Prefabs/Models/Rocks/tem_big_cliff1.et" 
   coords 7082.333 -17.971 3705.113
   angleY 121.018
  }
+}
+GenericEntity : "{B67A4797AED7B3BC}Prefabs/Structures/Wreck/ikarus.et" {
+ coords 7128.799 316.415 3431.105
+ angleX -9.997
+ angleY -173.084
+ angleZ 1.457
 }
 GenericEntity : "{B83FE90A072E5C8F}Prefabs/Models/Rocks/tem_rock6.et" {
  components {
