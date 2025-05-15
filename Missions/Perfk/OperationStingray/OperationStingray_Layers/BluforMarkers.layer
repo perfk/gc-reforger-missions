@@ -1,0 +1,197 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ marker_LZ_Chicago {
+  components {
+   PK_EntityProtectorComponent "{6548A968F0946A6F}" {
+   }
+  }
+  coords 11750.582 65.005 6595.589
+  {
+   GenericEntity SlotMarker1 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     PK_EntityProtectorComponent "{6548A968CE582D32}" {
+     }
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{652ED7FA5D0785DD}" {
+       m_sMapMarkerText "LZ Chicago"
+       m_eMapMarkerIcon PICK_UP
+       m_eMapMarkerColor BLUFOR
+      }
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ marker_ASR_Toyota {
+  coords 12495.034 27.844 6213.594
+  {
+   GenericEntity SlotMarker3 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{652ED7FA5D0785DD}" {
+       m_sMapMarkerText "ASR Toyota"
+       m_eMapMarkerIcon DOT
+       m_eMapMarkerColor REFORGER_ORANGE
+      }
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ marker_MSR_Honda {
+  coords 13386.994 5.969 5267.672
+  {
+   GenericEntity SlotMarker4 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{652ED7FA5D0785DD}" {
+       m_sMapMarkerText "ASR Toyota"
+       m_eMapMarkerIcon DOT
+       m_eMapMarkerColor REFORGER_ORANGE
+      }
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ marker_USMC_Start {
+  coords 13866.256 33.602 2930.163
+  {
+   GenericEntity SlotMarker5 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7D0C8A20E11}" {
+       m_sMapMarkerText "USMC start"
+       m_eMapMarkerType1Modifier AIRBORNE
+      }
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ Marker_badguys {
+  coords 12047.843 198.967 7174.966
+  {
+   GenericEntity SlotMarker6 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7D0C8A20E11}" {
+       m_eMapMarkerFactionIcon OPFOR
+       m_eMapMarkerType1Modifier ARTILLERY
+       m_eMapMarkerType2Modifier ARTILLERY
+      }
+     }
+    }
+    coords -1.717 0 -1.083
+   }
+  }
+ }
+ marker_mech_platoon {
+  coords 12064.649 6.312 3489.51
+  {
+   GenericEntity SlotMarker8 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7D0C8A20E11}" {
+       m_eMapMarkerType2Modifier MOTORIZED
+      }
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ marker_us_pathfinders {
+  coords 12224.043 128.176 6117.217
+  {
+   GenericEntity SlotMarker7 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7D0C8A20E11}" {
+       m_eMapMarkerType1Modifier RECON
+      }
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ marker_us_armor {
+  coords 13457.762 6.127 6240.636
+  {
+   GenericEntity SlotMarker9 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7D0C8A20E11}" {
+       m_eMapMarkerType1Modifier ARMOR
+       m_eMapMarkerType2Modifier ARMOR
+      }
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ marrker_us_rifle {
+  coords 13355.538 5.979 6253.324
+  {
+   GenericEntity SlotMarker10 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7D0C8A20E11}" {
+      }
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ marker_rus_rif {
+  coords 12198.582 182.146 7339.899
+  {
+   GenericEntity SlotMarker11 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7D0C8A20E11}" {
+       m_eMapMarkerFactionIcon OPFOR
+      }
+     }
+    }
+    coords -0.823 -0.066 -4.178
+   }
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ marker_routeCard {
+  coords 15000 0 2700.226
+  m_sImageSet "{FA8641EBB5CBCE4A}worlds/Perfk/OperationStingray/pk_icon_stingray.imageset"
+  m_sImageSetGlow "{FA8641EBB5CBCE4A}worlds/Perfk/OperationStingray/pk_icon_stingray.imageset"
+  m_sQuadName "LZCard"
+  m_fWorldSize 1000
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ marker_LZcard {
+  coords 15000 0 4757.667
+  m_sImageSet "{FA8641EBB5CBCE4A}worlds/Perfk/OperationStingray/pk_icon_stingray.imageset"
+  m_sImageSetGlow "{FA8641EBB5CBCE4A}worlds/Perfk/OperationStingray/pk_icon_stingray.imageset"
+  m_sQuadName "routeCard"
+  m_fWorldSize 1000
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ marker_Recon {
+  coords 15000 0 3882.742
+  angleY 90
+  m_sImageSet "{FA8641EBB5CBCE4A}worlds/Perfk/OperationStingray/pk_icon_stingray.imageset"
+  m_sImageSetGlow "{FA8641EBB5CBCE4A}worlds/Perfk/OperationStingray/pk_icon_stingray.imageset"
+  m_sQuadName "recon"
+  m_fWorldSize 1000
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}

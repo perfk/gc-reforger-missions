@@ -1,0 +1,260 @@
+$grp GenericEntity {
+ mortar_01 {
+  coords 12052.036 205.704 7141.363
+ }
+ QRF_Location {
+  coords 11976.438 232.693 7421.798
+ }
+ mortar_02 {
+  coords 12057.96 210.67 7104.332
+  angleY 110
+ }
+ mortar_03 {
+  coords 11840.686 152.997 6892.443
+ }
+ mortar_01_2 {
+  coords 12003.064 207.424 7167.523
+ }
+ mortar_02_2 {
+  coords 11974.132 220.887 7142.646
+  angleY -68.534
+ }
+ FlankEast {
+  coords 12036.259 167.167 6704.097
+ }
+ FlankWest {
+  coords 11721.465 117.773 6836.521
+ }
+ mortar_creeping_01 {
+  coords 12029.945 222.163 7049.028
+  angleY 110
+ }
+ mortar_creeping_02 {
+  coords 11946.626 238.666 7100.082
+  angleY -68.534
+ }
+}
+$grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ AIWP_PatrolEast {
+  coords 12042.376 145.614 6731.802
+ }
+ AIWP_PatrolWest {
+  coords 11719.192 114.229 6823.005
+ }
+}
+PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 13784.294 42.488 2923.687
+ m_sTitle "------------- OPORD ------------"
+ m_sTextData "Task organisation:"\
+ ""\
+ ""\
+ "[ USMC 54 man."\
+ ""\
+ ""\
+ "[-Platoon Command"\
+ ""\
+ ""\
+ "[-Platoon Commander"\
+ ""\
+ ""\
+ "[--Platoon Sergeant"\
+ ""\
+ ""\
+ "[--Platoon RATELO"\
+ ""\
+ ""\
+ "[--Platoon Medic"\
+ ""\
+ ""\
+ "["\
+ ""\
+ ""\
+ "[-3x Rifle Squads"\
+ ""\
+ ""\
+ "[-Squad Leader"\
+ ""\
+ ""\
+ "[--3x Fire Teams"\
+ ""\
+ ""\
+ "[--Fire Team Leader"\
+ ""\
+ ""\
+ "[--M27 / Automatic Rifleman"\
+ ""\
+ ""\
+ "[--Rifleman (AT4)"\
+ ""\
+ ""\
+ "[--Rifleman / Rifleman CLS / Rifleman DMR"\
+ ""\
+ ""\
+ "["\
+ ""\
+ ""\
+ "[-1x Weapon Squad"\
+ ""\
+ ""\
+ "[-Squad Leader"\
+ ""\
+ ""\
+ "[--2x Machine gun teams"\
+ ""\
+ ""\
+ "[--Machinegunner (M240B)"\
+ ""\
+ ""\
+ "[--Assistant Machinegunner"\
+ ""\
+ ""\
+ "[--Assistant Machinegunner"\
+ ""\
+ ""\
+ "[--2x Anti-Air teams"\
+ ""\
+ ""\
+ "[--AA Gunner (Stinger)"\
+ ""\
+ ""\
+ "[--Assistant AA Gunner"\
+ ""\
+ ""
+ m_bShowForAnyFaction 1
+}
+SCR_BoardingEntityWaypoint AIWP_GetIn_ZU23 : "{712F4795CF8B91C7}Prefabs/AI/Waypoints/AIWaypoint_GetIn.et" {
+ coords 12130.115 190.021 7260.169
+ CompletionRadius 5
+}
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ AIWP_Defend_GunPosition {
+  coords 12083.098 191.062 7214.146
+  CompletionRadius 5
+ }
+ AIWP_Defend_Tents {
+  coords 12110.792 191.341 7241.306
+  CompletionRadius 20
+ }
+ AIWP_Defend_roadblock {
+  coords 12046.722 192.587 7265.551
+  CompletionRadius 10
+ }
+ AIWP_Defend_bunkerpos {
+  coords 12066.772 192.329 7216.761
+  CompletionRadius 5
+ }
+}
+$grp GenericEntity : "{D90F8E2102368290}PrefabsEditable/Auto/Structures/Signs/Military/E_Sign_CommandPost_US_01.et" {
+ {
+  components {
+   MeshObject "{54969A6AAAADA251}" {
+    Materials {
+     MaterialAssignClass "{567878E2458CC49C}" {
+      SourceMaterial "SignRectangle_01_75x45"
+      AssignedMaterial "{8B1EA272E37DC0C4}worlds/Perfk/Assets/Structures/Signs/Military/Data/PK_Sign_CommandPost_chalk_1.emat"
+     }
+     MaterialAssignClass "{567878E2458CC4DB}" {
+      SourceMaterial "SignRectangle_01_75x45_MLOD"
+      AssignedMaterial "{3B9D01D91BD959DF}Assets/Structures/Signs/Military/Data/Sign_CommandPost_US_01_MLOD.emat"
+     }
+    }
+   }
+  }
+  coords 13883.559 32.175 2910.479
+ }
+ {
+  components {
+   MeshObject "{54969A6AAAADA251}" {
+    Materials {
+     MaterialAssignClass "{567878E2458CC49C}" {
+      SourceMaterial "SignRectangle_01_75x45"
+      AssignedMaterial "{53DBEB5E963AD3AD}worlds/Perfk/Assets/Structures/Signs/Military/Data/PK_Sign_CommandPost_chalk_2.emat"
+     }
+     MaterialAssignClass "{567878E2458CC4DB}" {
+      SourceMaterial "SignRectangle_01_75x45_MLOD"
+      AssignedMaterial "{3B9D01D91BD959DF}Assets/Structures/Signs/Military/Data/Sign_CommandPost_US_01_MLOD.emat"
+     }
+    }
+   }
+  }
+  coords 13905.149 31.196 2918.005
+ }
+ {
+  components {
+   MeshObject "{54969A6AAAADA251}" {
+    Materials {
+     MaterialAssignClass "{567878E2458CC49C}" {
+      SourceMaterial "SignRectangle_01_75x45"
+      AssignedMaterial "{E83E6488E5583960}worlds/Perfk/Assets/Structures/Signs/Military/Data/PK_Sign_CommandPost_chalk_3.emat"
+     }
+     MaterialAssignClass "{567878E2458CC4DB}" {
+      SourceMaterial "SignRectangle_01_75x45_MLOD"
+      AssignedMaterial "{3B9D01D91BD959DF}Assets/Structures/Signs/Military/Data/Sign_CommandPost_US_01_MLOD.emat"
+     }
+    }
+   }
+  }
+  coords 13928.807 29.901 2925.284
+ }
+ {
+  components {
+   MeshObject "{54969A6AAAADA251}" {
+    Materials {
+     MaterialAssignClass "{567878E2458CC49C}" {
+      SourceMaterial "SignRectangle_01_75x45"
+      AssignedMaterial "{A1E67197979E4D0A}worlds/Perfk/Assets/Structures/Signs/Military/Data/PK_Sign_CommandPost_chalk_4.emat"
+     }
+     MaterialAssignClass "{567878E2458CC4DB}" {
+      SourceMaterial "SignRectangle_01_75x45_MLOD"
+      AssignedMaterial "{3B9D01D91BD959DF}Assets/Structures/Signs/Military/Data/Sign_CommandPost_US_01_MLOD.emat"
+     }
+    }
+   }
+  }
+  coords 13949.33 28.231 2932.276
+ }
+ {
+  components {
+   MeshObject "{54969A6AAAADA251}" {
+    Materials {
+     MaterialAssignClass "{567878E2458CC49C}" {
+      SourceMaterial "SignRectangle_01_75x45"
+      AssignedMaterial "{55EE360F9A43257E}worlds/Perfk/Assets/Structures/Signs/Military/Data/PK_Sign_CommandPost_chalk_5.emat"
+     }
+     MaterialAssignClass "{567878E2458CC4DB}" {
+      SourceMaterial "SignRectangle_01_75x45_MLOD"
+      AssignedMaterial "{3B9D01D91BD959DF}Assets/Structures/Signs/Military/Data/Sign_CommandPost_US_01_MLOD.emat"
+     }
+    }
+   }
+  }
+  coords 13973.015 26.205 2939.148
+ }
+ {
+  components {
+   MeshObject "{54969A6AAAADA251}" {
+    Materials {
+     MaterialAssignClass "{567878E2458CC49C}" {
+      SourceMaterial "SignRectangle_01_75x45"
+      AssignedMaterial "{0B061F4C25CEAB71}worlds/Perfk/Assets/Structures/Signs/Military/Data/PK_Sign_CommandPost_chalk_6.emat"
+     }
+     MaterialAssignClass "{567878E2458CC4DB}" {
+      SourceMaterial "SignRectangle_01_75x45_MLOD"
+      AssignedMaterial "{3B9D01D91BD959DF}Assets/Structures/Signs/Military/Data/Sign_CommandPost_US_01_MLOD.emat"
+     }
+    }
+   }
+  }
+  coords 13998.714 23.654 2940.473
+ }
+}
+SCR_AIAnimationWaypoint AIWP_AttackObjA : "{F6487A024AB9FFD1}Prefabs/AI/Waypoints/AIWaypoint_Animation_FastMove.et" {
+ components {
+  PK_EntityProtectorComponent "{6548A968C4AF2622}" {
+  }
+ }
+ coords 11756.949 66.858 6619.738
+}
+Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
+ coords 12129.143 190.093 7260.237
+}

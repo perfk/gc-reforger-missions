@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{FA8641EBB5CBCE4A}UI/Textures/Icons/pk_icon_stingray.imageset"
+ Configurations {
+  ImageSetResourceClass PC {
+  }
+  ImageSetResourceClass XBOX_ONE : PC {
+  }
+  ImageSetResourceClass XBOX_SERIES : PC {
+  }
+  ImageSetResourceClass PS4 : PC {
+  }
+  ImageSetResourceClass PS5 : PC {
+  }
+  ImageSetResourceClass HEADLESS : PC {
+  }
+  ImageSetResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,102 @@
+SCR_AIWorld : "{DED05ECEF37B333A}Prefabs/AI/SCR_AIWorld_Chernarus.et" {
+ coords 12177.982 181.724 7223.726
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6583.458 73.115 3132.084
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 6
+   m_iStartingMinutes 45
+   m_iRangeHoursStart 6
+   m_iRangeMinutesStart 45
+   m_iRangeHoursEnd 15
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{652CF29D92170CF7}" {
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 6
+     m_iStartingMinutes 45
+    }
+   }
+   m_iSetDay 10
+   m_iSetMonth 10
+   m_iSetYear 2008
+   m_bOverrideEnvironment 1
+   m_fFogHeight 0
+   m_fRain 0
+  }
+ }
+ coords 6604.994 101.542 3049.455
+}
+PK_EntityDeleter {
+ coords 11741.961 64.047 6602.102
+ m_fRadius 12
+}
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ marker_rus_staroye {
+  coords 10101.626 245.218 5490.016
+  {
+   GenericEntity SlotMarker12 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7D0C8A20E11}" {
+       m_eMapMarkerFactionIcon OPFOR
+      }
+     }
+    }
+    coords 0.863 0 -1.591
+   }
+  }
+ }
+ marker_ru_mi_24 {
+  coords 12145.646 140.063 12511.937
+  {
+   GenericEntity SlotMarker13 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7D0C8A20E11}" {
+       m_eMapMarkerFactionIcon OPFOR
+       m_eMapMarkerDimension AIR
+       m_eMapMarkerType1Modifier ROTARY_WING
+       m_eMapMarkerType2Modifier ROTARY_WING
+      }
+     }
+    }
+    coords 7.906 0 -5.668
+   }
+  }
+ }
+ marker_ru_rifles_krasno {
+  coords 11910.92 140.091 12535.726
+  {
+   GenericEntity SlotMarker14 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7D0C8A20E11}" {
+       m_eMapMarkerFactionIcon OPFOR
+      }
+     }
+    }
+    coords 7.906 0 -5.668
+   }
+  }
+ }
+ marker_ru_ber_motrifle {
+  coords 12945.914 5.878 9746.568
+  {
+   GenericEntity SlotMarker15 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7D0C8A20E11}" {
+       m_eMapMarkerFactionIcon OPFOR
+       m_eMapMarkerType1Modifier MOTORIZED
+      }
+     }
+    }
+    coords 7.906 0 -5.668
+   }
+  }
+ }
+}

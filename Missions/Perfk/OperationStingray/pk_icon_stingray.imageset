@@ -1,0 +1,30 @@
+ImageSetClass {
+ RefSize 2332 1312
+ Textures {
+  ImageSetTextureClass {
+   screenSize FHD
+   size 2332 1312
+   path "{B156BC1052B78611}worlds/Perfk/OperationStingray/pk_icon_stingray-100_atlas.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass LZCard {
+   Name "LZCard"
+   Pos 1723 2
+   Size 604 1276
+   Flags 0
+  }
+  ImageSetDefClass recon {
+   Name "recon"
+   Pos 2 2
+   Size 1719 1022
+   Flags 0
+  }
+  ImageSetDefClass routeCard {
+   Name "routeCard"
+   Pos 2 1026
+   Size 743 281
+   Flags 0
+  }
+ }
+}

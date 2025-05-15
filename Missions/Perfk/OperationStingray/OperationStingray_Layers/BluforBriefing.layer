@@ -1,0 +1,305 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ x9ChalksCard {
+  coords 13813.272 0 10279.719
+  m_sTitle "APENDIX C: Chalks Card"
+  m_sDescriptionLayout "{A800A869BEF42732}UI/MissionDescription/PK_DescriptionEditable.layout"
+  m_sTextData "<i>Chalk One:</i>"\
+  "- Hawk 1"\
+  "- 1 PLT - 1st Squad - (SL, Alpha, Bravo)."\
+  "- Total: 9"\
+  ""\
+  "<i>Chalk Two:</i>"\
+  "- Hawk 2"\
+  "- 1 PLT - 2nd Squad - (SL, Alpha, Bravo)."\
+  "- Total: 9"\
+  ""\
+  "<i>Chalk Three:</i>"\
+  "- Hawk 3"\
+  "- 1 PLT - 1'7."\
+  "- 1 PLT - 1st Squad - Charlie."\
+  "- 1 PLT - 2nd Squad - Charlie."\
+  "- Total: 9"\
+  ""\
+  "<i>Chalk Four:</i>"\
+  "- Hawk 4"\
+  "- 1 PLT - (1'6, 1'6R, Corpsman)."\
+  "- 4 PLT - 1st Section - (1st Squad, Alpha, Bravo (minus HMG Ammo))."\
+  "- Total: 9"\
+  ""\
+  "<i>Chalk Five:</i>"\
+  "- Hawk 5"\
+  "- 1 PLT - 3rd Squad - Charlie."\
+  "- 4 PLT - 2nd Section - 1st Squad - Alpha"\
+  "- 4 PLT - 1st Section - Bravo HMG Ammo."\
+  "- Total: 9"\
+  ""\
+  "<i>Chalk Six:</i>"\
+  "- Hawk 5"\
+  "- 1 PLT - 3rd Squad - (SL, Alpha, Bravo)."\
+  "- Total: 9"\
+  ""\
+  "A sign in front of each helicopter shows the Chalk number"\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 9
+ }
+ x1Preliminaries {
+  coords 13797.09 0 10289.466
+  m_sTitle "Preliminaries"
+  m_sTextData "<i>Ground:</i>"\
+  "- Forest area with good cover and concealment"\
+  ""\
+  "<i>Weather:</i>"\
+  "- Overcast with low probability of rain."\
+  ""\
+  "<i>Light:</i>"\
+  "- First Light: 0530h"\
+  "- Last Light: 1800h"\
+  "- Time Now: 0645h"\
+  ""\
+  "<i>Forecast:</i>"\
+  "- Weather is not expected to change."\
+  ""\
+  "<i>Moonstate:</i>"\
+  "- n/a (daytime)"\
+  ""\
+  "<i>Visibility:</i>"\
+  "- Good (4000-5000 m)."\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 1
+ }
+ x2SituationEnemyForces {
+  coords 13802.285 0 10286.752
+  m_sTitle "I. Situation: A. Enemy Forces"
+  m_sDescriptionLayout "{A800A869BEF42732}UI/MissionDescription/PK_DescriptionEditable.layout"
+  m_sTextData "<b>Enemys Composition, Disposition, Strength</b>"\
+  ""\
+  "<i>Size and Location</i>"\
+  "On Objective:"\
+  "- 1x 2S1 Gvozdika Section (2x artillery pieces)."\
+  "- 1x Rifle Platoon."\
+  "- 1x single mounted ZU-23 on Ural."\
+  "- Manpad threat high in and around objective."\
+  "- Fireteam sized rifleman patrols in forrest South of Objective."\
+  ""\
+  "Outside Objective: "\
+  "- 1x Mi-24V Section. (Krasnostav Airport)"\
+  "- 1x Rifle Company. (Krasnostav Airport) "\
+  "- 1x Rifle Platoon. (Town of Staroye)"\
+  "- 1x Mechanized Rifle Platoon. (Town of Berezino)"\
+  ""\
+  "<i>Activity</i>"\
+  "- Entrenched guarding Gvozdika section."\
+  "- Patrols the forrest to the south and north."\
+  ""\
+  "<i>Uniform</i>"\
+  "- Enemy dressed in standard russian ground force cammo."\
+  ""\
+  "<i>Time observed</i>"\
+  "- 1900z 10 OCT 2008."\
+  ""\
+  "<i>Equipment</i>"\
+  "- Enemy are armed with AK pattern rifles, machineguns, anti tank rocket launchers and anti air launchers."\
+  ""\
+  "<b>Enemys Course Of Action</b>"\
+  "MLCOA - Enemy is unaware of our attack, and will not be able to hold ground."\
+  "MDCOA - Enemy is aware of our attack, and have QRFs and Mortar support ready."\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 2
+ }
+ x3SituationFriendlyForces {
+  coords 13802.285 0 10286.752
+  m_sTitle "I. Situation: A. Friendly Forces"
+  m_sTextData "<b>Highers Mission and Intent</b>"\
+  "- Take key terrain on the coast of Chernarus. Intend to take the region away from Russian invaders."\
+  "<b>Adjacent Units</b>"\
+  "- 1x Armor Platoon. (Solnichniy)"\
+  "- 1x Rifle Platoon. (Solnichniy)"\
+  "- 1x Mechanized Rifle Platoon (Kamyshovo)."\
+  ""\
+  "Near LZ Chicago:"\
+  "- 1x Pathfinder section. Exfilling south."\
+  ""\
+  "No friendly elements will be supporting this mission."\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 3
+ }
+ x4Mission {
+  coords 13802.285 0 10286.752
+  m_sTitle "II. Mission: "
+  m_sTextData "1st Platoon, your force, will conduct raid via air insertion to destroy enemy artillery pieces in Orlovets, town north of LZ Chicago NLT H-Hour+120m"\
+  ""\
+  "Endstate: your force back at HP Miami."\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 4
+ }
+ x5Execution {
+  coords 13802.285 0 10286.752
+  m_sTitle "III. Execution:"
+  m_sTextData "COs discretion with the following guidelines that must be followed."\
+  ""\
+  "- Attack route marked in blue from LZ Chicago must be followed"\
+  "- Helicopters are to be used for transport to and from LZ Chicago"\
+  "- Any AIR movement 150 m above sealevel will result in AA fire from nearby AA sites."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 5
+ }
+ x6Sustainment {
+  coords 13810.906 0 10276.917
+  m_sTitle "IV. Sustainment:"
+  m_sDescriptionLayout "{A800A869BEF42732}UI/MissionDescription/PK_DescriptionEditable.layout"
+  m_sTextData "<i>a. Support Concept:</i>"\
+  "- N/A"\
+  ""\
+  "<i>b. Materiel and Services:</i>"\
+  " 1. Materiel and Supply:"\
+  " - Everyone has been issued a standard combat loadout. The third fire team in each squad has a M249. "\
+  "- Everyone has been issued an IFAK for treating injuries."\
+  ""\
+  "2. Transportation and Maintenance:"\
+  "- HAWK Callsigns (UH-1Y platoon)"\
+  "- See Chalk Card for more information."\
+  ""\
+  "3. Allocation of Logistics"\
+  "- Assistant machinegunners and automatic riflemen can take estra ammo from the UH-1Ys"\
+  ""\
+  "<i>d. Personnel:</i>"\
+  "1. our unit is at full strength."\
+  "- 1x 4 man HQ team."\
+  "- 3x 13 man squad."\
+  "- 2x 2 Heavy machinegun team."\
+  ""\
+  "2. Replacements are unlikely, but reorganization and tasking will occur tomorrow with the follow-on forces."\
+  ""\
+  "3. Any EPWs are to be reported to the Platoon Leader, who will decide on a plan to either dispose of or transport to the nearest Battalion HQ."\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 6
+ }
+ x7CommandControl {
+  coords 13914.897 0 10298.289
+  m_sTitle "V. Command & Control:"
+  m_sDescriptionLayout "{A800A869BEF42732}UI/MissionDescription/PK_DescriptionEditable.layout"
+  m_sTextData "<i>Radios:</i>"\
+  "- Squad Leaders, Team Leaders, PSG, and the PL possess an AN/PRC 148 Radio and AN/PRC 343 Radio."\
+  "- RTO possess an AN/PRC 117F, AN/PRC 148 and a AN/PRC 343 Radio."\
+  "- All units carries a personal AN/PRC 343 Radio."\
+  ""\
+  "<i>PRR Nets:</i>"\
+  "??"\
+  ""\
+  "<i>LRR Nets:</i>"\
+  "??"\
+  ""\
+  "- CO decides what LR net Hawk element is on."\
+  ""\
+  "<i>Recognition Signals:</i>"\
+  "- Green Smoke = Location of friendly forces."\
+  "- Red Smoke = Location of enemy forces."\
+  "- Yellow Smoke = Wounded or requesting Aid."\
+  "- White Smoke = Concealment."\
+  ""\
+  "<i>Challenge and Pass:</i>"\
+  ""\
+  "- Challenge = HAN"\
+  "- Password = SOLO"\
+  ""\
+  "<i>Succession of Command:</i>"\
+  "In descending order"\
+  ""\
+  "- 1'6 Platoon Leader"\
+  "- 1'7 Platoon PSG"\
+  "- 1'1 Squad Leader"\
+  "- 1'2 Squad Leader"\
+  "- 1'3 Squad Leader"\
+  "- 4'1 Weapons Squad Leader"\
+  "- First to get in touch with other units"\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 7
+ }
+ x8LogisticalSupport {
+  coords 13818.236 0 10276.589
+  m_sTitle "APENDIX A: Logistical support"
+  m_sDescriptionLayout "{A800A869BEF42732}UI/MissionDescription/PK_DescriptionEditable.layout"
+  m_sTextData "- UH-1H"\
+  "-- 20x 30 Rnd STANAG Mag (M855A1/M856)"\
+  "-- 10x 200 Rnd M249 Belt (M855A1/M856)"\
+  "-- 10x 7.62*51mm 100rnd M60 Belt"\
+  "-- 30x Bandage"\
+  "-- 15x Tourniquet"\
+  "-- 30x Morphine Injector"\
+  "-- 15x Saline Solution"\
+  "-- 30x Epinephrine"\
+  "-- 30x Ammonium Carbonate"\
+  "-- 10x M18 - Green"\
+  "-- 10x M18 - Yellow"\
+  "-- 10x M18 - Red"\
+  "-- 10x AN-M8 HC"\
+  "-- 5x Blasting machine"\
+  "-- 2x Repair Wrench"\
+  "-- 5x m34 Blasting Machine"\
+  "-- 5x M112"\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 8
+ }
+ x10ApendixRouteAndLZcard {
+  coords 13982.852 0 10260.149
+  m_sTitle "APENDIX B: Route Card & LZ Card"\
+  ""
+  m_sTextData "See image on map right of spawn"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 10
+ }
+ x11MissionNotes {
+  coords 13980.865 -22.059 10253.657
+  m_sTitle "VI. Mission notes"
+  m_sTextData "- The intend of this mission is to attempt to destroy enemy artillery pieces. But the main objective is to get out without losing all friendly units."\
+  ""\
+  "SETUP TIMER"\
+  "- N/A"\
+  ""\
+  "RESPAWN"\
+  "- One live only"\
+  ""\
+  "JIP"\
+  "- Yes"\
+  ""\
+  "END CONDITION"\
+  ""\
+  "Blufor Victory"\
+  "- All 2 artillery pieces destroyed and ALL (alive) blufor elements returned to HP Miami"\
+  ""\
+  "Blufor automatic defeat."\
+  "- 85% of blufor dead."\
+  "- Time limit of 120 min reached."\
+  ""\
+  "USE OF ENEMY VEHICLE ASSETS"\
+  "Not allowed"\
+  ". This includes the usage of standard weapon systems like M2s."\
+  ""\
+  "TECHNICAL ASPECT"\
+  "- Teams are assigned colors prestart. Alpha = RED, Bravo = BLUE, Charlie = YELLOW."\
+  ""\
+  "Mission by Perfk"\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 11
+ }
+}

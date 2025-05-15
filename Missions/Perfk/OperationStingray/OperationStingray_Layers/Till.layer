@@ -1,0 +1,121 @@
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 6550.318 7.775 2970.632
+ m_missionEvents {
+  TILW_MissionEvent "{652F3ECA57E8AD00}" {
+   m_name "QRF Spawn"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{652F3ECA09A660FB}" {
+     m_executionDelay 1
+     m_prefab "{870783CDCE09CCD9}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airborne_1983/Group_USSR_VDV_Squad.et"
+     m_locationName "QRF_Location"
+     m_waypointNames {
+      "AIWP_AttackObjA"
+     }
+    }
+    TILW_SpawnGroupInstruction "{6543206885F34BBD}" {
+     m_prefab "{E1A0797669362096}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airborne_1983/Group_USSR_VDV_PHQ.et"
+     m_locationName "FlankWest"
+     m_waypointNames {
+      "AIWP_PatrolEast" "AIWP_PatrolWest" "AIWP_PatrolEast"
+     }
+    }
+    TILW_SpawnGroupInstruction "{6543206B51BC2F88}" {
+     m_executionDelay 6
+     m_prefab "{E1A0797669362096}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airborne_1983/Group_USSR_VDV_PHQ.et"
+     m_locationName "FlankEast"
+     m_waypointNames {
+      "AIWP_PatrolWest" "AIWP_PatrolEast" "AIWP_PatrolWest"
+     }
+    }
+    TILW_SpawnPrefabInstruction "{6530D63E509503FA}" {
+     m_executionDelay 10
+     m_prefab "{3A3331F61766D055}PrefabsEditable/EffectsModules/Mortar/EffectModule_MortarShell.et"
+     m_locationName "mortar_01"
+    }
+    TILW_SpawnPrefabInstruction "{65432076CFDBB5CA}" {
+     m_executionDelay 15
+     m_prefab "{3A3331F61766D055}PrefabsEditable/EffectsModules/Mortar/EffectModule_MortarShell.et"
+     m_locationName "mortar_01_2"
+    }
+    TILW_SpawnPrefabInstruction "{6530D63D5B1B3DE9}" {
+     m_executionDelay 25
+     m_prefab "{F5FAFFDBC271088C}PrefabsEditable/EffectsModules/Mortar/EffectModule_Zoned_MortarBarrage_Creeping.et"
+     m_locationName "mortar_creeping_01"
+    }
+    TILW_SpawnPrefabInstruction "{6542B02222DF48F5}" {
+     m_executionDelay 25
+     m_prefab "{D01FB74BE7440B16}PrefabsEditable/EffectsModules/Mortar/Smoke/EffectModule_Zoned_MortarBarrage_Smoke_Line.et"
+     m_locationName "mortar_02"
+    }
+    TILW_AssignWaypointsInstruction "{65434CF96E5B447A}" {
+     m_executionDelay 26
+     m_groupName "Group_USSR_Bunkerpos"
+     m_waypointNames {
+      "AIWP_AttackObjA"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{65434CF93D3094BE}" {
+     m_executionDelay 26
+     m_groupName "Group_USSR_GunPosition"
+     m_waypointNames {
+      "AIWP_AttackObjA"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{65434CF93C2A710B}" {
+     m_executionDelay 26
+     m_groupName "Group_USSR_Roadblock"
+     m_waypointNames {
+      "AIWP_AttackObjA"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{65434CF922E3FC4B}" {
+     m_executionDelay 26
+     m_groupName "Group_USSR_Tents"
+     m_waypointNames {
+      "AIWP_AttackObjA"
+     }
+     m_clearExisting 1
+    }
+    TILW_SpawnPrefabInstruction "{65432069F4A14B3D}" {
+     m_executionDelay 25
+     m_prefab "{D01FB74BE7440B16}PrefabsEditable/EffectsModules/Mortar/Smoke/EffectModule_Zoned_MortarBarrage_Smoke_Line.et"
+     m_locationName "mortar_02_2"
+    }
+    TILW_SpawnGroupInstruction "{6542B022EE709B28}" {
+     m_executionDelay 35
+     m_prefab "{870783CDCE09CCD9}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airborne_1983/Group_USSR_VDV_Squad.et"
+     m_locationName "mortar_01"
+     m_waypointNames {
+      "AIWP_AttackObjA"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65432068AE0A6AF8}" {
+     m_executionDelay 36
+     m_prefab "{870783CDCE09CCD9}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airborne_1983/Group_USSR_VDV_Squad.et"
+     m_locationName "mortar_01_2"
+     m_waypointNames {
+      "AIWP_AttackObjA"
+     }
+    }
+    TILW_SpawnPrefabInstruction "{65432069D6DD7753}" {
+     m_executionDelay 130
+     m_prefab "{1DDF7187608968F2}PrefabsEditable/EffectsModules/Mortar/EffectModule_Zoned_MortarBarrage_Large.et"
+     m_locationName "mortar_03"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6530D63E46524D6E}" {
+    m_operands {
+     TILW_LiteralTerm "{6530D63E413046B1}" {
+      m_flagName "ARTY_1_DESTROYED"
+     }
+     TILW_LiteralTerm "{6530D63E5D6B99A0}" {
+      m_flagName "ARTY_2_DESTROYED"
+     }
+    }
+   }
+  }
+ }
+}

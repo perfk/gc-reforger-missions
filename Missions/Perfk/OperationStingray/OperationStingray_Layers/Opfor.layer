@@ -1,0 +1,168 @@
+SCR_AIGroup : "{1E520E3EC6FE0729}Prefabs/Groups/BLUFOR/US/Marines_2010s_LAR/P/Group_USMC_LAR_HQ_P_JUB.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   Enabled 0
+   DefaultFormation "StaggeredColumn"
+  }
+  PS_GroupCallsignAssigner "{6548A969F0715ADD}" {
+   m_iSquadCallsign 4
+  }
+ }
+ coords 13872.997 33.078 2923.601
+ angleY 90
+ m_aUnitPrefabSlots {
+  "{E83CC0D7BF63B3BF}worlds/Perfk/Prefabs/Characters/PK_Character_RHS_USAF_USMC_2010_LAR_SL_P.et" "{57415203E37AE221}worlds/Perfk/Prefabs/Characters/PK_Character_RHS_USAF_USMC_MG_A_P.et" "{2590B8D3EEA446B8}worlds/Perfk/Prefabs/Characters/PK_Character_RHS_USAF_USMC_AMG_P.et" "{CA05F398E35D5EEC}worlds/Perfk/Prefabs/Characters/PK_Character_RHS_USAF_USMC_MG_B_P.et" "{2590B8D3EEA446B8}worlds/Perfk/Prefabs/Characters/PK_Character_RHS_USAF_USMC_AMG_P.et"
+ }
+ m_sCustomNameSet "att 4th Platoon - 1st Weapons Squad"
+ m_aUnitPrefabColorTeams {
+  "" "Red" "Red" "Blue" "Blue"
+ }
+}
+$grp RHS_Tank : "{52B13341B4A2F012}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green.et" {
+ Tank_2S1_Green1 {
+  components {
+   SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+    "Additional hit zones" {
+     SCR_FlammableHitZone Hull {
+      MaxHealth 500
+     }
+    }
+   }
+   TILW_Flag_EntityDamage "{652F3ECD2E6F3C8D}" {
+    m_flagName "ARTY_2_DESTROYED"
+   }
+  }
+  coords 12061.272 191.057 7249.667
+  angleX -0.483
+  angleY -122.655
+  angleZ -0.754
+ }
+ Tank_2S1_Green2 {
+  components {
+   SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+    "Additional hit zones" {
+     SCR_FlammableHitZone Hull {
+      MaxHealth 500
+     }
+    }
+   }
+   TILW_Flag_EntityDamage "{652F3ECD2E6F3C8D}" {
+    m_flagName "ARTY_1_DESTROYED"
+   }
+  }
+  coords 12082.521 191.062 7240.829
+  angleY -179.75
+ }
+}
+$grp SCR_AIGroup : "{B9ED353080EA41AB}Prefabs/Groups/OPFOR/USSR/Deprecated/Group_USSR_MotRifleSquad.et" {
+ Group_USSR_GunPosition {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 12024.354 194.903 7264.48
+  angleY -161.697
+  m_aUnitPrefabSlots {
+   "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et" "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "AIWP_Defend_GunPosition"
+  }
+ }
+ Group_USSR_Tents {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 12076.455 190.907 7267.611
+  angleY -161.697
+  m_aUnitPrefabSlots {
+   "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et" "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et" "{069118B2D809C9E1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_Variant_1.et" "{069118B2D809C9E1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_Variant_1.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{069118B2D809C9E1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_Variant_1.et"
+  }
+  m_aStaticWaypoints {
+   "AIWP_Defend_Tents"
+  }
+ }
+ Group_USSR_Roadblock {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 12085.631 195.874 7268.396
+  angleY -161.697
+  m_aUnitPrefabSlots {
+   "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et" "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et" "{AB9726163EC1BD81}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic.et" "{069118B2D809C9E1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_Variant_1.et"
+  }
+  m_aStaticWaypoints {
+   "AIWP_Defend_roadblock"
+  }
+ }
+ Group_USSR_Bunkerpos {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 12033.389 195.436 7259.065
+  angleY -161.697
+  m_aUnitPrefabSlots {
+   "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et" "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "AIWP_Defend_bunkerpos"
+  }
+ }
+ Group_USSR_ZU23 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 12122.437 191.082 7268.737
+  angleY -161.697
+  m_aUnitPrefabSlots {
+   "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et" "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et" "{069118B2D809C9E1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_Variant_1.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "AIWP_GetIn_ZU23"
+  }
+ }
+}
+PolylineShapeEntity : "{FB185276C4FA1FD4}Prefabs/Logic/AOLimit/BLU_LineDraw.et" {
+ coords 13001.426 0 2276.595
+ Points {
+  ShapePoint "{65454DD64E67A689}" {
+   Position 57.877 -53.735 -94.062
+  }
+  ShapePoint "{65454DD648092747}" {
+   Position 1350.281 -35.531 1.539
+  }
+  ShapePoint "{65454DD64A446B46}" {
+   Position 1464.618 -152.339 1757.348
+  }
+  ShapePoint "{65454DD644DE189C}" {
+   Position 1482.605 -124.054 5241.192
+  }
+  ShapePoint "{65454DD640ED4D65}" {
+   Position 500.117 -52.474 5765.078
+  }
+  ShapePoint "{65454DD643050B9C}" {
+   Position -1212.705 221.958 5552.211
+  }
+  ShapePoint "{65454DD642136452}" {
+   Position -1842.48 200.879 5117.493
+  }
+  ShapePoint "{65454DD65C734F81}" {
+   Position -1855.827 175.557 3910.253
+  }
+  ShapePoint "{65454DD6591B6D79}" {
+   Position -417.477 84.146 3306.663
+  }
+  ShapePoint "{65454DD651B6A64F}" {
+   Position -129.189 -9.527 978.294
+  }
+ }
+}

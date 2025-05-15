@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0B061F4C25CEAB71}worlds/Perfk/Assets/Structures/Signs/Military/Data/PK_Sign_CommandPost_chalk_6.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}
