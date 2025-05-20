@@ -1,0 +1,9 @@
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3650.158 237.691 3682.617
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ coords 3665.852 234.381 3689.284
+}
+SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army_2019_Rangers/P/Group_Rangers_2019_PHQ_P.et" {
+ coords 3753.986 261.27 3505.061
+}

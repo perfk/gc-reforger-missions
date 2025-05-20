@@ -1,0 +1,143 @@
+$grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ WPtest1 {
+  coords 9594.708 252.545 9334.695
+  angleY -59.359
+  CompletionRadius 20
+ }
+ WPtest2 {
+  coords 9654.831 250.807 9431.918
+  angleY -59.359
+  CompletionRadius 20
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{65670AEB9B35DACD}" {
+   }
+  }
+ }
+ WPtest3 {
+  coords 9777.494 240.087 9635.524
+  angleY -59.359
+ }
+ WPtest4 {
+  coords 10016.387 216.429 10052.304
+  angleY -59.359
+ }
+}
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ Defend1_Rifle_1 {
+  coords 10470.767 177.606 10481.974
+  angleY -74.948
+  m_prefab "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et"
+  m_waypointNames {
+   "Defend1"
+  }
+ }
+ LAV1 {
+  coords 10492.758 187.983 10286.108
+  angleY -120.009
+  m_prefab "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et"
+  m_crewConfig TILW_CrewConfig "{65669EAAE95B813A}" {
+   m_crewGroups {
+    TILW_CrewGroup "{65669EAAE88C0ADF}" {
+     m_crewStations {
+      TILW_CrewStation "{65669EAAE46C8CB6}" {
+       m_allowCargo 0
+       m_characters {
+        "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ Defend2_rifle_1 {
+  coords 10343.188 169.256 10812.992
+  angleY -74.948
+  m_prefab "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et"
+  m_waypointNames {
+   "Defend2"
+  }
+ }
+ LAV2 {
+  coords 10313.82 181.621 10644.908
+  angleY -118.387
+  m_prefab "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et"
+  m_crewConfig TILW_CrewConfig "{65669EAAE95B813A}" {
+   m_crewGroups {
+    TILW_CrewGroup "{65669EAAE88C0ADF}" {
+     m_crewStations {
+      TILW_CrewStation "{65669EAAE46C8CB6}" {
+       m_allowCargo 0
+       m_characters {
+        "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ Defend1_rifle_2 {
+  coords 10425.433 178.565 10478.175
+  angleY -74.948
+  m_prefab "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et"
+  m_waypointNames {
+   "Defend1"
+  }
+ }
+ LAV3 {
+  coords 10408.733 183.18 10425.508
+  angleY -121.449
+  m_prefab "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et"
+  m_crewConfig TILW_CrewConfig "{65669EAAE95B813A}" {
+   m_crewGroups {
+    TILW_CrewGroup "{65669EAAE88C0ADF}" {
+     m_crewStations {
+      TILW_CrewStation "{65669EAAE46C8CB6}" {
+       m_allowCargo 0
+       m_characters {
+        "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ LAV4 {
+  coords 10242.419 176.148 10833.013
+  angleY -119.755
+  m_prefab "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et"
+  m_crewConfig TILW_CrewConfig "{65669EAAE95B813A}" {
+   m_crewGroups {
+    TILW_CrewGroup "{65669EAAE88C0ADF}" {
+     m_crewStations {
+      TILW_CrewStation "{65669EAAE46C8CB6}" {
+       m_allowCargo 0
+       m_characters {
+        "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+}
+$grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+ Defend2 {
+  coords 10260.114 170.545 10727.356
+  angleY -59.359
+ }
+ Defend1 {
+  coords 10427.563 186.301 10367.059
+  angleY -59.359
+ }
+}
+SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army_2019_Rangers/P/Group_Rangers_2019_PHQ_P.et" {
+ coords 10401.015 166.926 10791.592
+}

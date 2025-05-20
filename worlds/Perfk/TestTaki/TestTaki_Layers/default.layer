@@ -1,0 +1,118 @@
+SCR_AIWorld : "{3DE6090FC602E566}Prefabs/AI/SCR_AIWorld_Takistan.et" {
+ components {
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{1181B4D46BCE7F2B}worlds/Navmesh/Takistan_Soldier.nmn"
+    }
+   }
+  }
+ }
+ coords 10579.194 217.383 9582.624
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 9372.426 210.72 9574.121
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ coords 9388.119 207.41 9580.789
+}
+$grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+ Multiple_WP1 {
+  coords 9778.196 259.117 9259.012
+  angleY -59.359
+ }
+ Multiple_WP2 {
+  coords 9849.458 251.895 9391.888
+  angleY -59.359
+ }
+ Multiple_WP3 {
+  coords 9906.987 224.835 9662.479
+  angleY -59.359
+ }
+ Multiple_WP4 {
+  coords 10091.544 210.202 9896.6
+  angleY -59.359
+ }
+ Multiple_WP5 {
+  coords 10149.496 209.313 10037.083
+  angleY -59.359
+ }
+ Multiple_WP6 {
+  coords 10284.074 201.995 10122.1
+  angleY -59.359
+ }
+}
+SCR_IndestructibleEnvironmentalEntity : "{9B3485F7C995A370}Prefabs/Rocks/Desert/DesertCliff_NS_01.et" {
+ coords 9712.652 262.702 9168.335
+ angleX 82.712
+ angleY 0.121
+ angleZ -85.858
+ scale 3.4
+}
+$grp GenericEntity : "{D01FB74BE7440B16}PrefabsEditable/EffectsModules/Mortar/Smoke/EffectModule_Zoned_MortarBarrage_Smoke_Line.et" {
+ {
+  coords 10408.433 205.718 10269.396
+  angleY -45.127
+  {
+   GenericEntity {
+    ID "61EE838820B31CFB"
+    coords -0.002 1.46 -6.498
+    angleX 90
+    angleY -90
+    angleZ 0
+   }
+  }
+ }
+ {
+  coords 10350.035 202.083 10345.815
+  angleY -45.127
+  {
+   GenericEntity {
+    ID "61EE838820B31CFB"
+    coords -0.002 1.46 -6.497
+    angleX 90
+    angleY -90
+    angleZ 0
+   }
+  }
+ }
+ {
+  coords 10289.645 209.449 10421.906
+  angleY -45.127
+  {
+   GenericEntity {
+    ID "61EE838820B31CFB"
+    coords -0.002 1.46 -6.498
+    angleX 90
+    angleY -90
+    angleZ 0
+   }
+  }
+ }
+ {
+  coords 10232.747 206.237 10497.812
+  angleY -45.127
+  {
+   GenericEntity {
+    ID "61EE838820B31CFB"
+    coords -0.002 1.46 -6.498
+    angleX 90
+    angleY -90
+    angleZ 0
+   }
+  }
+ }
+ {
+  coords 10198.406 193.162 10576.027
+  angleY -45.127
+  {
+   GenericEntity {
+    ID "61EE838820B31CFB"
+    coords -0.002 1.46 -6.498
+    angleX 90
+    angleY -90
+    angleZ 0
+   }
+  }
+ }
+}

@@ -1,0 +1,51 @@
+SCR_AIGroup : "{2D259E53BEEAB3AF}Prefabs/Groups/OPFOR/USSR/Specific Units/876th independent Naval Infantry Battalion - 1986/Group_USSR_876_MotRiflePHQ_P.et" {
+ coords 5929.926 196.221 2300.417
+}
+SCR_AIWaypoint WP1 : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+ coords 5329.562 204.594 1918.003
+}
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ {
+  coords 5084.432 196.268 2588.359
+  angleY -111.727
+  m_prefab "{C84FF4497D058530}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_HTM1.et"
+  m_crewConfig TILW_CrewConfig "{65669EAAE95B813A}" {
+   m_crewGroups {
+    TILW_CrewGroup "{65669EAAE88C0ADF}" {
+     m_crewStations {
+      TILW_CrewStation "{65669EAAE46C8CB6}" {
+       m_allowCargo 0
+       m_characters {
+        "{CC3E84140343D82E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Officer.et" "{3CEC77A6686C1BA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Rifleman.et" "{3CEC77A6686C1BA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "WP1"
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ {
+  coords 5299.585 212.809 1873.719
+  angleY 65.575
+  m_prefab "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et"
+  m_crewConfig TILW_CrewConfig "{65669EAAE95B813A}" {
+   m_crewGroups {
+    TILW_CrewGroup "{65669EAAE88C0ADF}" {
+     m_crewStations {
+      TILW_CrewStation "{65669EAAE46C8CB6}" {
+       m_allowCargo 0
+       m_characters {
+        "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+}

@@ -1,0 +1,56 @@
+SCR_AIWorld : "{3D0FE80570D5BFCC}Prefabs/AI/SCR_AIWorld_Anizay.et" {
+ coords 5770.508 206.918 2780.927
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5664.988 211.332 3008.762
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ coords 5755.295 209.543 2807.109
+}
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ {
+  coords 5287.274 213.626 1903.626
+  angleY 65.575
+  m_prefab "{8BA725149B85EE4C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_PL.et"
+ }
+ {
+  coords 5289.111 214.119 1900.972
+  angleY 65.575
+  m_prefab "{8BA725149B85EE4C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_PL.et"
+ }
+ {
+  coords 5276.655 214.93 1916.176
+  angleY 65.575
+  m_prefab "{8BA725149B85EE4C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_PL.et"
+ }
+ {
+  coords 5294.17 212.69 1887.721
+  angleY 65.575
+  m_prefab "{8BA725149B85EE4C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_PL.et"
+ }
+ {
+  coords 5298.729 212.678 1868.104
+  angleY 65.575
+  m_prefab "{8BA725149B85EE4C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_PL.et"
+ }
+ {
+  coords 5295.504 214.527 1850.423
+  angleY 65.575
+  m_prefab "{8BA725149B85EE4C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_PL.et"
+ }
+ {
+  coords 5290.935 213.858 1832.03
+  angleY 65.575
+  m_prefab "{8BA725149B85EE4C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_PL.et"
+ }
+ {
+  coords 5291.235 214.631 1824.402
+  angleY 65.575
+  m_prefab "{8BA725149B85EE4C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_PL.et"
+ }
+ {
+  coords 5290.926 213.857 1817.972
+  angleY 65.575
+  m_prefab "{8BA725149B85EE4C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_PL.et"
+ }
+}
