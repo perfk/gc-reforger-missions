@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A1DEA1BCB3328A7A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/PK_Character_US_Rifleman_DCU_1998.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

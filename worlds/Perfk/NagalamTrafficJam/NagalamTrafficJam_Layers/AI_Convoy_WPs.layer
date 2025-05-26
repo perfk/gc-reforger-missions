@@ -1,0 +1,32 @@
+$grp GenericEntity {
+ Spawn_1 {
+  coords 1910.742 14.985 3613.046
+ }
+ Spawn_3 {
+  coords 2006.088 16.993 3832.995
+ }
+ Spawn_4 {
+  coords 2105.495 22.71 3860.468
+ }
+ Spawn_5 {
+  coords 2178.031 22.642 3761.918
+ }
+ Spawn_6 {
+  coords 2205.954 21.82 3706.307
+ }
+ Spawn_7 {
+  coords 2161.465 16.17 3486.199
+ }
+ Spawn_8 {
+  coords 1990.33 41.031 3441.743
+ }
+ Spawn_2 {
+  coords 1883.814 30.357 3766.07
+ }
+ Spawn_9 {
+  coords 1980.413 26.479 3894.582
+ }
+}
+SCR_SearchAndDestroyWaypoint WP_SD_Convoy_Center : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ coords 2058.26 20.49 3647.997
+}

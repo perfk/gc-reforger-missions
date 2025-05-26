@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{EA6EF9C87D023B9B}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_Rifleman_DCU_1998.et" {
+ ID "52092032B0E62200"
+ components {
+  PK_EntityModiferComponent "{6572FB58499B708B}" {
+   m_damageManagerEnabled 1
+   m_EntitiesDamageList {
+    PK_EntitesDamageList "{6572FB584AAEC26A}" {
+     m_initialHealth 0
+    }
+   }
+  }
+  TILW_NoGarbageComponent "{6572FB58427E8EBB}" {
+  }
+ }
+}

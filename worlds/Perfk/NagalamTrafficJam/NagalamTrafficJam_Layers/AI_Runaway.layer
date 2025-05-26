@@ -1,0 +1,16 @@
+GenericEntity spawn_Runaway {
+ coords 2270.15 14.927 3418.076
+}
+SCR_AIWaypoint wp_Runaway : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ coords 2234.419 13.959 3366.708
+}
+TILW_PresenceTriggerEntity PresenceTrigger_Runaway : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
+ coords 2420.894 14.257 3218.062
+ m_queryRadius 40
+ m_flagName "Runaway_flag"
+ m_drawShapeOutline 0
+ m_entityNames {
+  "LAV25_GulfWar1" "LAV25_GulfWar2" "M1025_armed_M2HB_GulfWar1" "M1025_armed_M2HB_GulfWar2" "M923A1_repair_GulfWar1" "M923A1_transport_covered_GulfWar1" "M997_maxi_ambulance_GulfWar1"
+ }
+ m_ratioThreshold 0.1
+}
