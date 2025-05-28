@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A1DEA1BCB3328A7A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/PK_Character_US_Rifleman_DCU_1998.et"
+ Name "{38282D4B7BD8324A}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair_GulfWar_unlimited_supply.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

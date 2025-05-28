@@ -52,7 +52,51 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
   m_ratioThreshold 0
  }
 }
-TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ coords 3094.804 29.093 2910.464
+ Points {
+  ShapePoint "{657933E70625ACCA}" {
+   Position -4.914 -19.093 62.616
+  }
+  ShapePoint "{657933E715CDEDCC}" {
+   Position -415.858 -19.094 326.764
+  }
+  ShapePoint "{657933E717CF195F}" {
+   Position -521.536 -19.806 271.329
+  }
+  ShapePoint "{657933E716B05AC7}" {
+   Position -694.828 -10.599 391.614
+  }
+  ShapePoint "{657933E7126CE1B8}" {
+   Position -671.849 22.097 713.035
+  }
+  ShapePoint "{657933E7ED97C066}" {
+   Position -875.015 -5.882 998.362
+  }
+  ShapePoint "{657933E7ECAAC184}" {
+   Position -1144.752 26.891 1020.184
+  }
+  ShapePoint "{657933E7EEB8D2D2}" {
+   Position -1350.765 -9.09 918.263
+  }
+  ShapePoint "{657933E7E9F9D0A0}" {
+   Position -1275.796 53.998 630.33
+  }
+  ShapePoint "{657933E7E8F60E2D}" {
+   Position -1141.403 44.924 476.25
+  }
+  ShapePoint "{657933E7EA12BA16}" {
+   Position -996.748 18.827 528.441
+  }
+  ShapePoint "{657933E7E65C381C}" {
+   Position -838.771 -12.03 310.74
+  }
+  ShapePoint "{657933E7E3421BC5}" {
+   Position -207.891 -9.526 -135.314
+  }
+ }
+}
+TILW_MissionFrameworkEntity MissionFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3127.465 9.41 3227.127
  m_missionEvents {
   TILW_MissionEvent "{6572FC0A9ECE093E}" {
@@ -328,6 +372,61 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "Runaway_flag"
    }
   }
+  TILW_MissionEvent "{65792A89FDD101D2}" {
+   m_name "Spawn_attack_QRF_At_Convoy"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{65792A89FDD1178B}" {
+     m_executionDelay 60
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_1"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65792A89A6688CC2}" {
+     m_executionDelay 62
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_3"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65792A89B1A99588}" {
+     m_executionDelay 63
+     m_prefab "{8D93DE0EB90C479D}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_MG_team.et"
+     m_locationName "Spawn_3"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65792A898B2946E9}" {
+     m_executionDelay 66
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_7"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65792A899DF2EA7D}" {
+     m_executionDelay 68
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_9"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{65792A89FDD117BC}" {
+    m_operands {
+     TILW_LiteralTerm "{65792A89FDD117BF}" {
+      m_flagName "QRF_Arrived"
+     }
+     TILW_LiteralTerm "{65792A89FDD117B8}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
   TILW_MissionEvent "{65731DA871CEB92C}" {
    m_name "QRF_Defend_1"
    m_instructions {
@@ -430,6 +529,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      }
     }
    }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{65792A8A5A7421A4}" {
+   m_flagName "Casualties_US_Flag"
+   m_factionKey "US"
+   m_casualtyRatio 0.85
   }
  }
 }

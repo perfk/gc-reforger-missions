@@ -88,7 +88,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    }
    PS_GroupCallsignAssigner "{655D17DB5295E64E}" {
     m_iCompanyCallsign 3
-    m_iPlatoonCallsign 3
+    m_iPlatoonCallsign 4
     m_iSquadCallsign 1
    }
    TILW_NoGarbageComponent "{655F07B93E692AEF}" {
@@ -109,7 +109,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    }
    PS_GroupCallsignAssigner "{655D17DB5295E64E}" {
     m_iCompanyCallsign 3
-    m_iPlatoonCallsign 3
+    m_iPlatoonCallsign 4
     m_iSquadCallsign 2
    }
    TILW_NoGarbageComponent "{655F07B938126129}" {
@@ -129,6 +129,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
     Enabled 0
    }
    PS_GroupCallsignAssigner "{655D17D93DA148F0}" {
+    m_iPlatoonCallsign 1
     m_iSquadCallsign 1
    }
   }
@@ -153,6 +154,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
     Enabled 0
    }
    PS_GroupCallsignAssigner "{655D17D93DA148F0}" {
+    m_iPlatoonCallsign 1
     m_iSquadCallsign 2
    }
   }
@@ -174,10 +176,11 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
     Enabled 0
    }
    PS_GroupCallsignAssigner "{655D17D93DA148F0}" {
+    m_iPlatoonCallsign 1
     m_iSquadCallsign 3
    }
   }
-  coords 2685.78 8 3071.928
+  coords 2694.795 8 3086.07
   angleY -57.484
   m_aUnitPrefabSlots {
    "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/DCU/P/Character_US_SL_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/DCU/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/DCU/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/DCU/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/DCU/P/Character_US_Rifleman_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/DCU/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/DCU/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/DCU/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/DCU/P/Character_US_Rifleman_DCU_1998_P.et"
@@ -229,6 +232,11 @@ $grp Vehicle : "{1B64051DEE7B6065}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   m_sAttachmentGroupName "Rifle12"
  }
 }
+Vehicle M923A1_repair_GulfWar_unlimited_supply1 : "{38282D4B7BD8324A}worlds/Perfk/Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair_GulfWar_unlimited_supply.et" {
+ coords 2656.959 8 3068.561
+ angleY -177
+ m_sAttachmentGroupName "Rifle16"
+}
 Vehicle M997_maxi_ambulance_GulfWar1 : "{6EBA88F9481F5E06}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_GulfWar.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
@@ -273,15 +281,6 @@ Vehicle M997_maxi_ambulance_GulfWar1 : "{6EBA88F9481F5E06}Prefabs/Vehicles/Wheel
  angleY -177.81
  m_sAttachmentGroupName "Rifle16"
 }
-Vehicle M923A1_repair_GulfWar1 : "{A9FE728BCF3202AF}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair_GulfWar.et" {
- components {
-  SCR_ResupplySupportStationComponent "{655F5C62BFA106D2}" {
-  }
- }
- coords 2656.959 8 3068.561
- angleY -177
- m_sAttachmentGroupName "Rifle16"
-}
 $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_Desert/P/Group_US_Army_1990_Desert_RiflePHQ_P.et" {
  RifleConvoy03 {
   components {
@@ -290,7 +289,7 @@ $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    }
    PS_GroupCallsignAssigner "{655D17DBB56FE370}" {
     m_iCompanyCallsign 3
-    m_iPlatoonCallsign 3
+    m_iPlatoonCallsign 4
    }
    TILW_NoGarbageComponent "{655F07B93AE49D31}" {
    }
@@ -310,7 +309,7 @@ $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    }
    PS_GroupCallsignAssigner "{655D17DB3CCB1124}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iPlatoonCallsign 2
     m_iSquadCallsign 1
    }
   }
@@ -329,7 +328,7 @@ $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    }
    PS_GroupCallsignAssigner "{655D17DB31A6CA2E}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iPlatoonCallsign 2
     m_iSquadCallsign 2
    }
   }
@@ -347,6 +346,7 @@ $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
     Enabled 0
    }
    PS_GroupCallsignAssigner "{655D17D914D408D5}" {
+    m_iPlatoonCallsign 1
    }
   }
   coords 2679.511 8.042 3063.337

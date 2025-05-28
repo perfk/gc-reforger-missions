@@ -24,7 +24,7 @@ $grp GenericEntity {
   coords 1883.814 30.357 3766.07
  }
  Spawn_9 {
-  coords 1980.413 26.479 3894.582
+  coords 1871.868 71.592 3418.47
  }
 }
 SCR_SearchAndDestroyWaypoint WP_SD_Convoy_Center : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {

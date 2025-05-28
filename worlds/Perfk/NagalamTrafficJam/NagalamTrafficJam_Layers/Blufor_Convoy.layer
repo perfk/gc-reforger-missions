@@ -1,22 +1,41 @@
 Vehicle Ural4320_transport_tan1 : "{0075D36080C56819}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_tan.et" {
  components {
-  PK_EntityModiferComponent "{6572E66812EEAF9A}" {
-   m_bEngineEnabled 1
+  PK_EntityModifierComponent "{65792A88B9779102}" {
    m_bLightEnabled 1
    m_aLightsData {
-    PK_LightData "{65771433B121657B}" {
+    PK_LightData "{65792A88B8C183F1}" {
     }
    }
   }
  }
- coords 2035.745 19.603 3676.351
+ coords 2035.261 19.618 3675.863
  angleX -1.26
  angleY -45.266
  angleZ 1.271
  m_sAttachmentGroupName "RifleConvoy03"
 }
+$grp Vehicle : "{07C2E883601A812F}Prefabs/Vehicles/Wheeled/LAV25/LAV25_GulfWar.et" {
+ LAV25_GulfWar5 {
+  coords 2907.587 10.084 2989.246
+  angleY 110.779
+  m_sAttachmentGroupName "RifleConvoy03"
+ }
+ LAV25_GulfWar6 {
+  coords 2908.564 10.084 2992.696
+  angleY 110.779
+  m_sAttachmentGroupName "RifleConvoy03"
+ }
+}
 SCR_ChimeraCharacter : "{0CC7F026B65310D7}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_Rifleman_Variant_1_DCU_1998.et" {
  components {
+  PK_EntityModifierComponent "{65792A8B37D92EE3}" {
+   m_bDamageManagerEnabled 1
+   m_aHitzonesData {
+    PK_HitzoneData "{65792A8B36BA68B8}" {
+     m_fHealthPercentage 0
+    }
+   }
+  }
   TILW_NoGarbageComponent "{655F07B9401879CA}" {
   }
  }
@@ -82,7 +101,7 @@ $grp GenericEntity : "{1D0B32AA80873228}Prefabs/Props/Wrecks/LAV25_wreck.et" {
    TILW_NavmeshRegenComponent "{655E8E4B6F4A36F1}" {
    }
   }
-  coords 2072.535 20.875 3625.181
+  coords 2075.426 20.834 3627.78
   angleX -0.666
   angleY -41.97
   angleZ 0.599
@@ -135,18 +154,12 @@ $grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.e
 $grp Vehicle : "{29CBE6F602148A03}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo_tan.et" {
  Ural4320_ammo_tan1 {
   components {
-   PK_EntityModiferComponent "{6572E668067A8ABC}" {
-    m_bDamageManagerEnabled 1
-    m_aHitzonesData {
-     PK_HitzoneData "{65771433823F56E6}" {
-      m_sTargetZone "Engine_01"
-      m_fHealthPercentage 0
-     }
-    }
+   PK_EntityModifierComponent "{65792A88B6DE8E5A}" {
+    m_bLightEnabled 1
     m_aLightsData {
-     PK_LightData "{657714339EFB8797}" {
+     PK_LightData "{65792A88B1BED92A}" {
      }
-     PK_LightData "{6577143398E32702}" {
+     PK_LightData "{65792A88B33D2417}" {
       m_eLightType HiBeam
      }
     }
@@ -156,17 +169,14 @@ $grp Vehicle : "{29CBE6F602148A03}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_amm
   angleX -2.565
   angleY -6.538
   angleZ 1.194
-  m_sAttachmentGroupName "RifleConvoy03"
+  m_sAttachmentGroupName "RifleConvoy02"
  }
  Ural4320_ammo_tan2 {
   components {
-   PK_EntityModiferComponent "{6572E66829527513}" {
+   PK_EntityModifierComponent "{65792A88D3410136}" {
     m_bLightEnabled 1
     m_aLightsData {
-     PK_LightData "{65771433DE68C9D2}" {
-     }
-     PK_LightData "{65771433D0AE77E5}" {
-      m_eLightType HiBeam
+     PK_LightData "{65792A88D28F4C0A}" {
      }
     }
    }
@@ -175,36 +185,37 @@ $grp Vehicle : "{29CBE6F602148A03}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_amm
   angleX -1.202
   angleY -47.835
   angleZ 1.327
-  m_sAttachmentGroupName "RifleConvoy03"
+  m_sAttachmentGroupName "RifleConvoy01"
  }
 }
 Vehicle M998_covered_long_USAF_D1 : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF_D.et" {
  components {
-  PK_EntityModiferComponent "{6572E66873FE3A47}" {
+  PK_EntityModifierComponent "{65792A88F412AB9B}" {
    m_bDamageManagerEnabled 1
    m_aHitzonesData {
-    PK_HitzoneData "{65771433EBEA606E}" {
+    PK_HitzoneData "{65792A88CA31A69A}" {
      m_sTargetZone "Wheel"
-     m_iIndexId 2
+     m_iIndexId 1
      m_fHealthPercentage 0
     }
-    PK_HitzoneData "{65771433E0FF5715}" {
+    PK_HitzoneData "{65792A88C0FB959B}" {
      m_sTargetZone "Wheel"
-     m_iIndexId 4
+     m_iIndexId 3
      m_fHealthPercentage 0
     }
    }
+   m_bEngineEnabled 1
    m_bLightEnabled 1
    m_aLightsData {
-    PK_LightData "{65771433F5AD918D}" {
+    PK_LightData "{65792A88DF97D81A}" {
     }
-    PK_LightData "{65771433D5118685}" {
+    PK_LightData "{65792A88D83B8431}" {
      m_eLightType Hazard
     }
    }
   }
  }
- coords 2061.386 20.693 3641.042
+ coords 2062.375 20.688 3641.47
  angleX -1.256
  angleY -37.89
  angleZ -0.157
@@ -223,74 +234,79 @@ GenericEntity : "{B67A4797AED7B3BC}Prefabs/Structures/Wreck/ikarus.et" {
 $grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
  M1025_armed_M2HB_USAF_D2 {
   components {
-   PK_EntityModiferComponent "{6572E6681A239605}" {
+   PK_EntityModifierComponent "{65792A888E845DF6}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{657714326D001180}" {
+     PK_HitzoneData "{65792A8880911B24}" {
       m_sTargetZone "Wheel"
-      m_iIndexId 1
+      m_iIndexId 0
       m_fHealthPercentage 0
      }
-     PK_HitzoneData "{657714326BEDF014}" {
-      m_sTargetZone "Wheel"
-      m_iIndexId 4
+     PK_HitzoneData "{65792A889B34BB90}" {
+      m_sTargetZone "Engine_01"
+      m_iIndexId 0
       m_fHealthPercentage 0
      }
     }
     m_bLightEnabled 1
     m_aLightsData {
-     PK_LightData "{657714326643BFAC}" {
+     PK_LightData "{65792A88888F05C1}" {
+     }
+     PK_LightData "{65792A8885FCBC7C}" {
+      m_eLightType Hazard
      }
     }
    }
   }
-  coords 2025.647 18.036 3707.661
+  coords 2025.106 18.057 3707.029
   angleX -3.224
   angleY -32.768
   angleZ -0.052
-  m_sAttachmentGroupName "RifleConvoy03"
+  m_sAttachmentGroupName "RifleConvoy02"
  }
  M1025_armed_M2HB_USAF_D1 {
   components {
-   PK_EntityModiferComponent "{6572E66FA62A16EC}" {
+   PK_EntityModifierComponent "{6578CCC122532DEF}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{6577143333E1C643}" {
-      m_sTargetZone "Wheel"
-      m_iIndexId 1
-      m_fHealthPercentage 0
-     }
-     PK_HitzoneData "{657714330962A3E1}" {
-      m_sTargetZone "Wheel"
-      m_iIndexId 3
-      m_fHealthPercentage 0
-     }
-     PK_HitzoneData "{65771433072B3092}" {
+     PK_HitzoneData "{6578CCCE6E008DB8}" {
       m_sTargetZone "Engine_01"
-      m_iIndexId 3
-      m_fHealthPercentage 18
+      m_fHealthPercentage 23
+     }
+     PK_HitzoneData "{6578CCCE6AAC8667}" {
+      m_sTargetZone "Wheel"
+      m_iIndexId 0
+      m_fHealthPercentage 0
+     }
+     PK_HitzoneData "{6578CCCE6612E7E9}" {
+      m_sTargetZone "Wheel"
+      m_iIndexId 2
+      m_fHealthPercentage 0
      }
     }
    }
   }
-  coords 2064.543 20.801 3637.307
+  coords 2065.532 20.796 3637.735
   angleX -1.262
   angleY -40.344
   angleZ -0.103
-  m_sAttachmentGroupName "RifleConvoy03"
+  m_sAttachmentGroupName "RifleConvoy01"
  }
 }
 Vehicle Ural4320_tanker_tan1 : "{CA8ADC0AF10CF541}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_tan.et" {
  components {
-  PK_EntityModiferComponent "{6572E6680F8FC936}" {
+  PK_EntityModifierComponent "{65792A88A80A958E}" {
    m_bLightEnabled 1
    m_aLightsData {
-    PK_LightData "{65771433B969B105}" {
+    PK_LightData "{65792A88AA52F779}" {
+    }
+    PK_LightData "{65792A88A7CAD069}" {
+     m_eLightType HiBeam
     }
    }
   }
  }
- coords 2048.313 20.056 3664.211
+ coords 2048.542 20.04 3664.738
  angleX -1.661
  angleY -21.925
  angleZ 0.668
@@ -329,10 +345,10 @@ $grp DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.e
 $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_TL_DCU_1998.et" {
  {
   components {
-   PK_EntityModiferComponent "{6572E66AA655F869}" {
+   PK_EntityModifierComponent "{65792A8B43B9A625}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{65771433A9775DA0}" {
+     PK_HitzoneData "{65792A8B5DF83797}" {
       m_fHealthPercentage 0
      }
     }
@@ -347,10 +363,10 @@ $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFO
  }
  {
   components {
-   PK_EntityModiferComponent "{6572E66AA655F869}" {
+   PK_EntityModifierComponent "{65792A8B202ECD4B}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{65771432780297D8}" {
+     PK_HitzoneData "{65792A8B23BB2C29}" {
       m_fHealthPercentage 0
      }
     }
@@ -358,17 +374,17 @@ $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFO
    TILW_NoGarbageComponent "{655F07B92662AE94}" {
    }
   }
-  coords 2023.229 17.994 3707.199
+  coords 2022.688 18.015 3706.567
   angleX 1.458
   angleY -139.449
   angleZ 2.424
  }
  {
   components {
-   PK_EntityModiferComponent "{6572E66AA655F869}" {
+   PK_EntityModifierComponent "{65792A8B25D642FA}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{657714327CF6EBF1}" {
+     PK_HitzoneData "{65792A8B24EA8ACB}" {
       m_fHealthPercentage 0
      }
     }
@@ -376,17 +392,17 @@ $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFO
    TILW_NoGarbageComponent "{655F07B92662AE94}" {
    }
   }
-  coords 2024.297 18.077 3705.892
+  coords 2023.756 18.098 3705.26
   angleX -2.571
   angleY 6.227
   angleZ -1.18
  }
  {
   components {
-   PK_EntityModiferComponent "{6572E66AA655F869}" {
+   PK_EntityModifierComponent "{65792A8B3FEB3D8E}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{657714327A934CC8}" {
+     PK_HitzoneData "{65792A8B3E9D5B5F}" {
       m_fHealthPercentage 0
      }
     }
@@ -394,17 +410,17 @@ $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFO
    TILW_NoGarbageComponent "{655F07B92662AE94}" {
    }
   }
-  coords 2027.518 18.02 3709.197
+  coords 2026.977 18.041 3708.565
   angleX 1.458
   angleY -139.449
   angleZ 2.424
  }
  {
   components {
-   PK_EntityModiferComponent "{6572E66AA655F869}" {
+   PK_EntityModifierComponent "{65792A8B2E50B7C0}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{657714338FD92280}" {
+     PK_HitzoneData "{65792A8B2928A178}" {
       m_fHealthPercentage 0
      }
     }
@@ -419,10 +435,10 @@ $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFO
  }
  {
   components {
-   PK_EntityModiferComponent "{6572E66AA655F869}" {
+   PK_EntityModifierComponent "{65792A8B51306FF0}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{6577143072528E83}" {
+     PK_HitzoneData "{65792A8B50F3E794}" {
       m_fHealthPercentage 0
      }
     }
@@ -430,17 +446,17 @@ $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFO
    TILW_NoGarbageComponent "{655F07B92662AE94}" {
    }
   }
-  coords 2035.787 19.517 3679.273
+  coords 2035.886 19.51 3679.465
   angleX 2.81
   angleY 168.181
   angleZ 0.326
  }
  {
   components {
-   PK_EntityModiferComponent "{6572E66AA655F869}" {
+   PK_EntityModifierComponent "{65792A8B5881B2A7}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{65771433BD1DEE9B}" {
+     PK_HitzoneData "{65792A8B5BB7749B}" {
       m_fHealthPercentage 0
      }
     }
@@ -455,10 +471,10 @@ $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFO
  }
  {
   components {
-   PK_EntityModiferComponent "{6572E66AA655F869}" {
+   PK_EntityModifierComponent "{65792A8B76C85EAC}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{6577143313011A26}" {
+     PK_HitzoneData "{65792A8B718EEC48}" {
       m_fHealthPercentage 0
      }
     }
@@ -466,17 +482,17 @@ $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFO
    TILW_NoGarbageComponent "{655F07B92662AE94}" {
    }
   }
-  coords 2062.839 20.786 3636.545
+  coords 2063.828 20.781 3636.973
   angleX -2.199
   angleY 20.547
   angleZ -1.778
  }
  {
   components {
-   PK_EntityModiferComponent "{6572E66AA655F869}" {
+   PK_EntityModifierComponent "{65792A8B453E8D4E}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{65771433CBFDCF49}" {
+     PK_HitzoneData "{65792A8B47462DB5}" {
       m_fHealthPercentage 0
      }
     }
@@ -484,17 +500,17 @@ $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFO
    TILW_NoGarbageComponent "{655F07B92662AE94}" {
    }
   }
-  coords 2062.408 20.683 3642.359
+  coords 2063.397 20.678 3642.787
   angleX 0.838
   angleY -125.647
   angleZ 2.701
  }
  {
   components {
-   PK_EntityModiferComponent "{6572E66AA655F869}" {
+   PK_EntityModifierComponent "{65792A8B4F64C50A}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{65771433CC56AE06}" {
+     PK_HitzoneData "{65792A8B4EFCD8FC}" {
       m_fHealthPercentage 0
      }
     }
@@ -502,17 +518,17 @@ $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFO
    TILW_NoGarbageComponent "{655F07B92662AE94}" {
    }
   }
-  coords 2059.997 20.688 3639.933
+  coords 2060.986 20.683 3640.361
   angleX -2.771
   angleY -29.957
   angleZ 0.565
  }
  {
   components {
-   PK_EntityModiferComponent "{6572E66AA655F869}" {
+   PK_EntityModifierComponent "{65792A8B78040610}" {
     m_bDamageManagerEnabled 1
     m_aHitzonesData {
-     PK_HitzoneData "{6577143315E0E82B}" {
+     PK_HitzoneData "{65792A8B7B9EA0A7}" {
       m_fHealthPercentage 0
      }
     }
@@ -520,7 +536,7 @@ $grp SCR_ChimeraCharacter : "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFO
    TILW_NoGarbageComponent "{655F07B92662AE94}" {
    }
   }
-  coords 2063.501 20.819 3635.105
+  coords 2064.49 20.814 3635.533
   angleX -2.645
   angleY 2.303
   angleZ -1.001
