@@ -1,0 +1,7 @@
+Vehicle M923A1_engineer1 : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
+ coords 2674.573 8 3064.522
+}
+Vehicle M923A1_engineer_GulfWar1 : "{C804AA2EBA552096}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer_GulfWar.et" {
+ coords 2676.805 8 3073.695
+ angleY -169.045
+}

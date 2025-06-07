@@ -1,0 +1,4 @@
+SCR_DefendWaypoint WP_MainDefence : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ coords 2095.392 19.95 3661.835
+ CompletionRadius 200
+}
