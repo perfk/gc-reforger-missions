@@ -1,0 +1,123 @@
+$grp PK_EntityDeleter {
+ {
+  coords 1921.729 192.673 1373.965
+  m_prefabFilterList {
+   "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et"
+  }
+ }
+ {
+  coords 1868.518 203.08 1348.986
+  m_fRadius 10
+  m_prefabFilterList {
+   "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et"
+  }
+ }
+ {
+  coords 1857.459 205.852 1382.454
+  m_fRadius 10
+  m_prefabFilterList {
+   "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et"
+  }
+ }
+ {
+  coords 1862.264 209.958 1406.516
+  m_prefabFilterList {
+   "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et"
+  }
+ }
+ {
+  coords 1894.046 209.354 1352.869
+  m_fRadius 50
+  m_prefabFilterList {
+   "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et"
+  }
+ }
+}
+SCR_AIGroup Rifle2 : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RifleSquad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   Enabled 0
+  }
+  PS_GroupCallsignAssigner "{655D17D93DA148F0}" {
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 374.741 352 310.165
+ angleX 0.03
+ angleY -13.565
+ angleZ -3.686
+ m_aUnitPrefabSlots {
+  "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_SL_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et"
+ }
+ m_aStaticVehicles {
+  "LAV25_GulfWar1" "M1025_armed_M2HB_GulfWar1"
+ }
+ m_sCustomNameSet "Rifle Squard"
+ m_aUnitPrefabColorTeams {
+  "" "Red" "Red" "Red" "Red" "Blue" "Blue" "Blue" "Blue"
+ }
+ m_aUnitPrefabOverrideIcons {
+  "" "Team Lead" "" "" "" "Team Lead" "" "" ""
+ }
+}
+GenericEntity : "{26D1996382363D96}Prefabs/Structures/Wreck/old_bike.et" {
+ coords 374.299 352 312.133
+}
+$grp GenericEntity : "{7B4CD0B54AA169AA}Prefabs/Props/Military/Sandbags/Sandbag_01_long_base.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+   RplComponent "{5624A88DC2D9928D}" {
+    Enabled 0
+   }
+  }
+  coords 1908.63 204.837 1321.232
+  angleY -39
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+   RplComponent "{5624A88DC2D9928D}" {
+    Enabled 0
+   }
+  }
+  coords 1908.681 205.368 1321.204
+  angleY -39
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+   RplComponent "{5624A88DC2D9928D}" {
+    Enabled 0
+   }
+  }
+  coords 1906.694 204.938 1321.198
+  angleY 52.086
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+   RplComponent "{5624A88DC2D9928D}" {
+    Enabled 0
+   }
+  }
+  coords 1906.665 205.468 1321.147
+  angleY 52.086
+ }
+}
+SCR_IndestructibleEnvironmentalEntity : "{FC2FFB6EB18CBA53}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_BeachStone_01.et" {
+ coords 1872.015 -1.708 1356.383
+ angleX 1.632
+ angleY 136.125
+ angleZ -2.011
+ scale 1.165
+}

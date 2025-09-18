@@ -1,0 +1,42 @@
+$grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RiflePHQ_P.et" {
+ BFV_01_Group {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{655D17DB3CCB1124}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 362.527 41.581 3216.208
+  angleX -2.827
+  angleY -96.741
+  angleZ -8.604
+  m_aUnitPrefabSlots {
+   "{24A4AD4C57301A31}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewCommander_DCU_1998_P.et" "{B9A2BB17A2EDA031}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewGunner_DCU_1998_P.et" "{152488484C3EF010}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewDriver_DCU_1998_P.et"
+  }
+  m_sCustomNameSet "ATT: Bradley Section"
+ }
+ BFV_02_Group {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{655D17DB31A6CA2E}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 275.415 41.918 3163.89
+  angleX 3.869
+  angleY -22.205
+  angleZ 2.934
+  m_aUnitPrefabSlots {
+   "{24A4AD4C57301A31}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewCommander_DCU_1998_P.et" "{B9A2BB17A2EDA031}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewGunner_DCU_1998_P.et" "{152488484C3EF010}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewDriver_DCU_1998_P.et"
+  }
+  m_sCustomNameSet "ATT: Bradley Section"
+ }
+}
