@@ -61,8 +61,20 @@ SCR_AIGroup Rifle2 : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infan
   "" "Team Lead" "" "" "" "Team Lead" "" "" ""
  }
 }
+Vehicle VBID_UAZ469_covered_CIV_red1 : "{0DF3E8A9A211C9A8}Prefabs/Vehicles/Wheeled/UAZ469/VBID_UAZ469_covered_CIV_red.et" {
+ coords 377.16 352 315.699
+}
 GenericEntity : "{26D1996382363D96}Prefabs/Structures/Wreck/old_bike.et" {
  coords 374.299 352 312.133
+}
+GenericEntity : "{309D576201C25199}Prefabs/Items/Equipment/Kits/RepairKit_01/EOD_Clippers.et" {
+ coords 377.761 352 311.961
+ angleX 0
+ angleY 0
+ angleZ 0
+}
+SCR_EditorModeEntity : "{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et" {
+ coords 379.826 352 309.797
 }
 $grp GenericEntity : "{7B4CD0B54AA169AA}Prefabs/Props/Military/Sandbags/Sandbag_01_long_base.et" {
  {
@@ -113,6 +125,24 @@ $grp GenericEntity : "{7B4CD0B54AA169AA}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 1906.665 205.468 1321.147
   angleY 52.086
  }
+}
+EOD_IED : "{7DF3D55213B5702A}Prefabs/Weapons/Explosives/EOD_BOMBS/EOD_JUG.et" {
+ components {
+  BombDefusalManager "{651070DF2B9992EF}" {
+   Enabled 1
+  }
+ }
+ coords 380.169 352 314.556
+ angleX 0
+}
+EOD_IED : "{A6E828C58CC22871}Prefabs/Characters/Vests/HVEST/HVEST_BOMB.et" {
+ coords 379.083 352 311.109
+}
+EOD_IED : "{AA1341C70EF97DB7}Prefabs/Characters/Vests/HVEST/HVEST.et" {
+ coords 379.33 352 311.88
+}
+EOD_IED : "{BE1BB70A45DB85A3}Prefabs/Characters/Vests/HVEST/HVEST_CHARGE.et" {
+ coords 380.007 352 311.531
 }
 SCR_IndestructibleEnvironmentalEntity : "{FC2FFB6EB18CBA53}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_BeachStone_01.et" {
  coords 1872.015 -1.708 1356.383
