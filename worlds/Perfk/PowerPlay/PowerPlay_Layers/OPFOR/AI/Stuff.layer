@@ -1,0 +1,1816 @@
+$grp GenericEntity : "{0164749D6EAA4518}Prefabs/Props/Furniture/Bed_01.et" {
+ {
+  coords 1808.161 68.371 3362.908
+  angleY -90
+ }
+ {
+  coords 1808.243 68.371 3365.766
+  angleY 90
+ }
+ {
+  coords 1808.161 68.371 3368.699
+  angleY -90
+ }
+}
+$grp GenericEntity : "{026714237FB820CB}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_07.et" {
+ {
+  coords 1806.055 64.286 3385.698
+  angleY 73.613
+ }
+ {
+  coords 1806.055 68.292 3385.698
+  angleY 73.613
+ }
+}
+GenericEntity : "{0A4218ED97A10411}Prefabs/Props/Furniture/ShelfBarracks_01.et" {
+ coords 1809.504 65.931 3351.02
+ angleY -90
+}
+$grp GenericEntity : "{0B6FC3FDDC33989E}Prefabs/Structures/Industrial/Houses/Warehouse_01/Furniture/Warehouse_01_furniture_01.et" {
+ {
+  coords 1778.85 64.351 3374.545
+  angleY 1.492
+  {
+   GenericEntity {
+    ID "56E0E50D2EAD7FE7"
+    coords 13.092 0.435 -2.101
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7F2A"
+    coords 11.875 0.43 -2.259
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7F5A"
+    coords 11.407 0.43 -2.405
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7E45"
+    coords 26.415 0.05 1.856
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7E59"
+    coords 24.166 0.05 1.892
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7E71"
+    coords 25.297 0.05 1.874
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7E7F"
+    coords 26.436 0.05 3.175
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7D20"
+    coords 7.803 0.05 -2.396
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7D2C"
+    coords 25.306 1.034 1.899
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7D59"
+    coords 11.531 0 7.363
+    angleY 1.794
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7CAC"
+    coords 14.332 0.05 -2.056
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7CD9"
+    coords 10.44 0.05 -2.311
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7C24"
+    coords -14.567 0.06 3.962
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7C39"
+    coords -14.775 0.06 3.949
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7C62"
+    coords 11.559 1.638 -2.075
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7C77"
+    coords 9.311 0.435 -2.228
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A0C"
+    coords -12.093 0.05 4.289
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A27"
+    coords -12.765 0.05 4.735
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A3A"
+    coords -12.066 0.05 4.972
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A42"
+    coords -14.105 0.05 4.139
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A53"
+    coords -12.986 0.05 4.073
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A70"
+    coords -13.423 0.05 4.565
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7951"
+    coords 12.103 0.05 -1.239
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD779B"
+    coords 13.579 2.834 -2.054
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7860"
+    coords 12.847 2.834 -2.021
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD786C"
+    coords 14.761 2.834 -1.977
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7775"
+    coords 4.813 0.05 -2.329
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7766"
+    coords 2.59 0.05 -2.601
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD768B"
+    coords 13.16 0.05 -1.058
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7630"
+    coords 15.702 -0.181 -3.207
+    angleY 0
+   }
+  }
+ }
+ {
+  coords 1762.784 64.351 3410.871
+  angleY -89.556
+  {
+   GenericEntity {
+    ID "56E0E50D2EAD7FE7"
+    coords 18.297 0.435 -2.528
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7EB7"
+    coords -1.945 0.05 6.507
+    angleY 47.503
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7F2A"
+    coords 17.08 0.43 -2.686
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7F45"
+    coords -3.46 0.05 5.282
+    angleY 63.464
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7F5A"
+    coords 16.612 0.43 -2.833
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7F76"
+    coords -4.444 0.816 4.732
+    angleY 47.503
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7E2C"
+    coords -4.867 0.05 5.999
+    angleY 62.503
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7E45"
+    coords -3.549 0.05 -0.572
+    angleY -16.485
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7E59"
+    coords -5.705 0.05 -1.21
+    angleY -16.485
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7E6B"
+    coords -4.867 1.046 5.999
+    angleY 62.503
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7E71"
+    coords -4.62 0.05 -0.889
+    angleY -16.485
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7E7F"
+    coords -3.924 0.05 0.693
+    angleY -16.485
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7D20"
+    coords 13.008 0.05 -2.824
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7D2C"
+    coords -4.621 1.034 -0.863
+    angleY -15.613
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7D59"
+    coords -3.554 1.034 -0.565
+    angleY -15.613
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7CAC"
+    coords 19.537 0.05 -2.484
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7CD9"
+    coords 15.645 0.05 -2.738
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7C24"
+    coords -7.79 0.06 -12.916
+    angleY 179.23
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7C39"
+    coords -7.581 0.06 -12.914
+    angleY -174.365
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7C50"
+    coords -4.472 0.05 8.944
+    angleY -27.497
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7B31"
+    coords -3.298 0.05 6.156
+    angleY 62.125
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7C62"
+    coords 16.764 1.638 -2.503
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7C69"
+    coords -4.36 0.012 4.766
+    angleY -23.804
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7C77"
+    coords 14.516 0.435 -2.656
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A00"
+    coords -9.305 0.05 -3.605
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A0C"
+    coords -10.277 0.05 -13.115
+    angleY -105.77
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A27"
+    coords -9.629 0.05 -13.595
+    angleY -39.541
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A3A"
+    coords -10.339 0.05 -13.796
+    angleY -99.196
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A42"
+    coords -8.26 0.05 -13.069
+    angleY -93.367
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A53"
+    coords -9.374 0.05 -12.944
+    angleY -173.178
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7A70"
+    coords -8.963 0.05 -13.459
+    angleY -93.367
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7ABB"
+    coords -9.971 0.05 -3.762
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7AE4"
+    coords -9.918 0.05 -3.135
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7AF9"
+    coords -9.485 0.032 -4.286
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7951"
+    coords 17.308 0.05 -1.666
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD779B"
+    coords 18.784 2.834 -2.482
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7860"
+    coords 18.052 2.834 -2.448
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD786C"
+    coords 19.966 2.834 -2.405
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7874"
+    coords -2.812 0.05 5.54
+    angleY 62.503
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7704"
+    coords -6.587 0.05 8.304
+    angleY -27.497
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7775"
+    coords 2.762 0.05 2.028
+    angleY 155.673
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD7766"
+    coords 0.838 0.05 0.883
+    angleY 47.486
+   }
+   GenericEntity {
+    ID "56E0E50D2EAD768B"
+    coords 18.365 0.05 -1.486
+   }
+  }
+ }
+}
+$grp GenericEntity : "{0C7319383777A107}Prefabs/Props/Furniture/CabinetMetal_01_grey_V3.et" {
+ {
+  coords 1800.219 64.351 3360.09
+  angleY -91.428
+ }
+ {
+  coords 1800.198 64.351 3360.872
+  angleY -91.428
+ }
+ {
+  coords 1800.18 64.351 3361.648
+  angleY -91.428
+ }
+}
+GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
+ coords 1777.154 64.351 3352.171
+ angleY 89
+}
+$grp GenericEntity : "{13891AA1F5833C4A}Prefabs/Props/Civilian/Notebook_01_Double.et" {
+ {
+  coords 1807.248 65.308 3369.442
+  angleY -150.064
+ }
+ {
+  coords 1807.248 65.308 3369.442
+  angleY -150.064
+ }
+ {
+  coords 1803.419 65.308 3362.512
+  angleY 29.936
+ }
+ {
+  coords 1808.695 65.308 3362.512
+  angleY 29.936
+ }
+}
+$grp Vehicle : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport.et" {
+ Ural4320_FIA_transport1 {
+  coords 1805.419 64.351 3410.472
+ }
+ Ural4320_FIA_transport2 {
+  coords 1800.835 64.351 3409.619
+  angleY -2.465
+ }
+}
+GenericEntity : "{17A78A0D3701386A}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_Garbage_01.et" {
+ coords 1798.35 64.351 3432.812
+ {
+  GenericEntity {
+   ID "5CB0D997AAB49EF5"
+   coords 0.166 -0.027 -0.047
+  }
+  GenericEntity {
+   ID "5CB0D997AAB4C774"
+   coords 0.166 0.432 -0.047
+  }
+  GenericEntity {
+   ID "5CB0D997AAB4C775"
+   coords 0.166 0.199 -0.047
+  }
+  GenericEntity {
+   ID "5CB0D997AAB4C77A"
+   coords 0.166 0.645 -0.047
+  }
+ }
+}
+GenericEntity : "{17ADCDC2721AC2E7}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_low_grey.et" {
+ coords 1713.604 64.144 3427.856
+ angleX 0.887
+ angleY 8.002
+ angleZ 0.125
+}
+GenericEntity : "{1AB7A2C69A30391D}Prefabs/Props/Furniture/CoatRack_01.et" {
+ coords 1801.475 68.32 3364.198
+ angleY 52
+}
+$grp GenericEntity : "{1CAF77AF5C82019A}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Barrel_Filled_01.et" {
+ {
+  components {
+   SCR_FireplaceComponent "{655C8C1C4368294F}" {
+    m_vParticleOffset 0 1.15 0
+   }
+  }
+  coords 1779.064 64.351 3359.853
+  angleY 98.556
+ }
+ {
+  components {
+   SCR_FireplaceComponent "{655C8C1C4368294F}" {
+    m_vParticleOffset 0 1.15 0
+   }
+  }
+  coords 1797.117 64.351 3384.501
+  angleY 98.556
+ }
+ {
+  components {
+   SCR_FireplaceComponent "{655C8C1C4368294F}" {
+    m_vParticleOffset 0 1.15 0
+   }
+  }
+  coords 1772.479 64.351 3401.263
+  angleY 98.556
+ }
+}
+DecalEntity : "{1F30124F94C8DDA6}Prefabs/Decals/Asphalt/Decal_Asphalt_Patch_Blob_03.et" {
+ coords 1779.356 0.007 3369.998
+ angleX -90
+ angleY -180
+ angleZ -180
+}
+GenericEntity : "{24683C7E9ABFD006}Prefabs/Structures/Industrial/Houses/Warehouse_01/Furniture/Warehouse_01_Office_furniture_01.et" {
+ coords 1774.117 64.351 3363.149
+ {
+  GenericEntity {
+   ID "56E0EC154B6504A2"
+   coords 35.115 1.012 12.501
+  }
+  GenericEntity {
+   ID "56E0EC154B6504E8"
+   coords 34.983 1.012 14.527
+  }
+  GenericEntity {
+   ID "56E0EC154B650409"
+   coords 34.662 0.053 11.363
+  }
+  GenericEntity {
+   ID "56E0EC154B650438"
+   coords 29.095 0.957 6.177
+  }
+  GenericEntity {
+   ID "56E0EC154B650429"
+   coords 35.233 2.85 11.704
+  }
+  GenericEntity {
+   ID "56E0EC154B65045F"
+   coords 34.871 0.05 15.296
+  }
+  GenericEntity {
+   ID "56E0EC154B65044F"
+   coords 34.689 1.012 13.18
+  }
+  GenericEntity {
+   ID "56E0EC154B65038F"
+   coords 29.792 0.051 5.505
+  }
+  GenericEntity {
+   ID "56E0EC154B6503C3"
+   coords -23.543 0.05 0.109
+  }
+  GenericEntity {
+   ID "56E0EC154B6503CF"
+   coords -23.543 0.05 -1.026
+  }
+  GenericEntity {
+   ID "56E0EC154B6503FC"
+   coords 27.161 1.494 4.43
+  }
+  GenericEntity {
+   ID "56E0EC154B65030A"
+   coords 26.659 2.841 2.507
+   angleY 90.017
+  }
+  GenericEntity {
+   ID "56E0EC154B650319"
+   coords 35.326 2.841 1.961
+   angleY -87.343
+  }
+  GenericEntity {
+   ID "56E0EC154B650336"
+   coords 6.412 8.04 -17.206
+   angleY 180
+  }
+  GenericEntity {
+   ID "56E0EC154B650323"
+   coords 5.775 0.05 -0.41
+  }
+  GenericEntity {
+   ID "56E0EC154B650208"
+   coords -23.57 1.039 0.111
+  }
+  GenericEntity {
+   ID "56E0EC154B650236"
+   coords -23.586 0.05 1.246
+  }
+  GenericEntity {
+   ID "56E0EC154B6502B3"
+   coords 34.654 0.052 10.442
+  }
+  GenericEntity {
+   ID "56E0EC154B650263"
+   coords 30.739 0.051 5.746
+  }
+  GenericEntity {
+   ID "56E0EC154B650111"
+   coords 30.39 0.957 6.292
+  }
+  GenericEntity {
+   ID "56E0EC154B65011D"
+   coords 35.008 0.051 13.607
+  }
+  GenericEntity {
+   ID "56E0EC154B65010F"
+   coords -19.199 0.05 -4.944
+  }
+  GenericEntity {
+   ID "56E0EC154B650001"
+   coords 4.506 0.05 -6.316
+  }
+  GenericEntity {
+   ID "56E0EC154B65000F"
+   coords 4.963 0.05 -5.855
+  }
+  GenericEntity {
+   ID "56E0EC154B650021"
+   coords 6.198 0.05 -5.904
+  }
+  GenericEntity {
+   ID "56E0EC154B65002F"
+   coords 5.526 0.05 -6.26
+  }
+  GenericEntity {
+   ID "56E0EC154B65003B"
+   coords 3.98 0.05 -5.682
+  }
+  GenericEntity {
+   ID "56E0EC154B650045"
+   coords 4.789 0.05 -1.581
+  }
+  GenericEntity {
+   ID "56E0EC154B65005A"
+   coords 5.598 0.05 -5.624
+  }
+  GenericEntity {
+   ID "56E0EC154B65006B"
+   coords 5.036 0.05 -2.178
+  }
+  GenericEntity {
+   ID "56E0EC154B650071"
+   coords 5.526 1.05 -6.26
+  }
+  GenericEntity {
+   ID "56E0EC154B65007C"
+   coords 4.309 0.05 -2.154
+  }
+  GenericEntity {
+   ID "56E0EC154B651F18"
+   coords 4.506 1.053 -6.316
+  }
+  GenericEntity {
+   ID "56E0EC154B651F8B"
+   coords 6.049 0.05 -2.75
+  }
+  GenericEntity {
+   ID "56E0EC154B651F96"
+   coords 4.555 0.05 -2.798
+  }
+  GenericEntity {
+   ID "56E0EC154B651F9D"
+   coords 5.716 0.05 -2.163
+  }
+  GenericEntity {
+   ID "56E0EC154B651FAB"
+   coords 5.467 0.05 -1.454
+  }
+  GenericEntity {
+   ID "56E0EC154B651FB6"
+   coords 5.401 0.05 -2.847
+  }
+  GenericEntity {
+   ID "56E0EC154B651FBD"
+   coords 3.658 0.05 -6.265
+  }
+  GenericEntity {
+   ID "56E0EC154B651FED"
+   coords 4.963 1.053 -5.855
+  }
+  GenericEntity {
+   ID "56E0EC154B651F32"
+   coords 26.673 1.362 3.667
+   angleY 90
+  }
+  GenericEntity {
+   ID "56E0EC154B651F51"
+   coords 27.192 1.494 5.322
+  }
+  GenericEntity {
+   ID "56E0EC154B651F5D"
+   coords 26.766 1.217 6.935
+  }
+  GenericEntity {
+   ID "56E0EC154B651F62"
+   coords 27.073 0.053 6.204
+  }
+  GenericEntity {
+   ID "56E0EC154B651F6F"
+   coords 35.337 1.137 13.58
+  }
+  GenericEntity {
+   ID "56E0EC154B651E88"
+   coords 6.438 0.05 -0.989
+  }
+  GenericEntity {
+   ID "56E0EC154B651EB6"
+   coords 30.328 0.957 6.001
+  }
+  GenericEntity {
+   ID "56E0EC154B651EA1"
+   coords 33.339 0.127 10.867
+  }
+  GenericEntity {
+   ID "56E0EC154B651EAC"
+   coords 27.143 0.05 1.344
+  }
+  GenericEntity {
+   ID "56E0EC154B651EDB"
+   coords -18.619 0.05 -2.84
+  }
+  GenericEntity {
+   ID "56E0EC154B651EFF"
+   coords 29.938 0.051 7.043
+  }
+  GenericEntity {
+   ID "56E0EC154B651E4F"
+   coords -21.417 0.05 -5.044
+  }
+  GenericEntity {
+   ID "56E0EC154B651E67"
+   coords 34.154 0.053 13.834
+  }
+  GenericEntity {
+   ID "56E0EC154B651D93"
+   coords 6.663 0.05 -1.766
+  }
+  GenericEntity {
+   ID "56E0EC154B651DB0"
+   coords 29.349 0.957 6.052
+  }
+  GenericEntity {
+   ID "56E0EC154B651DBC"
+   coords 6.686 0.05 -2.787
+  }
+  GenericEntity {
+   ID "56E0EC154B651D17"
+   coords 27.026 0.053 5.772
+  }
+  GenericEntity {
+   ID "56E0EC154B651DE9"
+   coords 27.026 0.053 5.299
+  }
+  GenericEntity {
+   ID "56E0EC154B651DF6"
+   coords 27.026 0.053 4.342
+  }
+  GenericEntity {
+   ID "56E0EC154B651DFD"
+   coords 27.026 0.053 4.824
+  }
+ }
+}
+$grp DecalEntity : "{247656678ABE6215}Prefabs/Decals/Asphalt/Decal_Asphalt_Smudge_01_large.et" {
+ {
+  coords 1802.557 0.006 3350.232
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1786.441 0.007 3356.688
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1794.752 0.007 3366.933
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1774.074 0.21 3364.167
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1786.652 0.007 3408.545
+  angleX -90
+ }
+ {
+  coords 1758.546 0.007 3385.651
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1765.153 0.007 3412.771
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1781.248 0.007 3428.375
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1754.096 0.007 3424.938
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1801.74 0.007 3448.39
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1806.103 0.007 3432.659
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1790.898 0.007 3407.541
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1737.286 0.007 3411.49
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1734.564 0.007 3453.03
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 1755.86 0.007 3440.965
+  angleX -89.98
+  angleY -54.851
+  angleZ 180
+  scale 10
+ }
+}
+DecalEntity : "{2566A36AF43E9F9E}Prefabs/Decals/Dirt/Decal_Dirt_Patch_06.et" {
+ coords 1774.34 0.007 3440.227
+ angleX -90
+ angleY -180
+ angleZ -180
+ scale 2
+}
+$grp SCR_DestructibleBuildingEntity : "{2624BA7E4309FAAE}Prefabs/Structures/Infrastructure/Power/TransformerStation110kV_E_01/Transformer110kV_E_01_scaled50_unplugged.et" {
+ {
+  coords 1802.074 0.007 3351.138
+  angleY -90
+  scale 1.5
+ }
+ {
+  coords 1794.098 0.007 3351.138
+  angleY -90
+  scale 1.5
+ }
+}
+GenericEntity : "{286212B6EFA9C01C}Prefabs/Compositions/Misc/SubCompositions/Garbage/Garbage_Vehicle_03.et" {
+ coords 1798.563 64.351 3436.294
+ angleY -86.549
+}
+$grp GenericEntity : "{2B1D0128ED660BE9}Prefabs/Props/Crates/BoxWooden_01.et" {
+ {
+  coords 1807.25 67.07 3389.06
+  angleY -1.387
+ }
+ {
+  coords 1807.42 64.671 3386.946
+  angleY -1.387
+ }
+ {
+  coords 1803.541 65.871 3384.912
+  angleY -1.387
+ }
+ {
+  coords 1807.946 64.671 3386.925
+  angleY 88.613
+ }
+ {
+  coords 1807.964 65.871 3382.691
+  angleY 83.203
+ }
+ {
+  coords 1808.038 64.671 3383.817
+  angleY -1.387
+ }
+ {
+  coords 1807.496 64.671 3383.666
+  angleY 73.613
+ }
+ {
+  coords 1807.25 71.076 3389.06
+  angleY -1.387
+ }
+ {
+  coords 1807.42 68.677 3386.946
+  angleY -1.387
+ }
+ {
+  coords 1803.541 69.877 3384.912
+  angleY -1.387
+ }
+ {
+  coords 1807.946 68.677 3386.925
+  angleY 88.613
+ }
+ {
+  coords 1807.964 69.877 3382.691
+  angleY 83.203
+ }
+ {
+  coords 1808.038 68.677 3383.817
+  angleY -1.387
+ }
+ {
+  coords 1807.496 68.677 3383.666
+  angleY 73.613
+ }
+}
+$grp GenericEntity : "{2B6D16419B500A87}Prefabs/Props/Furniture/Carpet_02.et" {
+ {
+  coords 1807.946 64.402 3368.77
+ }
+ {
+  coords 1807.946 64.402 3368.77
+ }
+ {
+  coords 1802.721 64.402 3363.183
+  angleY -180
+ }
+ {
+  coords 1807.997 64.402 3363.183
+  angleY -180
+ }
+}
+$grp GenericEntity : "{2BF58454BEAB913D}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01_Wood.et" {
+ {
+  coords 1803.737 64.671 3382.105
+  angleY -1.387
+ }
+ {
+  coords 1803.737 68.677 3382.105
+  angleY -1.387
+ }
+}
+$grp GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et" {
+ {
+  coords 1805.314 65.845 3367.695
+  angleY 75
+ }
+ {
+  coords 1805.314 65.845 3367.695
+  angleY 75
+ }
+ {
+  coords 1805.353 65.845 3364.26
+  angleY -105
+ }
+ {
+  coords 1806.197 65.845 3362.996
+  angleY 75
+ }
+}
+$grp GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
+ {
+  coords 1744.307 64.351 3453.975
+  angleX -2.467
+  angleY -163.793
+  angleZ 2.076
+ }
+ {
+  coords 1747.516 64.351 3453.432
+  angleX -0.909
+  angleY -90.439
+  angleZ -1.783
+ }
+}
+GenericEntity : "{34F74A7DBAD46974}Prefabs/Props/Furniture/LightWall_01.et" {
+ coords 1775.088 72.391 3345.943
+ angleY -180
+}
+$grp SCR_DestructibleBuildingEntity : "{389D6DF9941FF22D}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_grey.et" {
+ {
+  coords 1693.087 0.007 3451
+  angleY -180
+ }
+ {
+  coords 1693.087 0.007 3436.865
+  angleY -180
+ }
+ {
+  coords 1693.087 0.007 3429.994
+  angleY -180
+ }
+}
+$grp GenericEntity : "{4A15C122F7AA1BC3}Prefabs/Props/Furniture/BenchOffice_01/BenchOffice_01_Green.et" {
+ {
+  coords 1798.393 68.371 3375.315
+  angleY 89.665
+ }
+ {
+  coords 1798.334 68.371 3385.389
+  angleY 89.665
+ }
+}
+DecalEntity : "{4AFD3A93F4AE7031}Prefabs/Decals/Asphalt/Decal_Asphalt_Cracks_05.et" {
+ coords 1789.383 0.007 3388.685
+ angleX -90
+ angleY -180
+ angleZ -180
+}
+GenericEntity : "{5152F05C17652ADB}Prefabs/Props/Civilian/PaintCan_01.et" {
+ coords 1799.525 64.351 3359.295
+ angleY 53
+}
+$grp GenericEntity : "{51B08BDA20AF8FF7}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01.et" {
+ {
+  coords 1803.841 64.671 3384.394
+  angleY -1.387
+ }
+ {
+  coords 1807.554 64.671 3389.798
+  angleY -1.387
+ }
+ {
+  coords 1803.853 65.862 3383.942
+  angleY -1.387
+ }
+ {
+  coords 1803.811 67.07 3387.907
+  angleY -1.387
+ }
+ {
+  coords 1807.602 64.671 3387.828
+  angleY -1.387
+ }
+ {
+  coords 1803.841 68.677 3384.394
+  angleY -1.387
+ }
+ {
+  coords 1807.554 68.677 3389.798
+  angleY -1.387
+ }
+ {
+  coords 1803.853 69.868 3383.942
+  angleY -1.387
+ }
+ {
+  coords 1803.811 71.076 3387.907
+  angleY -1.387
+ }
+ {
+  coords 1807.602 68.677 3387.828
+  angleY -1.387
+ }
+}
+$grp GenericEntity : "{5E7626D8E78566B4}Prefabs/Props/Furniture/Desk_01_long.et" {
+ {
+  coords 1808.892 64.402 3369.011
+ }
+ {
+  coords 1801.775 64.402 3362.942
+  angleY -180
+ }
+ {
+  coords 1807.051 64.402 3362.942
+  angleY -180
+ }
+}
+$grp GenericEntity : "{60315717A8C131A8}Prefabs/Props/Furniture/Rack_02_brown.et" {
+ {
+  coords 1807.602 64.286 3383.184
+  angleY 90.101
+ }
+ {
+  coords 1803.862 64.286 3388.738
+  angleY 90.101
+ }
+ {
+  coords 1807.612 64.286 3388.582
+  angleY 90.101
+ }
+ {
+  coords 1803.852 64.286 3383.191
+  angleY 90.101
+ }
+ {
+  coords 1807.602 68.292 3383.184
+  angleY 90.101
+ }
+ {
+  coords 1803.862 68.292 3388.738
+  angleY 90.101
+ }
+ {
+  coords 1807.612 68.292 3388.582
+  angleY 90.101
+ }
+ {
+  coords 1803.852 68.292 3383.191
+  angleY 90.101
+ }
+}
+GenericEntity : "{63728F331E1BED60}Prefabs/Props/Furniture/Toilet_02.et" {
+ coords 1783.491 68.371 3342.58
+}
+$grp GenericEntity : "{641D6F151390FD47}Prefabs/Props/Furniture/PhoneTable_01_grey.et" {
+ {
+  coords 1808.543 65.308 3369.557
+  angleY -26.526
+ }
+ {
+  coords 1808.543 65.308 3369.557
+  angleY -26.526
+ }
+ {
+  coords 1802.124 65.308 3362.397
+  angleY 153.474
+ }
+ {
+  coords 1807.4 65.308 3362.397
+  angleY 153.474
+ }
+}
+GenericEntity : "{64BC2B94F265C09F}Prefabs/Props/Decorations/Paintings/PaintingSmall_02_V8.et" {
+ coords 1800.784 70.317 3364.23
+ angleY 90
+ angleZ -1.302
+}
+GenericEntity : "{67B5336A6D63CCA4}Prefabs/Props/Construction/PlankPile/PlankPile_01_Medium.et" {
+ coords 1765.037 64.401 3387.979
+ angleY 0.564
+}
+StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+ coords 1845.778 71.231 3250.104
+ angleY -11
+}
+$grp GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
+ {
+  coords 1803.793 65.825 3388.145
+  angleY 88.045
+ }
+ {
+  coords 1803.777 65.871 3382.317
+  angleY -1.765
+ }
+ {
+  coords 1803.822 65.825 3387.286
+  angleY 88.045
+ }
+ {
+  coords 1807.546 65.871 3389.447
+  angleY -177.245
+ }
+ {
+  coords 1807.628 65.871 3388.062
+  angleY -89.077
+ }
+ {
+  coords 1807.616 67.03 3387.216
+  angleY -89.077
+ }
+ {
+  coords 1807.567 64.616 3382.103
+  angleY -179.077
+ }
+ {
+  coords 1803.796 64.671 3388.063
+  angleY 88.045
+ }
+ {
+  coords 1807.739 64.671 3384.518
+  angleY -89.077
+ }
+ {
+  coords 1807.657 67.03 3389.831
+  angleY -89.077
+ }
+ {
+  coords 1803.735 67.039 3389.865
+  angleY 1.034
+ }
+ {
+  coords 1803.798 64.671 3389.325
+  angleY 90.6
+ }
+ {
+  coords 1803.777 69.877 3382.317
+  angleY -1.765
+ }
+ {
+  coords 1803.822 69.831 3387.286
+  angleY 88.045
+ }
+ {
+  coords 1807.546 69.877 3389.447
+  angleY -177.245
+ }
+ {
+  coords 1807.628 69.877 3388.062
+  angleY -89.077
+ }
+ {
+  coords 1807.616 71.036 3387.216
+  angleY -89.077
+ }
+ {
+  coords 1807.567 68.622 3382.103
+  angleY -179.077
+ }
+ {
+  coords 1803.796 68.677 3388.063
+  angleY 88.045
+ }
+ {
+  coords 1807.739 68.677 3384.518
+  angleY -89.077
+ }
+ {
+  coords 1807.657 71.036 3389.831
+  angleY -89.077
+ }
+ {
+  coords 1803.735 71.045 3389.865
+  angleY 1.034
+ }
+ {
+  coords 1803.798 68.677 3389.325
+  angleY 90.6
+ }
+ {
+  coords 1803.793 69.831 3388.145
+  angleY 88.045
+ }
+}
+GenericEntity : "{7251C9DFEC27E1AB}Prefabs/Props/Furniture/Shelf_01_long.et" {
+ coords 1805.184 69.988 3361.283
+}
+GenericEntity : "{7D52C517720EF2F6}Prefabs/Props/Industrial/BarrelMetal_01_grey.et" {
+ coords 1714.935 64.146 3428.03
+ angleX -0.701
+ angleY 141.545
+ angleZ 0.557
+}
+DecalEntity : "{80B1153302345834}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_03.et" {
+ coords 1792.645 64.351 3444.012
+ angleX -90
+ angleY -180
+ angleZ -180
+ scale 5
+}
+GenericEntity : "{82DDDA574CB4F0D9}Prefabs/Props/Industrial/BarrelFuel_01_Base.et" {
+ coords 1797.397 64.351 3385.07
+ angleY 146.268
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 1809.001 64.351 3420.641
+ angleY -88.732
+ {
+  GenericEntity {
+   ID "5CC6ADB1E43AEBC1"
+  }
+ }
+}
+GenericEntity : "{85FC23A6E1F49BBE}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_02.et" {
+ coords 1775.898 69.006 3342.405
+}
+GenericEntity : "{8751F77B1038FC72}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_large.et" {
+ coords 1748.477 64.351 3450.369
+ angleX -2.827
+ angleY -163.709
+ angleZ 0.106
+}
+$grp GenericEntity : "{876B096F32584485}Prefabs/Props/Civilian/FileOffice_01_Stack.et" {
+ {
+  coords 1805.345 65.845 3368.587
+  angleY 75
+ }
+ {
+  coords 1805.345 65.845 3368.587
+  angleY 75
+ }
+ {
+  coords 1805.322 65.845 3363.367
+  angleY -105
+ }
+ {
+  coords 1806.228 65.845 3363.889
+  angleY 75
+ }
+}
+GenericEntity : "{88DB208DB565CA68}Prefabs/Models/tem_forklift.et" {
+ coords 1795.888 64.351 3357.61
+ angleY 77.45
+}
+GenericEntity : "{910424AC5CABE800}Prefabs/Props/Garbage/Bins/BinInterior_01_red.et" {
+ coords 1801.234 68.32 3369.016
+ angleY 90
+}
+GenericEntity : "{939C815973AFEBA5}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_01.et" {
+ coords 1800.8 69.796 3366.869
+ angleY 90
+}
+GenericEntity : "{95D947E744336F78}Prefabs/Props/Industrial/Workbench_01.et" {
+ coords 1770.557 64.351 3350.068
+ angleY 87.501
+}
+GenericEntity : "{971C19FDA89DCAB4}Prefabs/Props/Decorations/Paintings/PaintingSmall_02_V4.et" {
+ coords 1800.78 70.217 3368.78
+ angleY 90
+ angleZ 1.941
+}
+$grp GenericEntity : "{9D9312AA9984A5CE}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_08.et" {
+ {
+  coords 1803.104 64.286 3384.606
+  angleY 73.613
+ }
+ {
+  coords 1803.104 68.292 3384.606
+  angleY 73.613
+ }
+}
+$grp GenericEntity : "{9DBA8179AFD4FF9F}Prefabs/Props/Furniture/LightTable_02.et" {
+ {
+  coords 1808.481 65.308 3369.266
+  angleY -44.105
+ }
+ {
+  coords 1808.481 65.308 3369.266
+  angleY -44.105
+ }
+ {
+  coords 1802.186 65.308 3362.688
+  angleY 135.895
+ }
+ {
+  coords 1807.462 65.308 3362.688
+  angleY 135.895
+ }
+}
+GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
+ coords 1798.401 64.299 3455.389
+ angleY 64.47
+}
+GenericEntity : "{A87E455234AE8171}Prefabs/Props/Signs/Industrial/SignIndustrial_10x30_1_FireHazard.et" {
+ coords 1810.911 65.961 3349.68
+ angleY 90
+}
+StaticModelEntity : "{AF44CFF705C52B9B}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_grey.et" {
+ coords 1695.399 0.701 3444.371
+ angleY -1.103
+}
+DecalEntity : "{AF61766AF84BE75A}Prefabs/Decals/Asphalt/Decal_Asphalt_Cracks_04.et" {
+ coords 1785.371 0.007 3384.262
+ angleX -90
+ angleY -180
+ angleZ -180
+}
+$grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ {
+  coords 1767.321 64.351 3350.859
+  angleY 88.058
+ }
+ {
+  coords 1769.472 64.351 3343.29
+  angleY 88.058
+ }
+ {
+  coords 1770.993 64.351 3343.33
+  angleY 88.058
+ }
+ {
+  coords 1770.295 65.117 3343.199
+  angleY 88.058
+ }
+ {
+  coords 1801.484 64.351 3343.221
+  angleY -87.303
+ }
+ {
+  coords 1799.921 64.351 3343.295
+  angleY -84.626
+ }
+ {
+  coords 1800.919 65.152 3343.201
+  angleY -84.626
+ }
+}
+GenericEntity : "{B47EB5AC921214EE}Prefabs/Props/Construction/CableReel/CableReelMetal_01.et" {
+ coords 1798.668 64.351 3453.7
+ angleY -21.798
+ {
+  GenericEntity : "{B47EB5AC921214EE}Prefabs/Props/Construction/CableReel/CableReelMetal_01.et" {
+   coords -0.1 1.043 -0.009
+   angleY 69.054
+  }
+ }
+}
+DecalEntity : "{B66B888533BE90E1}Prefabs/Decals/Asphalt/Decal_Asphalt_Smudge_01_medium.et" {
+ coords 1793.305 0.007 3381.317
+ angleX -90
+ angleY -180
+ angleZ -180
+}
+$grp GenericEntity : "{B69B4902BAF5B1B9}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_02.et" {
+ {
+  coords 1803.083 64.351 3387.39
+  angleY 73.613
+ }
+ {
+  coords 1803.083 68.362 3387.39
+  angleY 73.613
+ }
+}
+Vehicle UAZ469_covered_CIV_forest1 : "{B6D330E7E40FE7DD}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_forest.et" {
+ coords 1797.14 64.351 3427.777
+}
+Vehicle Ural4320_FIA_transport_covered1 : "{B70E6D12A8EC2410}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport_covered.et" {
+ coords 1795.775 64.351 3410.823
+ angleY 7.314
+}
+GenericEntity : "{B808D460E33CDFAF}Prefabs/Props/Construction/BrickPile/BrickPile_01_Medium.et" {
+ coords 1794.747 64.351 3355.862
+ angleY 5.859
+}
+DecalEntity : "{BCF98BBA87A30CEE}Prefabs/Decals/Dirt/Decal_Dirt_Crossroad_02.et" {
+ coords 1806.441 0.007 3420.376
+ angleX -89.98
+ angleZ -45.314
+ scale 4.2
+}
+GenericEntity : "{C089F66C325FC87C}Prefabs/Props/Construction/BrickPile/BrickPile_01_Large.et" {
+ coords 1796.209 64.511 3356.171
+ angleY 77.677
+}
+$grp GenericEntity : "{C0CCCB68B7147DEC}Prefabs/Props/Furniture/Chair_02/Chair_02_Base.et" {
+ {
+  coords 1808.091 64.402 3370.308
+  angleY -165
+ }
+ {
+  coords 1808.091 64.402 3370.308
+  angleY -165
+ }
+ {
+  coords 1802.576 64.402 3361.645
+  angleY 15
+ }
+ {
+  coords 1807.852 64.402 3361.645
+  angleY 15
+ }
+}
+$grp GenericEntity : "{C3C7A8E9B6324130}Prefabs/Props/Furniture/Safe_01.et" {
+ {
+  coords 1809.265 68.32 3364.354
+  angleY -90
+ }
+ {
+  coords 1809.265 68.32 3367.305
+  angleY -90
+ }
+}
+$grp GenericEntity : "{C67A378521482995}Prefabs/Props/Furniture/Rack_03.et" {
+ {
+  coords 1798.677 68.371 3391.793
+  angleY -90.068
+ }
+ {
+  coords 1798.688 68.371 3382.534
+  angleY -90.068
+ }
+}
+$grp GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et" {
+ {
+  coords 1799.857 64.351 3358.668
+  angleY -178.519
+ }
+ {
+  coords 1784.669 64.351 3372.527
+  angleY -178.519
+ }
+ {
+  coords 1798.391 69.526 3388.61
+  angleY -8.566
+  scale 0.4
+ }
+ {
+  coords 1798.389 69.531 3388.983
+  angleY -98.566
+  scale 0.4
+ }
+ {
+  coords 1798.38 69.531 3389.693
+  angleY -156.187
+  scale 0.4
+ }
+ {
+  coords 1807.386 65.871 3382.713
+  angleY -1.387
+ }
+ {
+  coords 1803.761 67.07 3381.696
+  angleY 178.613
+ }
+ {
+  coords 1803.817 64.671 3383.311
+  angleY -1.101
+ }
+ {
+  coords 1807.721 65.871 3383.583
+  angleY 88.613
+ }
+ {
+  coords 1803.713 64.671 3387.255
+  angleY 88.899
+ }
+ {
+  coords 1807.767 67.07 3387.973
+  angleY -87.833
+ }
+ {
+  coords 1803.798 67.07 3383.514
+  angleY -91.387
+ }
+ {
+  coords 1803.778 67.07 3384.3
+  angleY -1.387
+ }
+ {
+  coords 1807.704 65.871 3384.306
+  angleY 178.613
+ }
+ {
+  coords 1807.386 69.877 3382.713
+  angleY -1.387
+ }
+ {
+  coords 1803.761 71.076 3381.696
+  angleY 178.613
+ }
+ {
+  coords 1803.817 68.677 3383.311
+  angleY -1.101
+ }
+ {
+  coords 1807.721 69.877 3383.583
+  angleY 88.613
+ }
+ {
+  coords 1803.713 68.677 3387.255
+  angleY 88.899
+ }
+ {
+  coords 1807.767 71.076 3387.973
+  angleY -87.833
+ }
+ {
+  coords 1803.798 71.076 3383.514
+  angleY -91.387
+ }
+ {
+  coords 1803.778 71.076 3384.3
+  angleY -1.387
+ }
+ {
+  coords 1807.704 69.877 3384.306
+  angleY 178.613
+ }
+}
+GenericEntity : "{C94927591FBC6B54}Prefabs/Props/Industrial/BenchDrill_01_set.et" {
+ coords 1772.923 64.351 3349.589
+ angleY -92.109
+ {
+  GenericEntity {
+   ID "551C7973A671B69B"
+   coords 0 1.003 0.139
+  }
+ }
+}
+GenericEntity : "{CB033C658E372CED}Prefabs/Props/Construction/PlankPile/PlankPile_01_Large.et" {
+ coords 1760.709 64.401 3387.745
+ angleY -179.313
+}
+$grp DecalEntity : "{D0ADBF5A3B6783C0}Prefabs/Decals/Dirt/Decal_Dirt_Crossroad_01.et" {
+ {
+  coords 1783.362 0.007 3417.21
+  angleX -90
+  angleZ 99.021
+  scale 4.8
+ }
+ {
+  coords 1801.089 0.007 3413.015
+  angleX -90
+  angleZ 40.638
+  scale 4.8
+ }
+}
+$grp GenericEntity : "{D416ECE78FF7078E}Prefabs/Props/Furniture/TableSmall_01/TableSmall_01_LightWood.et" {
+ {
+  coords 1806.646 68.371 3365.729
+ }
+ {
+  coords 1801.314 68.32 3368.453
+  angleY -8
+ }
+}
+GenericEntity : "{D51E223FD6EDB039}Prefabs/Props/Furniture/ClockWall_01.et" {
+ coords 1802.904 71.225 3367.033
+ angleY 90
+}
+GenericEntity : "{D74AF3B338ED494C}Prefabs/Props/Industrial/Lathe_01.et" {
+ coords 1768.127 64.351 3344.528
+ angleY 90.727
+}
+$grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+ {
+  coords 1803.072 64.351 3382.245
+  angleY 124.055
+ }
+ {
+  coords 1803.072 68.292 3382.245
+  angleY 124.055
+ }
+}
+GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
+ coords 1747.889 64.351 3454.122
+ angleX -2.827
+ angleY -163.709
+ angleZ 0.106
+}
+$grp GenericEntity : "{DACF7DE206313E97}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_01.et" {
+ {
+  coords 1806.511 64.286 3381.672
+  angleY 73.613
+ }
+ {
+  coords 1806.511 68.292 3381.672
+  angleY 73.613
+ }
+}
+$grp GenericEntity : "{E56F1B739B9792C4}Prefabs/Props/Civilian/Ashtray_01_Full_green.et" {
+ {
+  coords 1807.502 65.308 3369.317
+  angleY 75
+ }
+ {
+  coords 1807.502 65.308 3369.317
+  angleY 75
+ }
+ {
+  coords 1803.165 65.308 3362.636
+  angleY -105
+ }
+ {
+  coords 1808.441 65.308 3362.636
+  angleY -105
+ }
+}
+Vehicle Ural4320_FIA_command1 : "{E6AEC014D162D686}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_command.et" {
+ coords 1778.792 64.351 3415.343
+ angleY -126.621
+}
+$grp GenericEntity : "{EB66EE2298D16D18}Prefabs/Props/Civilian/SackTruck_01.et" {
+ {
+  coords 1802.525 64.351 3387.963
+  angleY -128.66
+ }
+ {
+  coords 1802.525 68.292 3387.963
+  angleY -128.66
+ }
+}
+$grp GenericEntity : "{EC41008292F8F268}Prefabs/Models/ind/tem_ind_tank1.et" {
+ {
+  coords 1732.998 64.351 3349.138
+  angleY -91.835
+ }
+ {
+  coords 1724.155 64.351 3348.7
+  angleY -88.9
+ }
+}
+StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ components {
+  Hierarchy "{5CCCBEF31279F495}" {
+   Enabled 1
+  }
+ }
+ coords 1809.345 0.007 3416.879
+ angleY -178.671
+}
+$grp GenericEntity : "{F6CF869062E6EDB0}Prefabs/Props/Furniture/Rack_01_Long.et" {
+ {
+  coords 1783.315 64.351 3351.849
+ }
+ {
+  coords 1800.341 64.351 3371.048
+  angleY -90
+ }
+}
+$grp GenericEntity : "{F6D1E024E82511F9}Prefabs/Props/Crates/Crate_01_base.et" {
+ {
+  coords 1807.87 65.871 3387.069
+  angleY 88.613
+ }
+ {
+  coords 1804.111 67.491 3382.851
+  angleY 88.613
+ }
+ {
+  coords 1804.111 67.277 3382.851
+  angleY 88.613
+ }
+ {
+  coords 1804.111 67.07 3382.851
+  angleY 88.613
+ }
+ {
+  coords 1807.87 69.877 3387.069
+  angleY 88.613
+ }
+ {
+  coords 1804.111 71.497 3382.851
+  angleY 88.613
+ }
+ {
+  coords 1804.111 71.283 3382.851
+  angleY 88.613
+ }
+ {
+  coords 1804.111 71.076 3382.851
+  angleY 88.613
+ }
+}
+$grp GenericEntity : "{F737777FF0A566D5}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_Base.et" {
+ {
+  coords 1805.179 64.404 3367.607
+  angleY 90
+ }
+ {
+  coords 1805.179 64.404 3368.089
+  angleY 90
+ }
+ {
+  coords 1805.179 64.404 3368.564
+  angleY 90
+ }
+ {
+  coords 1805.179 64.404 3369.037
+  angleY 90
+ }
+ {
+  coords 1805.179 64.404 3367.607
+  angleY 90
+ }
+ {
+  coords 1805.179 64.404 3368.089
+  angleY 90
+ }
+ {
+  coords 1805.179 64.404 3368.564
+  angleY 90
+ }
+ {
+  coords 1805.179 64.404 3369.037
+  angleY 90
+ }
+ {
+  coords 1805.488 64.404 3364.347
+  angleY -90
+ }
+ {
+  coords 1805.488 64.404 3363.865
+  angleY -90
+ }
+ {
+  coords 1805.488 64.404 3363.39
+  angleY -90
+ }
+ {
+  coords 1805.488 64.404 3362.917
+  angleY -90
+ }
+ {
+  coords 1806.062 64.404 3362.909
+  angleY 90
+ }
+ {
+  coords 1806.062 64.404 3363.391
+  angleY 90
+ }
+ {
+  coords 1806.062 64.404 3363.866
+  angleY 90
+ }
+ {
+  coords 1806.062 64.404 3364.339
+  angleY 90
+ }
+}
+$grp GenericEntity : "{FD47FF9699A52E82}Prefabs/Props/Furniture/Wardrobe_01.et" {
+ {
+  coords 1803.85 68.371 3362.902
+  angleY 90
+ }
+ {
+  coords 1803.85 68.371 3364.508
+  angleY 90
+ }
+ {
+  coords 1803.85 68.371 3366.07
+  angleY 90
+ }
+}
+$grp GenericEntity : "{FE47006C7C7869FE}Prefabs/Props/Civilian/LadderWooden_01.et" {
+ {
+  coords 1808.964 64.285 3389.998
+  angleX -13.223
+  angleY -91.387
+ }
+ {
+  coords 1808.964 68.291 3389.998
+  angleX -13.223
+  angleY -91.387
+ }
+}

@@ -1,0 +1,17 @@
+Vehicle M923A1_transport_covered_NATO1 : "{043A4C4EBCDEC175}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_NATO.et" {
+ coords 3327.201 58.402 3368.493
+}
+Tank M2A2_BUSK_OD1 : "{25BDE6AB2921AB8A}Prefabs/Vehicles/Tracked/BFV/M2A2_BUSK_OD.et" {
+ coords 3338.505 58.373 3361.882
+ angleY -104.956
+}
+Vehicle M997_maxi_ambulance_NATO1 : "{B79E4315A4334086}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_NATO.et" {
+ coords 3340.022 58.634 3372.569
+}
+Vehicle M1025_armed_M2HB_NATO1 : "{CBD33DC7D5CA7DFC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_NATO.et" {
+ coords 3349.544 58.545 3363.477
+ angleY -98.738
+}
+Vehicle M998_covered_long_NATO1 : "{DA5F9DEAA43A332E}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_NATO.et" {
+ coords 3347.569 58.643 3369.779
+}

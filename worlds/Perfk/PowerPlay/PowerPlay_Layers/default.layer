@@ -1,0 +1,21 @@
+SCR_AIWorld : "{65DEC16960498027}Prefabs/AI/SCR_AIWorld_Ruha.et" {
+ coords 3899.376 61.647 1356.94
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3878.04 62.748 1318.008
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_iRangeHoursStart 5
+   m_iSetDay 19
+   m_iSetMonth 2
+  }
+ }
+ coords 3888.29 61.607 1341.115
+}
+SCR_AIGroup : "{64DED9E07D8D8278}Prefabs/Groups/BLUFOR/US/Army/1989/M113 Mech (Woodland)/P/Group_US_Army_1989_MechSquad_P.et" {
+ coords 1820.021 64.344 3345.096
+ angleY 0
+}
