@@ -1,0 +1,180 @@
+Vehicle M923A1_transport_covered_GulfWar2 : "{15A15F5EF6FFE4A5}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_GulfWar.et" {
+ components {
+  PK_EntityModifierComponent "{669EADCC10E04978}" {
+   m_bLightEnabled 1
+   m_aLightsData {
+    PK_LightData "{669EADCC1212CBBB}" {
+    }
+   }
+  }
+ }
+ coords 272.069 40 3151.148
+ angleY -11.512
+ m_sAttachmentGroupName "Rifle14"
+}
+$grp Vehicle : "{1B64051DEE7B6065}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_GulfWar.et" {
+ M1025_armed_M2HB_GulfWar_13B {
+  components {
+   PK_EntityModifierComponent "{669EADCC30927327}" {
+    m_bLightEnabled 1
+    m_aLightsData {
+     PK_LightData "{669EADCC0F48BFD4}" {
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      }
+     }
+    }
+   }
+  }
+  coords 261.574 40 3170.113
+  angleY 71.348
+  m_sAttachmentGroupName "Rifle13"
+ }
+ M1025_armed_M2HB_GulfWar_11B {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      }
+     }
+    }
+   }
+  }
+  coords 298.047 40 3175.162
+  angleY 30
+  m_sAttachmentGroupName "Rifle11"
+ }
+ M1025_armed_M2HB_GulfWar_11A {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      }
+     }
+    }
+   }
+  }
+  coords 303.087 40 3176.613
+  angleY 30
+  m_sAttachmentGroupName "Rifle11"
+ }
+ M1025_armed_M2HB_GulfWar_13A {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      }
+     }
+    }
+   }
+  }
+  coords 268.283 40 3168.127
+  angleY 30
+  m_sAttachmentGroupName "Rifle13"
+ }
+ M1025_armed_M2HB_GulfWar_12B {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      }
+     }
+    }
+   }
+  }
+  coords 280.697 40 3171.258
+  angleY 30
+  m_sAttachmentGroupName "Rifle12"
+ }
+ M1025_armed_M2HB_GulfWar_12A {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      }
+     }
+    }
+   }
+  }
+  coords 285.737 40 3172.708
+  angleY 30
+  m_sAttachmentGroupName "Rifle12"
+ }
+}
+Vehicle AUS_UH60_armed1 : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
+ coords 249.261 40.053 3148.383
+ angleY -101.266
+ m_sAttachmentGroupName "Pilots"
+}
+Vehicle M997_maxi_ambulance_GulfWar1 : "{6EBA88F9481F5E06}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_GulfWar.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{655E8E67CED62CCA}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{655E8E67D4851971}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{655E8E67AAD9EE68}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{655E8E67BF853777}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{655E8E67B01FDB3F}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
+     }
+     NumSlots 30
+    }
+   }
+  }
+ }
+ coords 288.142 40 3187.761
+ angleY 118.77
+ m_sAttachmentGroupName "Rifle16"
+}
+$grp Vehicle : "{6EE51963CB5742CB}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_GulfWar.et" {
+ M998_covered_long_GulfWar16B {
+  coords 295.305 40 3189.705
+  angleY 118.77
+  m_sAttachmentGroupName "Rifle16"
+ }
+ M998_covered_long_GulfWar31A {
+  coords 280.264 40 3185.496
+  angleY 118.77
+  m_sAttachmentGroupName "Rifle31Engineering"
+ }
+}

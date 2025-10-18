@@ -1,0 +1,415 @@
+$grp GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ IP_D_INTERACT {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{483160D508290BB1}Assets/ME_Material/baseflag_red.emat"
+   }
+   ActionsManagerComponent "{647748C987C0BCEF}" {
+    ActionContexts {
+     UserActionContext "{647748C9871C4E81}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+      Height 0
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C83D707C5B}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "WEST Insertion point"
+      }
+      ActionTitle "WEST Insertion point"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "SOUTH WEST"
+      m_locationName "IP_D"
+     }
+    }
+   }
+  }
+  coords 1190.79 166.469 3688.806
+ }
+ IP_A_INTERACT {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{483160D508290BB1}Assets/ME_Material/baseflag_red.emat"
+   }
+   ActionsManagerComponent "{647748C989962145}" {
+    ActionContexts {
+     UserActionContext "{647748C98A34A72A}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+      Height 0
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C99F09B766}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "NORTH Insertion point"
+      }
+      ActionTitle "NORTH WEST"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "NORTH WEST"
+      m_locationName "IP_A"
+     }
+    }
+   }
+  }
+  coords 1186.776 166.425 3694.775
+ }
+ IP_B_INTERACT {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{483160D508290BB1}Assets/ME_Material/baseflag_red.emat"
+   }
+   ActionsManagerComponent "{647748C9CF5ED4E1}" {
+    ActionContexts {
+     UserActionContext "{647748C9CAB392F8}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C9A4707521}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "EAST Insertion point"
+      }
+      ActionTitle "NORTH EAST"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "NORTH EAST"
+      m_locationName "IP_B"
+     }
+    }
+   }
+  }
+  coords 1193.119 166.479 3699.065
+ }
+ IP_C_INTERACT {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{483160D508290BB1}Assets/ME_Material/baseflag_red.emat"
+   }
+   ActionsManagerComponent "{647748C987C0BCEF}" {
+    ActionContexts {
+     UserActionContext "{647748C9871C4E81}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+      Height 0
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C83D707C5B}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "SOUTH Insertion point"
+      }
+      ActionTitle "SOUTH Insertion point"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "SOUTH EAST"
+      m_locationName "IP_C"
+     }
+    }
+   }
+  }
+  coords 1196.817 166.458 3693.182
+ }
+ IP_E_INTERACT {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{483160D508290BB1}Assets/ME_Material/baseflag_red.emat"
+   }
+   ActionsManagerComponent "{647748C9CF5ED4E1}" {
+    ActionContexts {
+     UserActionContext "{647748C9CAB392F8}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C9A4707521}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "EAST Insertion point"
+      }
+      ActionTitle "EAST TRUCK SPAWN"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "EAST TRUCK SPAWN"
+      m_locationName "IP_E"
+     }
+    }
+   }
+  }
+  coords 1199.629 165.631 3709.921
+ }
+ IP_Spawn_INTERACT_1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{483160D508290BB1}Assets/ME_Material/baseflag_red.emat"
+   }
+   ActionsManagerComponent "{647748C9CF5ED4E1}" {
+    ActionContexts {
+     UserActionContext "{647748C9CAB392F8}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C9A4707521}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "EAST Insertion point"
+      }
+      ActionTitle "Back To Spawn"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "Back To Spawn"
+      m_locationName "IP_SPAWN"
+     }
+    }
+   }
+  }
+  coords 1807.585 17.497 3828.505
+ }
+ IP_E_INTERACT2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{483160D508290BB1}Assets/ME_Material/baseflag_red.emat"
+   }
+   ActionsManagerComponent "{647748C9CF5ED4E1}" {
+    ActionContexts {
+     UserActionContext "{647748C9CAB392F8}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C9A4707521}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "EAST Insertion point"
+      }
+      ActionTitle "Back To Spawn"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "Back To Spawn"
+      m_locationName "IP_SPAWN"
+     }
+    }
+   }
+  }
+  coords 1239.701 110.271 3115.957
+ }
+ IP_E_INTERACT3 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{483160D508290BB1}Assets/ME_Material/baseflag_red.emat"
+   }
+   ActionsManagerComponent "{647748C9CF5ED4E1}" {
+    ActionContexts {
+     UserActionContext "{647748C9CAB392F8}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C9A4707521}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "EAST Insertion point"
+      }
+      ActionTitle "Back To Spawn"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "Back To Spawn"
+      m_locationName "IP_SPAWN"
+     }
+    }
+   }
+  }
+  coords 1693.354 152.288 3088.142
+ }
+ IP_E_INTERACT4 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{483160D508290BB1}Assets/ME_Material/baseflag_red.emat"
+   }
+   ActionsManagerComponent "{647748C9CF5ED4E1}" {
+    ActionContexts {
+     UserActionContext "{647748C9CAB392F8}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C9A4707521}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "EAST Insertion point"
+      }
+      ActionTitle "Back To Spawn"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "Back To Spawn"
+      m_locationName "IP_SPAWN"
+     }
+    }
+   }
+  }
+  coords 1520.62 40.521 3351.887
+ }
+ IP_Spawn_INTERACT_2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{483160D508290BB1}Assets/ME_Material/baseflag_red.emat"
+   }
+   ActionsManagerComponent "{647748C9CF5ED4E1}" {
+    ActionContexts {
+     UserActionContext "{647748C9CAB392F8}" {
+      ContextName "default"
+      Position PointInfo "{647748C9C1AFF675}" {
+       Offset 0 1.5 0
+      }
+      Radius 1.5
+     }
+    }
+    additionalActions {
+     TILW_TeleportInteraction "{647748C9A4707521}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{647748C9BA93D98A}" {
+       Name "EAST Insertion point"
+      }
+      ActionTitle "Back To Spawn"
+      VisibilityRange 1.5
+      Duration 3
+      m_actionName "Back To Spawn"
+      m_locationName "IP_SPAWN"
+     }
+    }
+   }
+  }
+  coords 1225.462 55 3278.672
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ IP_A {
+  coords 1235.495 55 3282.25
+  angleY 126.373
+  m_MarkerColor 0 0.255 1 1
+  m_sQuadName "join"
+  m_fWorldSize 80
+  m_sDescription "NORTH WEST"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+ }
+ IP_C {
+  coords 1686.682 151.871 3089.456
+  angleY -61.874
+  m_MarkerColor 0 0.255 1 1
+  m_sQuadName "join"
+  m_fWorldSize 80
+  m_sDescription "SOUTH EAST"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+ }
+ IP_D {
+  coords 1244.102 112.144 3118.629
+  angleY 57.546
+  m_MarkerColor 0 0.255 1 1
+  m_sQuadName "join"
+  m_fWorldSize 80
+  m_sDescription "SOUTH WEST"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+ }
+ IP_E {
+  coords 1804.174 17.538 3841.531
+  angleX 8.517
+  angleY -110.288
+  angleZ 2.525
+  m_MarkerColor 0 0.255 1 1
+  m_sQuadName "waypoint-2"
+  m_fWorldSize 80
+  m_sDescription "EAST TRUCK SPAWN"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+ }
+ IP_B {
+  coords 1520.332 40.519 3354.543
+  angleY -104.596
+  m_MarkerColor 0 0.255 1 1
+  m_sQuadName "join"
+  m_fWorldSize 80
+  m_sDescription "NORTH EAST"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+ }
+ IP_SPAWN {
+  coords 1198.155 166.288 3700.473
+  angleY 171.344
+  m_MarkerColor 0 0.255 1 1
+  m_sQuadName "flag"
+  m_fWorldSize 80
+  m_sDescription "Spawn"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+ }
+}

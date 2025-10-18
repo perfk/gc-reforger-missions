@@ -1,0 +1,272 @@
+GenericEntity Area6 : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ coords 1394.829 69.561 3215.658
+ angleX 0.92
+ angleY 178.463
+ angleZ 0.872
+ {
+  GenericEntity Layer2 : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+   components {
+    SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+     m_iDynamicDespawnRange 300
+    }
+   }
+   coords -0.001 0 0
+   {
+    $grp GenericEntity : "{8D43830F02C3F114}Prefabs/Systems/ScenarioFramework/Components/SlotAI.et" {
+     rescueUnit_1 {
+      components {
+       SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+        m_sFactionKey "US"
+        m_bShowDebugShapesInWorkbench 0
+        m_aActivationActions {
+         SCR_ScenarioFrameworkActionMedical "{6226A2F006E23F4B}" {
+          m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6226A2F0039E5EC5}" {
+           m_sLayerName "rescueUnit_1"
+          }
+          m_aMedicalActions {
+           SCR_ScenarioFrameworkMedicalActionSetBlood "{6226A2F01ED14FC5}" {
+            m_fBloodValue 997.084
+           }
+           SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6226A2FE4F6B0E2F}" {
+            m_fBleedingRate 0.01
+           }
+           SCR_ScenarioFrameworkMedicalActionAddRandomBleeding "{6598AE44B9362F19}" {
+           }
+           SCR_ScenarioFrameworkMedicalActionAddRandomBleeding "{6598AE44BAA18BCD}" {
+           }
+           SCR_ScenarioFrameworkMedicalActionAddRandomBleeding "{6598AE44836F1374}" {
+           }
+           SCR_ScenarioFrameworkMedicalActionAddRandomBleeding "{6598AE448233C33A}" {
+           }
+          }
+         }
+         SCR_ScenarioFrameworkActionAI "{6592D080E3B282CC}" {
+          m_aAIActions {
+           SCR_ScenarioFrameworkAIActionDisableLOD "{6592D080FCCC3F7D}" {
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{A0D907E81E14CFD0}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_Rifleman.et"
+        m_sID "rescueUnit_1"
+        m_bCanBeGarbageCollected 0
+        m_aIncludedEditableEntityLabels {
+        }
+        m_sWPToSpawn ""
+        m_fPerceptionFactor 60
+       }
+      }
+      coords 1.898 0.226 22.251
+      angleY 167.883
+     }
+     rescueUnit_2 {
+      components {
+       SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+        m_sFactionKey "US"
+        m_bShowDebugShapesInWorkbench 0
+        m_aActivationActions {
+         SCR_ScenarioFrameworkActionMedical "{6226A2F006E23F4B}" {
+          m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6226A2F0039E5EC5}" {
+           m_sLayerName "rescueUnit_2"
+          }
+          m_aMedicalActions {
+           SCR_ScenarioFrameworkMedicalActionSetBlood "{6226A2F01ED14FC5}" {
+            m_fBloodValue 997.084
+           }
+           SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6226A2FE4F6B0E2F}" {
+            m_fBleedingRate 0.01
+           }
+           SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6226A2FE537F361A}" {
+            m_sHitZoneName "Head"
+           }
+           SCR_ScenarioFrameworkMedicalActionAddRandomBleeding "{6598AE44B9362F19}" {
+           }
+           SCR_ScenarioFrameworkMedicalActionAddRandomBleeding "{6598AE44BAA18BCD}" {
+           }
+           SCR_ScenarioFrameworkMedicalActionAddRandomBleeding "{6598AE44836F1374}" {
+           }
+          }
+         }
+         SCR_ScenarioFrameworkActionAI "{6592D080E3B282CC}" {
+          m_aAIActions {
+           SCR_ScenarioFrameworkAIActionDisableLOD "{6592D080FCCC3F7D}" {
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{A0D907E81E14CFD0}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_Rifleman.et"
+        m_sID "rescueUnit_2"
+        m_bCanBeGarbageCollected 0
+        m_aIncludedEditableEntityLabels {
+        }
+        m_sWPToSpawn ""
+        m_fPerceptionFactor 60
+       }
+      }
+      coords 0.861 0.242 22.141
+      angleY 169.589
+     }
+     rescueUnit_3 {
+      components {
+       SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+        m_sFactionKey "US"
+        m_bShowDebugShapesInWorkbench 0
+        m_aActivationActions {
+         SCR_ScenarioFrameworkActionMedical "{6226A2F006E23F4B}" {
+          m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6226A2F0039E5EC5}" {
+           m_sLayerName "rescueUnit_3"
+          }
+          m_aMedicalActions {
+           SCR_ScenarioFrameworkMedicalActionSetBlood "{6226A2F01ED14FC5}" {
+            m_fBloodValue 997.084
+           }
+           SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6226A2FE4F6B0E2F}" {
+            m_fBleedingRate 0.01
+           }
+           SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6226A2FE537F361A}" {
+            m_sHitZoneName "Head"
+           }
+           SCR_ScenarioFrameworkMedicalActionAddRandomBleeding "{6598AE44B9362F19}" {
+           }
+           SCR_ScenarioFrameworkMedicalActionAddRandomBleeding "{6598AE44836F1374}" {
+           }
+          }
+         }
+         SCR_ScenarioFrameworkActionAI "{6592D080E3B282CC}" {
+          m_aAIActions {
+           SCR_ScenarioFrameworkAIActionDisableLOD "{6592D080FCCC3F7D}" {
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{A0D907E81E14CFD0}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_Rifleman.et"
+        m_sID "rescueUnit_3"
+        m_bCanBeGarbageCollected 0
+        m_aIncludedEditableEntityLabels {
+        }
+        m_sWPToSpawn ""
+        m_fPerceptionFactor 60
+       }
+      }
+      coords -0.155 0.22 22.044
+      angleY 170.902
+     }
+     rescueUnit_4 {
+      components {
+       SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+        m_sFactionKey "US"
+        m_bShowDebugShapesInWorkbench 0
+        m_aActivationActions {
+         SCR_ScenarioFrameworkActionMedical "{6226A2F006E23F4B}" {
+          m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6226A2F0039E5EC5}" {
+           m_sLayerName "rescueUnit_4"
+          }
+          m_aMedicalActions {
+           SCR_ScenarioFrameworkMedicalActionSetBlood "{6226A2F01ED14FC5}" {
+            m_fBloodValue 997.084
+           }
+           SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6226A2FE4F6B0E2F}" {
+            m_fBleedingRate 0.01
+           }
+          }
+         }
+         SCR_ScenarioFrameworkActionAI "{6592D080E3B282CC}" {
+          m_aAIActions {
+           SCR_ScenarioFrameworkAIActionDisableLOD "{6592D080FCCC3F7D}" {
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{A0D907E81E14CFD0}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_Rifleman.et"
+        m_sID "rescueUnit_4"
+        m_bCanBeGarbageCollected 0
+        m_aIncludedEditableEntityLabels {
+        }
+        m_sWPToSpawn ""
+        m_fPerceptionFactor 60
+       }
+      }
+      coords -1.1 0.215 21.829
+      angleY 174.459
+     }
+     rescueUnit_5 {
+      components {
+       SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+        m_sFactionKey "US"
+        m_bShowDebugShapesInWorkbench 0
+        m_aActivationActions {
+         SCR_ScenarioFrameworkActionMedical "{6226A2F006E23F4B}" {
+          m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6226A2F0039E5EC5}" {
+           m_sLayerName "rescueUnit_5"
+          }
+          m_aMedicalActions {
+           SCR_ScenarioFrameworkMedicalActionSetBlood "{6226A2F01ED14FC5}" {
+            m_fBloodValue 997.084
+           }
+           SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6226A2FE4F6B0E2F}" {
+            m_fBleedingRate 0.01
+           }
+          }
+         }
+         SCR_ScenarioFrameworkActionAI "{6592D080E3B282CC}" {
+          m_aAIActions {
+           SCR_ScenarioFrameworkAIActionDisableLOD "{6592D080FCCC3F7D}" {
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{4E1E25B1AA66C51B}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_CoyCO.et"
+        m_sID "rescueUnit_5"
+        m_bCanBeGarbageCollected 0
+        m_aIncludedEditableEntityLabels {
+        }
+        m_sWPToSpawn ""
+        m_fPerceptionFactor 60
+       }
+      }
+      coords -1.942 0.262 21.798
+      angleY -174.813
+     }
+     rescueUnit_6 {
+      components {
+       SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+        m_sFactionKey "US"
+        m_bShowDebugShapesInWorkbench 0
+        m_aActivationActions {
+         SCR_ScenarioFrameworkActionMedical "{6226A2F006E23F4B}" {
+          m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6226A2F0039E5EC5}" {
+           m_sLayerName "rescueUnit_6"
+          }
+          m_aMedicalActions {
+           SCR_ScenarioFrameworkMedicalActionSetBlood "{6226A2F01ED14FC5}" {
+            m_fBloodValue 997.084
+           }
+           SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6226A2FE4F6B0E2F}" {
+            m_fBleedingRate 0.01
+           }
+          }
+         }
+         SCR_ScenarioFrameworkActionAI "{6592D080E3B282CC}" {
+          m_aAIActions {
+           SCR_ScenarioFrameworkAIActionDisableLOD "{6592D080FCCC3F7D}" {
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{9260DE5E9D4D8840}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_SL.et"
+        m_sID "rescueUnit_6"
+        m_bCanBeGarbageCollected 0
+        m_aIncludedEditableEntityLabels {
+        }
+        m_sWPToSpawn ""
+        m_fPerceptionFactor 60
+       }
+      }
+      coords -2.887 0.194 21.679
+      angleY 166.865
+     }
+    }
+   }
+  }
+ }
+}

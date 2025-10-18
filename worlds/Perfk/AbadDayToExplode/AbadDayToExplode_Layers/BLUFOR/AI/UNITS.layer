@@ -1,0 +1,73 @@
+$grp SCR_AIGroup : "{546136191CC15D5C}Prefabs/Groups/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Group_GC_NTA_RifleSquad.et" {
+ {
+  coords 1397.968 69.563 3206.916
+  m_aUnitPrefabSlots {
+   "{95A7240FFBCB3283}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_TL.et" "{A0D907E81E14CFD0}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "GuardTower01"
+  }
+ }
+ {
+  coords 1392.357 69.563 3203.656
+  m_aUnitPrefabSlots {
+   "{95A7240FFBCB3283}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_TL.et" "{A0D907E81E14CFD0}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "GuardTower02"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 1396.167 76.936 3192.167
+  m_aUnitPrefabSlots {
+   "{95A7240FFBCB3283}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_TL.et" "{A0D907E81E14CFD0}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_Rifleman.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "GuardTower03"
+  }
+ }
+}
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ GuardTower01 {
+  coords 1403.488 70.83 3210.16
+  CompletionRadius 2
+  m_aSettings {
+   SCR_AICharacterStanceSetting_Range "{669EADC7CD7EAD18}" {
+    m_eCause ALWAYS
+    m_eMinStance STAND
+   }
+  }
+ }
+ GuardTower02 {
+  coords 1387.573 71.614 3206.564
+  CompletionRadius 2
+  m_aSettings {
+   SCR_AICharacterStanceSetting_Range "{669EADC7CD7EAD18}" {
+    m_eCause ALWAYS
+    m_eMinStance STAND
+   }
+  }
+ }
+ GuardTower03 {
+  coords 1393.846 76.442 3196.264
+  CompletionRadius 2
+  m_aSettings {
+   SCR_AICharacterStanceSetting_Range "{669EADC7CD7EAD18}" {
+    m_eCause ALWAYS
+    m_eMinStance STAND
+   }
+  }
+ }
+}
+SCR_AIGroup : "{994A8F33FD1AA52B}Prefabs/Groups/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Group_GC_NTA_CHQ_P.et" {
+ coords 1366.127 69.562 3209.701
+ m_aUnitPrefabSlots {
+  "{8DE73EDF3046288E}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_CoyCO_P.et"
+ }
+}

@@ -1,0 +1,73 @@
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ North {
+  coords 1466.977 38.941 3338.118
+  angleY -147.426
+  m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+  m_conditionFlag "ActivateAttack"
+  m_spawnTimings {
+   60
+  }
+  m_waypointNames {
+   "SD_Center"
+  }
+ }
+ South_Center {
+  coords 1354.135 40.231 3338.736
+  angleY -147.426
+  m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+  m_conditionFlag "ActivateAttack"
+  m_spawnTimings {
+   60
+  }
+  m_waypointNames {
+   "S_FM" "SD_Center"
+  }
+ }
+ South_West {
+  coords 1274.269 54.877 3268.722
+  angleY 143.227
+  m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+  m_conditionFlag "ActivateAttack"
+  m_spawnTimings {
+   60
+  }
+  m_waypointNames {
+   "SD_Center"
+  }
+ }
+ West {
+  coords 1227.182 103.608 3123.304
+  angleY 104.97
+  m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+  m_conditionFlag "ActivateAttack"
+  m_spawnTimings {
+   60
+  }
+  m_waypointNames {
+   "SD_Center"
+  }
+ }
+ South_East {
+  coords 1423.935 156.487 2938.539
+  angleY -105.271
+  m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+  m_conditionFlag "ActivateAttack"
+  m_spawnTimings {
+   60
+  }
+  m_waypointNames {
+   "SD_Overwatch" "SD_Center"
+  }
+ }
+}
+SCR_AIGroup : "{98539E750B3A359F}Prefabs/Groups/CIV/Business/Group_CIV_Business_03.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   Enabled 0
+  }
+ }
+ coords 1388.517 69.398 3215.663
+ m_aUnitPrefabSlots {
+  "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et" "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et" "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
+ }
+}

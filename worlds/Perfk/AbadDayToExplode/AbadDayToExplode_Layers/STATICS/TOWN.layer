@@ -1,0 +1,92 @@
+Vehicle VBID_UAZ469_covered_CIV_red1 : "{0DF3E8A9A211C9A8}Prefabs/Vehicles/Wheeled/UAZ469/VBID_UAZ469_covered_CIV_red.et" {
+ coords 1813.09 16.697 3829.967
+ angleX 3.371
+ angleY -67.385
+ angleZ 8.126
+}
+$grp GenericEntity : "{1CAF77AF5C82019A}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Barrel_Filled_01.et" {
+ {
+  components {
+   SCR_FireplaceComponent "{655C8C1C4368294F}" {
+    m_vParticleOffset 0 1.15 0
+   }
+  }
+  coords 1372.507 69.531 3216.312
+  angleY 98.556
+ }
+ {
+  components {
+   SCR_FireplaceComponent "{655C8C1C4368294F}" {
+    m_vParticleOffset 0 1.15 0
+   }
+  }
+  coords 1368.904 69.468 3233.891
+  angleY 98.556
+ }
+ {
+  components {
+   SCR_FireplaceComponent "{655C8C1C4368294F}" {
+    m_vParticleOffset 0 1.15 0
+   }
+  }
+  coords 1381.106 69.645 3163.598
+  angleY 98.556
+ }
+ {
+  components {
+   SCR_FireplaceComponent "{655C8C1C4368294F}" {
+    m_vParticleOffset 0 1.15 0
+   }
+  }
+  coords 1381.41 69.544 3223.783
+  angleY 98.556
+ }
+ {
+  components {
+   SCR_FireplaceComponent "{655C8C1C4368294F}" {
+    m_vParticleOffset 0 1.15 0
+   }
+  }
+  coords 1398.753 69.563 3227.24
+  angleY 98.556
+ }
+}
+GenericEntity : "{3872E0C19D19A045}Prefabs/Structures/Wreck/pickup.et" {
+ coords 1371.659 69.5 3229.097
+ angleY -19.689
+}
+EOD_IED : "{808F248CC6D1BC5B}Prefabs/Weapons/Explosives/EOD_BOMBS/VBID_EOD_JUG.et" {
+ coords 1394.837 69.563 3220.34
+ angleX 0
+ angleY 25.618
+}
+GenericEntity : "{B67A4797AED7B3BC}Prefabs/Structures/Wreck/ikarus.et" {
+ components {
+  TILW_NavmeshRegenComponent "{65B6ACF510711890}" {
+  }
+ }
+ coords 1446.095 69.563 3208.465
+ angleY 148.169
+}
+$grp GenericEntity : "{CEBAF4B0B12F9BC2}Prefabs/Structures/Lamp/Lamp_Small_on.et" {
+ {
+  coords 289.071 40 3169.11
+  angleY -13.409
+ }
+ {
+  coords 276.031 40 3155.152
+  angleY -55.475
+ }
+ {
+  coords 234.447 40 3162.099
+  angleY 36.108
+ }
+ {
+  coords 263.313 40 3176.459
+  angleY -146.759
+ }
+}
+GenericEntity : "{FA8AAF819FBC2DFD}Prefabs/Structures/Wreck/sedan.et" {
+ coords 1374.129 69.531 3218.788
+ angleY -10.078
+}

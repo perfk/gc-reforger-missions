@@ -1,0 +1,11 @@
+SCR_AIWaypoint S_FM : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ coords 1414.662 43.277 3314.063
+}
+$grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ SD_Center {
+  coords 1393.807 69.563 3215.778
+ }
+ SD_Overwatch {
+  coords 1459.007 104.168 3107.816
+ }
+}

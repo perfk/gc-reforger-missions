@@ -1,0 +1,17 @@
+SCR_AIGroup : "{2F2E162C9B835EFB}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/P/GC_INS_Afghan_Squad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   Enabled 0
+  }
+  GC_SetInvisible "{669EADF25714FE45}" {
+  }
+ }
+ coords 1131.829 175.552 3713.123
+ angleY -168.656
+ m_aUnitPrefabSlots {
+  "{0D70868C89309636}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_PL_P.et" "{00F632BEF6E971C1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_P.et" "{00F632BEF6E971C1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_P.et" "{C5FB02647F13E70A}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_RPO_P.et" "{07D5D6C13F2065B1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_SL_P.et" "{2D9E460542A221B9}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Sapper_P.et" "{2D9E460542A221B9}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Sapper_P.et" "{00F632BEF6E971C1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_P.et"
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 1120.163 165.274 3709.671
+}

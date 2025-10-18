@@ -1,0 +1,81 @@
+SCR_AIWorld : "{E2A016456BBC697D}Prefabs/AI/SCR_AIWorld_Kunar.et" {
+ coords 2889.388 10 3164.982
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2877.461 10 3167.526
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_GroupsManagerComponent "{5706EC99934496F5}" {
+   m_aGroupFlags {
+   }
+  }
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Clear Fog"
+   m_iSetWeatherConstant 1
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 4
+   m_iStartingMinutes 30
+   m_bOverrideEnvironment 1
+   m_fFogHeight 122.8
+   m_fRain 0
+  }
+ }
+ coords 2850.667 9.929 3182.794
+ m_iFreezeTime 300000
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{669EADC360C50BA0}" {
+   m_sFactionKey "US"
+   m_iCount 20
+   m_iTime 30000
+  }
+ }
+ m_bDisableBuildingModeAfterFreezeTime 1
+ m_safeStartTime 30
+ {
+  SCR_FactionManager "65A0D5654C3D0CED" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792CC5F08F3}" {
+        m_sCallsign ""
+       }
+       SCR_CallsignInfo "{55CCB792CC49B7DB}" {
+        m_sCallsign "ANGEL"
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{64E2F89691A0E697}" {
+        m_sCallsign "1"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{64E2F896A8E698B6}" {
+        m_sCallsign "1"
+       }
+      }
+     }
+    }
+    SCR_Faction "{607AA5C7A94496DA}" {
+     m_aFriendlyFactionsIds {
+      "USSR" "FIA" "RHS_USAF" "RHS_AFRF" "RHS_ION" "RHS_USAF" "RHS_AFRF" "RHS_ION" "UK" "GC_IRA" "GC_SEPARATIST" "GC_TKA" "US"
+     }
+    }
+    SCR_Faction "{655D481EFA969864}" {
+     UIInfo SCR_FactionUIInfo "{528C96127F8B6B08}" {
+      Name "ANA"
+      Icon "{7D9A08C4F71CB8FC}worlds/Perfk/Images/Faction_Flags/Roundel_of_Afghanistan.edds"
+      m_sNameUpper "ANA"
+     }
+     m_sFactionFlag "{7D9A08C4F71CB8FC}worlds/Perfk/Images/Faction_Flags/Roundel_of_Afghanistan.edds"
+     m_aFriendlyFactionsIds {
+      "US" "CIV"
+     }
+    }
+   }
+  }
+ }
+}

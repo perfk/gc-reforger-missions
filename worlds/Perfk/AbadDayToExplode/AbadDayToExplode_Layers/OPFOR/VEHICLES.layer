@@ -1,0 +1,110 @@
+$grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ UAZ469_PKM1 {
+  coords 1800.126 17.905 3833.009
+  angleX 6.846
+  angleY -174.894
+  angleZ -6.501
+ }
+ UAZ469_PKM2 {
+  coords 1804.916 17.119 3835.513
+  angleX 5.992
+  angleY -174.667
+  angleZ -6.567
+ }
+}
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ1 {
+  coords 1785.381 20.137 3822.043
+  angleX 6.651
+  angleY -174.287
+  angleZ -3.799
+ }
+ UAZ2 {
+  coords 1429.669 69.563 3214.437
+  angleY -13.725
+ }
+}
+$grp Vehicle : "{2A66E3B8B0C61D87}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_brown.et" {
+ S1203_cargo_brown1 {
+  coords 1792.518 19.36 3824.374
+  angleX 4.978
+  angleY -174.269
+  angleZ -4.867
+ }
+ S1203_cargo_brown2 {
+  coords 1368.934 69.563 3165.991
+  angleX 6.88
+  angleY -164.866
+  angleZ 1.856
+ }
+}
+$grp Vehicle : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+ S105_darkblue1 {
+  coords 1800.183 18.65 3824.325
+  angleX 4.092
+  angleY -174.271
+  angleZ -4.962
+ }
+ S105_darkblue2 {
+  coords 1368.708 69.287 3269.663
+  angleX 4.5
+  angleY 159.764
+  angleZ -0.706
+ }
+}
+$grp Vehicle : "{A4D16A62B432451A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_red.et" {
+ UAZ469_covered_CIV_red1 {
+  coords 1796.151 19.05 3823.991
+  angleX 5.668
+  angleY -165.381
+  angleZ -4.041
+ }
+ UAZ469_covered_CIV_red2 {
+  coords 1366.902 69.563 3218.665
+  angleY 174.586
+ }
+}
+Vehicle S1203_cargo_beige1 : "{D2BCF98E80CF634C}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_beige.et" {
+ coords 1800.474 17.435 3838.073
+ angleX -0.413
+ angleY 145.191
+ angleZ -8.375
+}
+$grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_green.et" {
+ motorbike_green3 {
+  coords 1818.453 15.905 3831.602
+  angleX -21.104
+  angleY -2.029
+  angleZ 7.376
+ }
+ motorbike_green2 {
+  coords 1806.611 16.523 3839.578
+  angleX 4.609
+  angleY 169.028
+  angleZ -8.998
+ }
+ motorbike_green4 {
+  coords 1808.029 16.295 3839.834
+  angleX 4.609
+  angleY 169.028
+  angleZ -8.998
+ }
+ motorbike_green5 {
+  coords 1810.406 16.064 3838.889
+  angleX 10.1
+  angleY -128.96
+  angleZ -0.19
+ }
+ motorbike_green6 {
+  coords 1811.349 16.059 3837.722
+  angleX 10.1
+  angleY -128.96
+  angleZ -0.19
+ }
+}
+Vehicle motorbike2 : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et" {
+ coords 1812.341 16.215 3835.364
+ angleX 6.608
+ angleY -104.974
+ angleZ 7.401
+}

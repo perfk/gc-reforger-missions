@@ -1,0 +1,69 @@
+PK_EntityDeleter {
+ coords 1388.28 69.37 3236.09
+ m_fRadius 10
+ m_prefabFilterList {
+  "{E39DBAD6A4BA12D4}Prefabs/Structures/Market/market_tent_2.et" "{3D54B486FA666640}Prefabs/Structures/Market/SmallStand.et" "{B3C90E8116DD7913}Prefabs/Structures/Market/Bags.et"
+ }
+}
+TILW_PresenceTriggerEntity PresenceTrigger_ActivateAttack : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
+ coords 1397.926 69.562 3216.241
+ m_queryRadius 40
+ m_flagName "ActivateAttack"
+ m_stopAfterFirstChange 1
+ m_drawShapeOutline 0
+ m_entityNames {
+  "M1025_armed_M2HB_GulfWar_11A" "M1025_armed_M2HB_GulfWar_11B" "M1025_armed_M2HB_GulfWar_12A" "M1025_armed_M2HB_GulfWar_12B" "M1025_armed_M2HB_GulfWar_13A" "M1025_armed_M2HB_GulfWar_13B" "M923A1_transport_covered_GulfWar2" "M997_maxi_ambulance_GulfWar1" "M998_covered_long_GulfWar16B" "M998_covered_long_GulfWar31A"
+ }
+ m_ratioThreshold 0.1
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_killTimer 30
+   m_factionKeys {
+    "US"
+   }
+   m_ignoredVehicles {
+    "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et"
+   }
+   m_defaultColor 1 0 0 1
+   m_lineWidth 4
+  }
+ }
+ coords 159.344 97.225 3287.058
+ Points {
+  ShapePoint "{65B4BA0416F97FB7}" {
+   Position -33.565 9.222 -5.103
+  }
+  ShapePoint "{65B4BA04EC23766D}" {
+   Position 455.198 -10.03 111.415
+  }
+  ShapePoint "{65B4BA04E6AD7B0A}" {
+   Position 758.681 -26.297 205.882
+  }
+  ShapePoint "{65B4BA04E1867696}" {
+   Position 1246.733 -36.151 356.364
+  }
+  ShapePoint "{65B4BA04CEAF647E}" {
+   Position 1388.423 -68.806 382.982
+  }
+  ShapePoint "{65B4BA04C61D6A12}" {
+   Position 1538.775 -53.458 209.756
+  }
+  ShapePoint "{65B4BA04C0D800F3}" {
+   Position 1501.725 43.55 -260.067
+  }
+  ShapePoint "{65B4BA04DDC87693}" {
+   Position 1171.164 29.68 -298.986
+  }
+  ShapePoint "{65B4BA04DC0734ED}" {
+   Position 931.682 -59.139 -124.632
+  }
+  ShapePoint "{65B4BA04DFB9AB40}" {
+   Position 590.356 -17.646 -353.216
+  }
+  ShapePoint "{65B4BA04D9D2DDF1}" {
+   Position -57.833 37.873 -361.241
+  }
+ }
+}
