@@ -1,0 +1,119 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 4761.17 28.747 11702.412
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4770.93 28.488 11742.692
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 4761.884 28.695 11729.805
+}
+$grp GenericEntity {
+ MM_NameWaterMinor {
+  components {
+   SCR_MapDescriptorComponent "{66E0FC43D3D91B87}" {
+    DisplayName "Name Water Minor"
+    MainType "Name Water Minor"
+   }
+  }
+  coords 1755.26 0 12380.278
+  angles -0.892 0.056 -3.577
+ }
+ MM_NameCity {
+  components {
+   SCR_MapDescriptorComponent "{66E0FC43D3D91B87}" {
+    DisplayName "Name CIty"
+    MainType "Name City"
+   }
+  }
+  coords 2315.226 0 12546.272
+  angles -4.414 0.484 -6.261
+ }
+ MM_NameGeneric {
+  components {
+   SCR_MapDescriptorComponent "{66E0FC43D3D91B87}" {
+    DisplayName "Name Generic"
+    MainType "Name Generic"
+   }
+  }
+  coords 1741.463 0 12624.195
+  angles -5.323 -0.417 4.486
+ }
+ MM_NameHill {
+  components {
+   SCR_MapDescriptorComponent "{66E0FC43D3D91B87}" {
+    DisplayName "Name Hill"
+    MainType "Name Hill"
+   }
+  }
+  coords 1751.717 0 12735.183
+  angles -22.025 1.449 -3.858
+ }
+ MM_NameSeaMajor {
+  components {
+   SCR_MapDescriptorComponent "{66E0FC43D3D91B87}" {
+    DisplayName "Name Sea Major"
+    MainType "Name Sea Major"
+   }
+  }
+  coords 1795.53 0 11739.196
+  angles -6.168 0.677 -6.278
+ }
+ MM_NameSeaMinor {
+  components {
+   SCR_MapDescriptorComponent "{66E0FC43D3D91B87}" {
+    DisplayName "Name Sea Minor"
+    MainType "Name Sea Minor"
+   }
+  }
+  coords 1791.72 0 11930.393
+  angles 0 0 -1.79
+ }
+ MM_NameSettlement {
+  components {
+   SCR_MapDescriptorComponent "{66E0FC43D3D91B87}" {
+    DisplayName "Name Settlement"
+    MainType "Name Settlement"
+   }
+  }
+  coords 2302.545 0 12264.937
+  angles -6.146 0.771 -7.166
+ }
+ MM_NameTown {
+  components {
+   SCR_MapDescriptorComponent "{66E0FC43D3D91B87}" {
+    DisplayName "Name Town"
+    MainType "Name Town"
+   }
+  }
+  coords 2309.049 0 12344.855
+  angles -10.556 0.834 -4.544
+ }
+ MM_NameVillage {
+  components {
+   SCR_MapDescriptorComponent "{66E0FC43D3D91B87}" {
+    DisplayName "Name Village"
+    MainType "Name Village"
+   }
+  }
+  coords 2315.226 0 12460.679
+  angles -1.708 0.374 -12.345
+ }
+ MM_NameWaterMajor {
+  components {
+   SCR_MapDescriptorComponent "{66E0FC43D3D91B87}" {
+    DisplayName "Name Water Major"
+    MainType "Name Water Major"
+   }
+  }
+  coords 1778.517 0 12053.909
+  angles -8.872 0.28 -1.812
+ }
+}
+GenericEntity H_GallowsHill2 : "{EF7DF0423116CFEF}Prefabs/World/Locations/Eden/Natural/St_Philippe_Hill_01.et" {
+ components {
+  SCR_EditableCommentComponent "{529AB059519FE609}" {
+   m_fMaxDrawDistance 500
+  }
+ }
+ coords 4773.943 27.752 11791.906
+}
