@@ -1,0 +1,7 @@
+PK_EntityDeleter {
+ ID "66E2EC4FE0FC4A8C"
+ coords 1944.231 134.177 7419.62
+ m_prefabFilterList {
+  "{F6FABA4AA8456686}Prefabs/Particles/Light/Light_Flicker_Slow.et"
+ }
+}

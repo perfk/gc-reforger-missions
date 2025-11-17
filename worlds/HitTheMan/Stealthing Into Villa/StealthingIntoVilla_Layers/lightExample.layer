@@ -1,0 +1,9 @@
+GenericEntity : "{4D759A30BDE386D2}Prefabs/Structures/Military/Bunkers/AircraftShelter_E_01/AircraftShelter_E_01_powerbox.et" {
+ components {
+  TILW_Flag_EntityDamage "{66E2EC4C6ADEC365}" {
+   m_flagName "power_off"
+  }
+ }
+ coords 1934.834 133.746 7429.228
+ angles 0 -62.03 0
+}
