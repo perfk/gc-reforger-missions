@@ -1,0 +1,71 @@
+$grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ WP1_Force {
+  coords 2713.176 10 3258.048
+  CompletionRadius 60
+ }
+ WP3_Force {
+  coords 2601.192 10 3327.14
+  CompletionRadius 60
+ }
+}
+$grp SCR_TimedWaypoint : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait.et" {
+ WP2_WAIT {
+  coords 2659.156 9.999 3292.692
+  CompletionRadius 60
+  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
+   m_holdingTime 10
+  }
+ }
+ WP4_WAIT {
+  coords 2560.89 11.976 3353.325
+  CompletionRadius 60
+  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
+   m_holdingTime 10
+  }
+ }
+}
+$grp SCR_AIGroup : "{796112EA557A4F3A}Prefabs/Groups/BLUFOR/US/Army/1975/Infantry/Group_US_1975_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 2903.907 10 3158.872
+  angles 0 -65.332 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 2890.85 10 3131.816
+  angles 0 -65.332 0
+ }
+}
+$grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+ {
+  coords 2777.459 11.875 3254.306
+  angles 0 -49.227 0
+  m_aStaticWaypoints {
+   "WP1_Force"
+   "WP2_WAIT"
+   "WP3_Force"
+   "WP4_WAIT"
+  }
+ }
+ {
+  coords 2776.153 10 3193.825
+  angles 0 -49.227 0
+  m_aStaticWaypoints {
+   "WP1_Force"
+   "WP2_WAIT"
+   "WP3_Force"
+   "WP4_WAIT"
+  }
+ }
+}
+SCR_AIGroup : "{FB98EBEA27AC7DA1}Prefabs/Groups/BLUFOR/US/Army/1975/Infantry/P/Group_US_1975_CoyHQ_P.et" {
+ coords 2897.348 10 3113.02
+}
