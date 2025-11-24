@@ -1,15 +1,60 @@
-SCR_AIGroup US_11 : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RifleSquad_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   Enabled 0
+$grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RifleSquad_P.et" {
+ US_11 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{66ED32C38271AB7D}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
   }
-  PS_GroupCallsignAssigner "{66ED32C38271AB7D}" {
-   m_iPlatoonCallsign 1
-   m_iSquadCallsign 1
-  }
+  coords 2759.558 8.469 2977.358
+  angles 0 -146.114 0
+  m_sCustomNameSet "Rifle Squard"
  }
- coords 2826.15 7.784 2920.553
- angles -0.563 -141.018 0.696
+ US_12 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{66ED32C38271AB7D}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2744.417 8.469 2979.078
+  angles 0 -146.114 0
+  m_sCustomNameSet "Rifle Squard"
+ }
+ US_13 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{66ED32C38271AB7D}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2734.006 8.469 2994.519
+  angles 0 -146.114 0
+  m_sCustomNameSet "Rifle Squard"
+ }
+ US_14 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{66ED32C38271AB7D}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 2718.001 8.469 2997.384
+  angles 0 -146.114 0
+  m_sCustomNameSet "Rifle Squard"
+ }
 }
 SCR_AIGroup US_16 : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RiflePHQ_P.et" {
  components {
@@ -20,12 +65,13 @@ SCR_AIGroup US_16 : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infant
    m_iPlatoonCallsign 1
   }
  }
- coords 2824.832 7.866 2909.925
- angles 0 26.714 0
+ coords 2754.499 8.469 2968.074
+ angles 0 -8.366 0
  m_aUnitPrefabSlots {
   "{0CA99063388D5B0E}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_PL_DCU_1998_P.et"
   "{2B3FDB0EA9112C3A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Sergeant_DCU_1998_P.et"
   "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et"
   "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et"
  }
+ m_sCustomNameSet "Headquarters"
 }
