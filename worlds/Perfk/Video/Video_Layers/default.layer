@@ -9,4 +9,44 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3028.382 10.107 3061.011
+ m_missionEvents {
+  TILW_MissionEvent "{66F4F22271EEBA28}" {
+   m_name "=== BUILDING TRIGGERS ==="
+  }
+  TILW_MissionEvent "{66F2B5F152F994FF}" {
+   m_name "Building 1"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{66F2B5F12E10C1C6}" {
+     m_executionDelay 0
+     m_groupName "Building_1_Loiter_AI"
+     m_waypointNames {
+      "Building_1_SD_WP"
+     }
+     m_clearExisting 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{66F2B5F12B4E2E90}" {
+    m_flagName "Building_1_Trigger"
+   }
+  }
+  TILW_MissionEvent "{66F4F2224399B35B}" {
+   m_name "Building 2"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{66F4F222439946DA}" {
+     m_executionDelay 0
+     m_groupName "Building_2_Loiter_AI"
+     m_waypointNames {
+      "Building_2_SD_WP"
+     }
+     m_clearExisting 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{66F4F222439946C1}" {
+    m_flagName "Building_1_Trigger"
+   }
+  }
+  TILW_MissionEvent "{66F53347D5BB26BD}" {
+   m_name "=== LaneChasers ==="
+  }
+ }
 }

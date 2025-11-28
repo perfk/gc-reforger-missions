@@ -41,37 +41,86 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   angles 0 -146.114 0
   m_sCustomNameSet "Rifle Squard"
  }
- US_14 {
+ US_3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
    PS_GroupCallsignAssigner "{66ED32C38271AB7D}" {
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 4
+    m_iSquadCallsign 1
    }
   }
-  coords 2718.001 8.469 2997.384
+  coords 2709.029 8.312 3020.099
+  angles 0 -146.114 0
+  m_sCustomNameSet "Rifle Squard"
+ }
+ US_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{66ED32C38271AB7D}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2693.888 8.312 3021.819
+  angles 0 -146.114 0
+  m_sCustomNameSet "Rifle Squard"
+ }
+ US_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{66ED32C38271AB7D}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2683.477 8.312 3037.26
   angles 0 -146.114 0
   m_sCustomNameSet "Rifle Squard"
  }
 }
-SCR_AIGroup US_16 : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RiflePHQ_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   Enabled 0
+$grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RiflePHQ_P.et" {
+ US_16 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{66ED32C06C76493F}" {
+    m_iPlatoonCallsign 1
+   }
   }
-  PS_GroupCallsignAssigner "{66ED32C06C76493F}" {
-   m_iPlatoonCallsign 1
+  coords 2754.499 8.469 2968.074
+  angles 0 -8.366 0
+  m_aUnitPrefabSlots {
+   "{0CA99063388D5B0E}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_PL_DCU_1998_P.et"
+   "{2B3FDB0EA9112C3A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Sergeant_DCU_1998_P.et"
+   "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et"
+   "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et"
   }
+  m_sCustomNameSet "Headquarters"
  }
- coords 2754.499 8.469 2968.074
- angles 0 -8.366 0
- m_aUnitPrefabSlots {
-  "{0CA99063388D5B0E}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_PL_DCU_1998_P.et"
-  "{2B3FDB0EA9112C3A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Sergeant_DCU_1998_P.et"
-  "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et"
-  "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et"
+ US_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{66ED32C06C76493F}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2703.97 8.312 3010.815
+  angles 0 -8.366 0
+  m_aUnitPrefabSlots {
+   "{0CA99063388D5B0E}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_PL_DCU_1998_P.et"
+   "{2B3FDB0EA9112C3A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Sergeant_DCU_1998_P.et"
+   "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et"
+   "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et"
+  }
+  m_sCustomNameSet "Headquarters"
  }
- m_sCustomNameSet "Headquarters"
 }
