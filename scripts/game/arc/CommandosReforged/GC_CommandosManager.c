@@ -604,7 +604,10 @@ class GC_CommandosTracker : GC_CommandosDestroyed
 {
 	[Attribute(defvalue: "45", uiwidget: UIWidgets.Auto, desc: "Seconds to update tracker marker")]
 	protected int m_updateDelay;
-	
+
+	[Attribute(defvalue: "RHS_USAF", UIWidgets.Auto, desc: "Faction keys that can see the tracker marker")]
+	protected ref array<string> m_visibleFactionKeys;
+
 	protected ref array<ref GC_CommandosTrackerData> m_trackers = {};
 	
 	override void Activate()
@@ -639,9 +642,21 @@ class GC_CommandosTracker : GC_CommandosDestroyed
 		EntitySpawnParams params = new EntitySpawnParams();
 		params.Transform[3] = entity.GetOrigin();
 		PS_ManualMarker marker = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
-		
+
 		marker.SetDescription(m_name);
 		marker.SetColor(Color.Violet);
+
+		// Set faction visibility if specified
+		if (m_visibleFactionKeys && !m_visibleFactionKeys.IsEmpty())
+		{
+			SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
+			foreach (string factionKey : m_visibleFactionKeys)
+			{
+				Faction faction = fm.GetFactionByKey(factionKey);
+				if (faction)
+					marker.SetVisibleForFaction(faction, true);
+			}
+		}
 
 		GC_CommandosTrackerData tracker = GC_CommandosTrackerData(entity, marker);
 		m_trackers.Insert(tracker);
