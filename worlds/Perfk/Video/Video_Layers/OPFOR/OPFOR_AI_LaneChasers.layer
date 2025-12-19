@@ -1,6 +1,171 @@
-TILW_FactionTriggerEntity US_Trigger_Left_1 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 3048.116 9.723 2733.4
- m_flagName "US"
- m_playersOnly 1
- m_ownerFactionKey "US"
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ US_Trigger_Right_1 {
+  coords 3047.55 9.723 2713.282
+  m_queryRadius 30
+  m_flagName "US_Trigger_Right_1"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ignoredFactions {
+   "GC_MUJ"
+  }
+  m_ownerFactionKey "US"
+  {
+   TILW_PrefabSpawnerEntity US_Spawner_Right_1 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 270.998 1.657 -138.608
+    m_prefab "{42A2076C85157993}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Fighter_Fireteam.et"
+    m_conditionFlag "US_Trigger_Right_1"
+    m_spawnTimings {
+     0
+     60
+    }
+    m_waypointNames {
+     "US_WP_Right_1_1"
+     "US_WP_Right_1_2"
+     "WP_Fallback"
+    }
+    {
+     SCR_AIWaypoint US_WP_Right_1_1 : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+      coords -193.001 -0.076 62.248
+     }
+     SCR_SearchAndDestroyWaypoint US_WP_Right_1_2 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+      coords -267.587 -1.354 142.311
+     }
+    }
+   }
+  }
+ }
+ US_Trigger_Center_1 {
+  coords 3073.944 9.138 2767.652
+  m_queryRadius 30
+  m_flagName "US_Trigger_Center_1"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ignoredFactions {
+   "GC_MUJ"
+  }
+  m_ownerFactionKey "US"
+  {
+   TILW_PrefabSpawnerEntity US_Spawner_Center_1 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 243.842 2.242 -191.676
+    m_prefab "{42A2076C85157993}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Fighter_Fireteam.et"
+    m_conditionFlag "US_Trigger_Center_1"
+    m_spawnTimings {
+     0
+     60
+    }
+    m_waypointNames {
+     "US_WP_Center_1_1"
+     "US_WP_Center_1_2"
+     "WP_Fallback"
+    }
+    {
+     SCR_AIWaypoint US_WP_Center_1_1 : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+      coords -159.242 -2.146 105.32
+     }
+     SCR_SearchAndDestroyWaypoint US_WP_Center_1_2 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+      coords -249.831 -2.341 193.715
+     }
+    }
+   }
+  }
+ }
+ US_Trigger_Left_1 {
+  coords 3099.293 17 2851.507
+  m_queryRadius 30
+  m_flagName "US_Trigger_Left_1"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ignoredFactions {
+   "GC_MUJ"
+  }
+  m_ownerFactionKey "US"
+  {
+   TILW_PrefabSpawnerEntity US_Spawner_Left_1 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 290.684 -8.768 -122.661
+    m_prefab "{42A2076C85157993}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Fighter_Fireteam.et"
+    m_conditionFlag "US_Trigger_Left_1"
+    m_spawnTimings {
+     0
+     60
+    }
+    m_waypointNames {
+     "US_WP_Left_1_1"
+     "US_WP_Left_1_2"
+     "WP_Fallback"
+    }
+    {
+     SCR_AIWaypoint US_WP_Left_1_1 : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+      coords -144.921 2.17 25.008
+     }
+     SCR_SearchAndDestroyWaypoint US_WP_Left_1_2 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+      coords -263.369 7.384 140.654
+     }
+    }
+   }
+  }
+ }
+ US_Trigger_Center_2 {
+  coords 3188.551 11.001 2643.038
+  m_queryRadius 30
+  m_flagName "US_Trigger_Center_2"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ignoredFactions {
+   "GC_MUJ"
+  }
+  m_ownerFactionKey "US"
+  {
+   TILW_PrefabSpawnerEntity US_Spawner_Center_2 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 116.252 -1.501 -56.056
+    m_prefab "{42A2076C85157993}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Fighter_Fireteam.et"
+    m_conditionFlag "US_Trigger_Center_2"
+    m_spawnTimings {
+     0
+    }
+    m_waypointNames {
+     "US_WP_Center_2_1"
+     "WP_Fallback"
+    }
+    {
+     SCR_SearchAndDestroyWaypoint US_WP_Center_2_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+      coords -121.218 1.402 67.796
+     }
+    }
+   }
+  }
+ }
+ US_Trigger_Left_2 {
+  coords 3258.607 17 2773.947
+  m_queryRadius 30
+  m_flagName "US_Trigger_Left_2"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ignoredFactions {
+   "GC_MUJ"
+  }
+  m_ownerFactionKey "US"
+  {
+   TILW_PrefabSpawnerEntity US_Spawner_Left_2 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 131.37 -8.768 -45.101
+    m_prefab "{42A2076C85157993}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Fighter_Fireteam.et"
+    m_conditionFlag "US_Trigger_Left_2"
+    m_spawnTimings {
+     0
+     60
+    }
+    m_waypointNames {
+     "US_WP_Left_2_1"
+     "WP_Fallback"
+    }
+    {
+     SCR_SearchAndDestroyWaypoint US_WP_Left_2_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+      coords -132.945 7.384 48.918
+     }
+    }
+   }
+  }
+ }
+}
+SCR_SearchAndDestroyWaypoint WP_Fallback : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ coords 3239.763 9.842 2616.185
 }

@@ -1,0 +1,94 @@
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_CoverMapComponent "{6473480FCAB7760B}" {
+   Enabled 1
+  }
+ }
+ coords 2863.137 12.662 2996.86
+ Points {
+  ShapePoint "{672735400B421DEB}" {
+   Position 5.455 0 -7.648
+  }
+  ShapePoint "{672735401CE6F1B3}" {
+   Position 151.913 0 -94.809
+  }
+  ShapePoint "{672735401E861831}" {
+   Position 215.648 0 -76.428
+  }
+  ShapePoint "{672735401B536F4B}" {
+   Position 270.599 0 -87.618
+  }
+  ShapePoint "{6727354016E3DAF3}" {
+   Position 351.605 0 -113.661
+  }
+  ShapePoint "{67273540116C9615}" {
+   Position 445.816 0 -118.826
+  }
+  ShapePoint "{67273540ED833C06}" {
+   Position 488.686 0 -141.402
+  }
+  ShapePoint "{67273540EE508944}" {
+   Position 541.385 0 -157.426
+  }
+  ShapePoint "{67273540EEE51678}" {
+   Position 601.373 0 -171.514
+  }
+  ShapePoint "{67273540E85A508A}" {
+   Position 615.643 0 -262.974
+  }
+  ShapePoint "{67273540EB88EA51}" {
+   Position 613.21 0 -347.231
+  }
+  ShapePoint "{67273540EAAC19EC}" {
+   Position 576.262 0 -488.212
+  }
+  ShapePoint "{67273540E42F68BF}" {
+   Position 491.365 0 -533.968
+  }
+  ShapePoint "{67273540E777234E}" {
+   Position 385.533 0 -503.246
+  }
+  ShapePoint "{67273540E14E2F52}" {
+   Position 257.928 0 -416.32
+  }
+  ShapePoint "{67273540E0C1556A}" {
+   Position 177.694 0 -397.94
+  }
+  ShapePoint "{67273540E3A4A8C4}" {
+   Position 111.18 0 -343.39
+  }
+  ShapePoint "{67273540FC75E52D}" {
+   Position 37.004 0 -251.627
+  }
+  ShapePoint "{67273540F912E9E4}" {
+   Position -60.895 0 -227.737
+  }
+  ShapePoint "{67273540F8A8E237}" {
+   Position -97.831 0 -104.973
+  }
+  ShapePoint "{67273540F51F8BAA}" {
+   Position -135.599 0 -49.426
+  }
+  ShapePoint "{67273540F5BD3F84}" {
+   Position -214.123 0 -0.006
+  }
+  ShapePoint "{67273540F7759535}" {
+   Position -247.338 0 57.734
+  }
+  ShapePoint "{67273540F7F156CE}" {
+   Position -256.038 0 111.059
+  }
+  ShapePoint "{67273540F6982BB0}" {
+   Position -224.681 0 174.489
+  }
+  ShapePoint "{67273540F17EE65A}" {
+   Position -183.115 0 192.509
+  }
+  ShapePoint "{67273540F1EDA9BA}" {
+   Position -86.735 0 122.873
+  }
+  ShapePoint "{67273540F09189A7}" {
+   Position -20.636 0 68.42
+  }
+ }
+}

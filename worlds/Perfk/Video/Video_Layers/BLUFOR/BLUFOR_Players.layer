@@ -10,7 +10,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
     m_iSquadCallsign 1
    }
   }
-  coords 2759.636 8.469 2977.338
+  coords 2759.617 8.469 2977.511
   angles 0 -146.114 0
   m_sCustomNameSet "Rifle Squard"
  }
@@ -24,7 +24,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
     m_iSquadCallsign 2
    }
   }
-  coords 2744.417 8.469 2979.078
+  coords 2744.387 8.469 2978.453
   angles 0 -146.114 0
   m_sCustomNameSet "Rifle Squard"
  }
@@ -118,7 +118,7 @@ GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes
    Enabled 1
   }
  }
- coords 2757.554 8.469 2975.205
+ coords 2760.716 8.469 2976.451
  angles 0 -145.681 0
 }
 $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RiflePHQ_P.et" {
