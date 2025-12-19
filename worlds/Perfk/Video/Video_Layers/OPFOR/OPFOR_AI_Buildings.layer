@@ -1,14 +1,3 @@
-SCR_AIGroup Player : "{3D708B262E8A46A3}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/P/GC_INS_Afghan_PHQ_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   Enabled 0
-  }
- }
- coords 3025.517 15.712 2846.983
- m_aUnitPrefabSlots {
-  "{0D70868C89309636}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_PL_P.et"
- }
-}
 $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
  Building_01 {
   coords 3046.239 7.744 2796.948
@@ -18,6 +7,31 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     angles -90 -70.93 180
     m_Comment "Building 1"
     m_Size 0.6
+   }
+   SCR_AIGroup : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      Enabled 0
+     }
+    }
+    coords 384.284 4.139 -259.927
+    m_aUnitPrefabSlots {
+     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
+     "{020C7EF03183EF2B}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_AutoRifle.et"
+     "{4A8AFB51826FCE3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction.et"
+     "{FEC3CB0B1E9A0CA0}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Assault.et"
+     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+     "{2F855F59E09CC66D}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BR.et"
+     "{BB1FF87FE2C68BB9}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_FDC_1.et"
+     "{57DABB66DA95EF3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_FO.et"
+     "{2393D92D53C9DC01}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Marksman.et"
+     "{72F1B01DDB14F8BA}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Med.et"
+     "{617D71802332DB6C}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_MGASST.et"
+     "{D7506F007D0B1ADD}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Rad.et"
+    }
+    m_aStaticWaypoints {
+     "asd"
+    }
    }
    $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
     Building_1_Defend_AI2 {
@@ -838,7 +852,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
          Enabled 0
         }
        }
-       coords -5.397 1.372 6.58
+       coords -5.397 -1.717 6.58
        angles 0.007 111.763 0.006
        m_aUnitPrefabSlots {
         "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
@@ -1884,10 +1898,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
    }
    $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
     {
-     coords -13.908 3.734 4.201
-     angles 0.039 35.114 -0.027
-    }
-    {
      coords -4.415 6.848 4.625
      angles 0.039 35.114 -0.027
     }
@@ -2920,6 +2930,1822 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     {
      coords 17.085 0.409 -4.71
      angles 2.531 35.132 -0.462
+    }
+   }
+  }
+ }
+ Building_21 {
+  coords 3240.9 9.469 2615.476
+  angles -1.788 -0.056 1.791
+  {
+   EditorCommentEntity {
+    coords 0.583 15.116 -1.328
+    angles -90 -70.93 180
+    m_Comment "Building 21"
+    m_Size 0.6
+   }
+   $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    Building_3_Defend_WP21_inside {
+     components {
+      TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+      }
+     }
+     coords 3.591 1.531 7.075
+     angles -0.003 0.441 0.009
+     CompletionRadius 35
+     m_bFastInit 1
+     m_aDefendPresets {
+      SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+       m_fFractionOfSA 1
+       m_aTagsForSearch {
+        "ObservationPost"
+       }
+      }
+      SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+       m_aTagsForSearch {
+        "ObservationPost"
+       }
+      }
+     }
+    }
+    Building_3_Defend_WP21_Roof {
+     components {
+      TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+      }
+     }
+     coords 3.591 1.531 7.075
+     angles 1.8 0.441 -1.767
+     CompletionRadius 35
+     m_bFastInit 1
+     m_aDefendPresets {
+      SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+       m_fFractionOfSA 1
+       m_aTagsForSearch {
+        "LoiterPost"
+       }
+      }
+      SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+       m_aTagsForSearch {
+        "LoiterPost"
+       }
+      }
+     }
+    }
+   }
+   $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+    Building_3_Defend_AI21_inside {
+     components {
+      AIFormationComponent "{507E9DC12F541FE6}" {
+       Enabled 0
+      }
+     }
+     coords -10.403 -0.125 7.911
+     angles 0 47.44 0
+     m_aUnitPrefabSlots {
+      "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     }
+     m_bSnapToTerrain 0
+     m_aStaticWaypoints {
+      "Building_3_Defend_WP21_inside"
+     }
+    }
+    Building_3_Defend_AI21_roof {
+     components {
+      AIFormationComponent "{507E9DC12F541FE6}" {
+       Enabled 0
+      }
+     }
+     coords -13.204 -0.209 8.041
+     angles 2.528 47.471 0.108
+     m_aUnitPrefabSlots {
+      "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+      "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     }
+     m_bSnapToTerrain 0
+     m_aStaticWaypoints {
+      "Building_3_Defend_WP21_Roof"
+     }
+    }
+   }
+   $grp GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -17.61 7.28 29.643
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -19.105 7.037 23.736
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -9.88 7.493 28.394
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -5.818 7.553 22.456
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -13.054 7.21 18.708
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -5.283 7.167 9.54
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 4.64 7.54 11.556
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 9.477 7.412 7.91
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 13.208 7.424 4.571
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 0.398 6.948 2.853
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 10.787 6.723 -4.956
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 20.302 7.053 -4.638
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 20.907 6.923 -9.118
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 13.13 6.412 -17.315
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 8.974 6.127 -22.671
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -1.211 5.904 -19.156
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 0.372 6.664 -11.483
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 7.263 6.381 -12.372
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -8.532 6.632 -3.598
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -17.82 6.209 -7.817
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -23.193 6.257 -5.012
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -27.17 6.215 -2.37
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -27.221 3.219 1.888
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -17.053 3.217 -8.149
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -6.967 3.265 -15.376
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 4.87 3.195 -23.425
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 9.519 3.345 -23.299
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 20.921 4.134 -9.451
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 21.247 4.298 -4.543
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 2.495 4.511 14.294
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -4.058 4.52 21.144
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords -25.924 3.281 3.804
+     angles 1.287 -14.411 -2.179
+    }
+    {
+     components {
+      SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+       m_eLoiterAnimation LOITERING
+      }
+     }
+     coords 1.437 3.403 -9.712
+     angles 1.287 -14.411 -2.179
+    }
+   }
+   $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
+    {
+     coords -24.358 -0.761 -16.454
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -20.44 0.854 4.448
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -16.737 0.351 -0.105
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -24.477 0.249 4.076
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -15.569 3.648 1.58
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -22.181 3.2 -5.139
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -24.589 3.178 -3.485
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -23.209 3.413 5.296
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -22.969 6.62 4.492
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -12.487 3.078 -7.026
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -13.398 3.985 -1.169
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -11.97 6.5 -4.371
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -1.514 3.32 -9.89
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -7.161 3.114 -11.268
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -10.853 3.076 -8.43
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 3.398 3.477 -13.677
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -0.516 3.186 -18.422
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 1.725 3.185 -20.682
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 11.895 3.556 -18.776
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 7.633 3.591 -13.604
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 13.021 0.956 -15.982
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 6.19 -0.165 -17.374
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 8.394 -0.007 -14.529
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 8.396 0.058 -12.448
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 3.682 -0.118 -13.354
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 10.979 0.237 -9.306
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 10.906 0.39 -4.333
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 12.802 0.433 -4.854
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 15.057 1.505 -0.397
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 11.197 3.986 -4.511
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 19.324 4.136 -7.846
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 18.407 4.273 -2.565
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 9.756 0.893 -1.052
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 3.738 0.886 4.538
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 5.3 1.223 -0.917
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 0.815 3.933 2.954
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 10.771 4.307 5.855
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 6.417 4.282 9.592
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -2.077 0.564 8.7
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 2.609 0.771 10.613
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -2.242 0.758 14.165
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -9.406 0.576 16.215
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -4.518 0.803 19.281
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -8.171 0.798 21.899
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -11.705 1.075 24.985
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -14.825 0.845 21.264
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -14.775 1.121 28.816
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -19.97 0.947 29.03
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -18.134 1.29 23.146
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -22.126 4.022 27.281
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -17.276 4.094 27.125
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -15.013 4.216 28.964
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -10.941 4.382 28.168
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -15.499 3.955 22.1
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -15.195 7.203 22.101
+     angles 5.024 35.131 -0.897
+    }
+   }
+  }
+ }
+ Building_22 {
+  coords 3313.931 9.5 2584.009
+  {
+   EditorCommentEntity {
+    coords 0.583 9.655 -1.328
+    angles -90 -70.93 180
+    m_Comment "Building 22"
+    m_Size 0.6
+   }
+   SCR_DefendWaypoint Building_3_Defend_WP22 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    components {
+     TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+     }
+    }
+    coords 4.809 0.382 -2.813
+    angles -0.003 0.441 0.009
+    CompletionRadius 35
+    m_bFastInit 1
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+      m_fFractionOfSA 1
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+     SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+    }
+   }
+   SCR_AIGroup Building_3_Defend_AI22 : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      Enabled 0
+     }
+    }
+    coords 3.32 0 -6.803
+    angles 0 31.198 0
+    m_aUnitPrefabSlots {
+     "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+    }
+    m_bSnapToTerrain 0
+    m_aStaticWaypoints {
+     "Building_3_Defend_WP22"
+    }
+   }
+   $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
+    {
+     coords -17.116 0 19.82
+     angles 0.039 35.114 -0.027
+    }
+    {
+     coords -1.369 0 17.844
+     angles 0.039 35.114 -0.027
+    }
+    {
+     coords -17.555 0.501 -11.78
+     angles 0.039 35.114 -0.027
+    }
+    {
+     coords -11.729 0.501 -12.507
+     angles 0.039 35.114 -0.027
+    }
+    {
+     coords -9.095 0.501 -17.462
+     angles 0.039 35.114 -0.027
+    }
+    {
+     coords 22.697 3.655 -7.199
+     angles 0.039 35.114 -0.027
+    }
+    {
+     coords 26.858 3.662 12.02
+     angles 0.039 35.114 -0.027
+    }
+    {
+     coords 18.728 0.345 -3.75
+     angles 0.039 35.114 -0.027
+    }
+    {
+     coords 25.127 0.309 10.106
+     angles 0.039 35.114 -0.027
+    }
+    {
+     coords 18.386 3.799 14.119
+     angles 0.039 35.114 -0.027
+    }
+    {
+     coords 17.598 0.012 -26.795
+     angles 0.039 35.114 -0.027
+    }
+    {
+     coords 27.794 0 -27.683
+     angles 0.039 35.114 -0.027
+    }
+   }
+  }
+ }
+ Building_23 {
+  coords 3279.708 11.53 2765.355
+  angles -1.788 -0.056 1.791
+  {
+   EditorCommentEntity {
+    coords 0.583 15.116 -1.328
+    angles -90 -70.93 180
+    m_Comment "Building 23"
+    m_Size 0.6
+   }
+   SCR_DefendWaypoint Building_3_Defend_WP23 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    components {
+     TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+     }
+    }
+    coords -3.611 1.532 0.038
+    angles -0.003 0.441 0.009
+    CompletionRadius 25
+    m_bFastInit 1
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+      m_fFractionOfSA 1
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+     SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+    }
+   }
+   SCR_AIGroup Building_3_Defend_AI23 : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      Enabled 0
+     }
+    }
+    coords -2.127 -0.125 4.745
+    angles 0 67.582 0
+    m_aUnitPrefabSlots {
+     "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+    }
+    m_bSnapToTerrain 0
+    m_aStaticWaypoints {
+     "Building_3_Defend_WP23"
+    }
+   }
+   $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
+    {
+     coords -15.303 3.6 15.624
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -9.024 1.149 20.435
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -12.966 0.71 19.356
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -21.404 0.142 -0.688
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -7.829 0.205 -2.168
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 1.138 3.209 9.17
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 6.39 3.613 12.583
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 4.31 3.381 7.488
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 8.75 3.561 6.519
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 7.002 6.764 12.33
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 4.854 6.65 10.338
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 2.684 3.544 12.394
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 5.425 3.665 13.997
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 1.532 -0.012 -8.438
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords 11.479 2.005 -14.849
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -4.971 -0.216 -12.631
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -11.658 -0.468 -17.284
+     angles 5.024 35.131 -0.897
+    }
+    {
+     coords -13.763 -0.468 -19.201
+     angles 5.024 35.131 -0.897
+    }
+   }
+  }
+ }
+ Building_24 {
+  coords 3255.11 12.355 2737.02
+  angles -1.788 -0.056 1.791
+  {
+   EditorCommentEntity {
+    coords 0.583 15.116 -1.328
+    angles -90 -70.93 180
+    m_Comment "Building 24"
+    m_Size 0.6
+   }
+   SCR_DefendWaypoint Building_3_Defend_WP24 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    components {
+     TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+     }
+    }
+    coords -7.69 1.533 -0.801
+    angles -0.003 0.441 0.009
+    CompletionRadius 20
+    m_bFastInit 1
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+      m_fFractionOfSA 1
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+     SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+    }
+   }
+   SCR_AIGroup Building_3_Defend_AI24 : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      Enabled 0
+     }
+    }
+    coords 2.138 -0.125 6.636
+    angles 0 67.582 0
+    m_aUnitPrefabSlots {
+     "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+    }
+    m_bSnapToTerrain 0
+    m_aStaticWaypoints {
+     "Building_3_Defend_WP24"
+    }
+   }
+   $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
+    {
+     coords -3.11 0.266 10.136
+     angles 8.096 34.625 -5.329
+    }
+    {
+     coords -9.368 1.107 11.225
+     angles 8.096 34.625 -5.329
+    }
+    {
+     coords -4.986 0.853 7.31
+     angles 8.096 34.625 -5.329
+    }
+    {
+     coords -3.695 0.65 0.337
+     angles 8.096 34.625 -5.329
+    }
+    {
+     coords -2.567 3.762 1.74
+     angles 8.096 34.625 -5.329
+    }
+    {
+     coords 0.335 0.064 -3.744
+     angles 8.096 34.625 -5.329
+    }
+    {
+     coords 5.093 0.095 -8.859
+     angles 8.096 34.625 -5.329
+    }
+   }
+  }
+ }
+ Building_25 {
+  coords 3309.419 9.551 2728.537
+  angles 3.573 0.112 1.793
+  {
+   EditorCommentEntity {
+    coords 0.583 15.116 -1.328
+    angles -90 -70.93 180
+    m_Comment "Building 25"
+    m_Size 0.6
+   }
+   SCR_DefendWaypoint Building_3_Defend_WP25 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    components {
+     TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+     }
+    }
+    coords -5.667 1.533 -0.273
+    angles -0.003 0.441 0.009
+    CompletionRadius 15
+    m_bFastInit 1
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+      m_fFractionOfSA 1
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+     SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+    }
+   }
+   SCR_AIGroup Building_3_Defend_AI25 : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      Enabled 0
+     }
+    }
+    coords 2.138 -0.125 6.636
+    angles 0 67.582 0
+    m_aUnitPrefabSlots {
+     "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+    }
+    m_bSnapToTerrain 0
+    m_aStaticWaypoints {
+     "Building_3_Defend_WP25"
+    }
+   }
+   $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
+    {
+     coords -15.192 0.242 1.461
+     angles 5.607 34.652 -4.87
+    }
+    {
+     coords 2.975 0.228 -0.437
+     angles 5.607 34.652 -4.87
+    }
+    {
+     coords -1.843 0.204 -6.872
+     angles 5.607 34.652 -4.87
+    }
+    {
+     coords 1.001 0.201 -5.435
+     angles 5.607 34.652 -4.87
+    }
+    {
+     coords 5.109 0.184 -3.66
+     angles 5.607 34.652 -4.87
+    }
+    {
+     coords 4.995 -0.04 6.67
+     angles 5.607 34.652 -4.87
+    }
+    {
+     coords -12.291 -0.014 -8.344
+     angles 5.607 34.652 -4.87
+    }
+   }
+  }
+ }
+ Building_26 {
+  coords 3257.784 8.408 2700.117
+  angles 3.573 0.112 1.793
+  {
+   EditorCommentEntity {
+    coords 0.583 15.116 -1.328
+    angles -90 -70.93 180
+    m_Comment "Building 26"
+    m_Size 0.6
+   }
+   SCR_DefendWaypoint Building_3_Defend_WP26 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    components {
+     TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+     }
+    }
+    coords -5.036 1.533 -1.691
+    angles -0.003 0.441 0.009
+    CompletionRadius 15
+    m_bFastInit 1
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+      m_fFractionOfSA 1
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+     SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+    }
+   }
+   SCR_AIGroup Building_3_Defend_AI26 : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      Enabled 0
+     }
+    }
+    coords 2.138 -0.125 6.636
+    angles 0 67.582 0
+    m_aUnitPrefabSlots {
+     "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+    }
+    m_bSnapToTerrain 0
+    m_aStaticWaypoints {
+     "Building_3_Defend_WP26"
+    }
+   }
+   $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
+    {
+     coords -4.955 0.217 -0.977
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords -8.298 -0.225 3.696
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords -7.349 3.283 5.675
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords -7.813 3.55 0.668
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords -7.124 2.994 7.951
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords -4.286 3.834 -1.254
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords 0.988 0.804 -11.912
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords 1.135 0.389 -5.371
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords -3.408 0.717 -7.986
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords -0.247 3.173 -4.58
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords 0.102 6.649 -9.507
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords 2.428 6.661 -8.826
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords -2.553 6.44 -7.503
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords 4.068 3.475 -5.45
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords 2.216 3.624 -12.561
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords -1.492 3.635 -11.552
+     angles 3.673 34.312 -8.38
+    }
+    {
+     coords -3.725 3.406 -9.263
+     angles 3.673 34.312 -8.38
+    }
+   }
+  }
+ }
+ Building_27 {
+  coords 3291.723 7.035 2669.295
+  angles 3.573 0.112 1.793
+  {
+   EditorCommentEntity {
+    coords 0.583 15.116 -1.328
+    angles -90 -70.93 180
+    m_Comment "Building 27"
+    m_Size 0.6
+   }
+   SCR_DefendWaypoint Building_3_Defend_WP27 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    components {
+     TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+     }
+    }
+    coords -5.005 0.547 -1.753
+    angles -0.003 0.441 0.009
+    CompletionRadius 25
+    m_bFastInit 1
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+      m_fFractionOfSA 1
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+     SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+    }
+   }
+   SCR_AIGroup Building_3_Defend_AI27 : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      Enabled 0
+     }
+    }
+    coords 2.716 -0.306 12.219
+    angles -2.27 28.824 -3.291
+    m_aUnitPrefabSlots {
+     "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+    }
+    m_bSnapToTerrain 0
+    m_aStaticWaypoints {
+     "Building_3_Defend_WP27"
+    }
+   }
+   $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
+    {
+     coords -5.187 -0.193 8.538
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -11.756 -0.484 10.623
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -1.512 0.159 3.098
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords 5.359 0.578 -0.462
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords 4.605 3.728 -2.234
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords 2.86 3.424 1.902
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords 3.804 3.215 6.434
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords 9.032 3.542 4.082
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -6.677 3.553 6.505
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -11.817 2.954 13.589
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -10.354 2.97 14.094
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -13.667 6.608 7.862
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -11.907 -0.084 4.197
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -15.41 3.135 8.574
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -12.311 3.564 4.262
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords 8.44 3.661 -2.19
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -1.45 0.644 -6.378
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords 0.673 0.981 -10.42
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -2.512 3.654 -5.676
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords 2.877 4.15 -10.789
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -1.338 6.698 -5.711
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords 4.859 6.956 -7.499
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -0.556 7.063 -12.889
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -2.267 4.214 -13.918
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -1.536 1.059 -13.053
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -7.434 4.266 -6.45
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -13.889 0.299 -5.891
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -8.851 0.493 -6.724
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -6.333 0.559 -2.615
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -27.669 -1.702 -4.593
+     angles 1.722 34.092 -11.873
+    }
+    {
+     coords -22.872 2.173 11.064
+     angles 1.722 34.092 -11.873
+    }
+   }
+  }
+ }
+ Building_28 {
+  coords 3373.13 6.969 2695.111
+  angles 3.573 0.112 1.793
+  {
+   EditorCommentEntity {
+    coords 0.583 15.116 -1.328
+    angles -90 -70.93 180
+    m_Comment "Building 27"
+    m_Size 0.6
+   }
+   SCR_DefendWaypoint Building_3_Defend_WP28 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    components {
+     TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+     }
+    }
+    coords -12.486 0.565 -5.793
+    angles -0.003 0.441 0.009
+    CompletionRadius 35
+    m_bFastInit 1
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+      m_fFractionOfSA 1
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+     SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+    }
+   }
+   SCR_AIGroup Building_3_Defend_AI28 : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      Enabled 0
+     }
+    }
+    coords -5.146 0.256 -0.718
+    angles -3.937 -16.643 -0.692
+    m_aUnitPrefabSlots {
+     "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+    }
+    m_bSnapToTerrain 0
+    m_aStaticWaypoints {
+     "Building_3_Defend_WP28"
+    }
+   }
+   $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
+    {
+     coords -34.966 2.753 8.947
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -31.069 3.08 5.681
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -31.066 2.641 12.635
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -31.389 2.433 16.163
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -24.887 2.74 14.253
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -29.289 -0.728 9.955
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -26.313 -0.842 13.265
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -27.895 -1.11 16.77
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -31.028 5.815 6.603
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -34.134 5.587 8.556
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -25.251 5.512 13.989
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -20.522 2.942 6.99
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -21.01 2.373 10.451
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -18.551 2.331 12.085
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -18.764 2.159 14.877
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -10.459 2.4 15.367
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -18.968 5.577 13.648
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -17.193 5.457 16.458
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -5.166 5.799 17.012
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -21.176 5.905 7.286
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -8.349 2.753 11.021
+     angles -3.575 0 -1.79
+    }
+    {
+     coords 0.497 -0.478 14.175
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -0.138 3.96 12.79
+     angles -3.575 0 -1.79
+    }
+    {
+     coords 5.086 5.563 12.727
+     angles -3.575 0 -1.79
+    }
+    {
+     coords 10.099 7.844 12.489
+     angles -3.575 0 -1.79
+    }
+    {
+     coords 11.052 7.753 14.263
+     angles -3.575 0 -1.79
+    }
+    {
+     coords 12.718 -0.197 15.489
+     angles -3.575 0 -1.79
+    }
+    {
+     coords 15.332 1.079 -7.467
+     angles -3.575 0 -1.79
+    }
+    {
+     coords 11.138 2.011 -23.418
+     angles -3.575 0 -1.79
+    }
+    {
+     coords 3.311 1.717 -23.318
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -25.188 1.363 -20.313
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -27.146 1.282 -20.129
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -14.05 0.557 -12.439
+     angles -3.575 0 -1.79
+    }
+    {
+     coords 0.309 4.247 -8.818
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -2.244 4.308 -12.031
+     angles -3.575 0 -1.79
+    }
+    {
+     coords 7.299 1.663 -9.378
+     angles -3.575 0 -1.79
+    }
+    {
+     coords -9.351 -0.488 3.631
+     angles -3.575 0 -1.79
+    }
+   }
+  }
+ }
+ Mosque_1 {
+  coords 3356.986 11 2789.649
+  angles 3.573 0.112 1.793
+  {
+   SCR_DefendWaypoint Mosque_WP_Defend_1 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    components {
+     TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+     }
+    }
+    coords -1.922 0.522 0.198
+    angles -0.003 0.441 0.009
+    CompletionRadius 15
+    m_bFastInit 1
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+      m_fFractionOfSA 1
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+     SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+    }
+   }
+   SCR_AIGroup Mosque_AI_Defend_1 : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      Enabled 0
+     }
+    }
+    coords 5.059 0.99 -7.348
+    angles -3.427 -57.648 2.059
+    m_aUnitPrefabSlots {
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+    }
+    m_bSnapToTerrain 0
+    m_aStaticWaypoints {
+     "Mosque_WP_Defend_1"
+    }
+   }
+   $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
+    {
+     coords 3.134 0.824 3.063
+     angles -7.148 0.113 -3.59
+    }
+    {
+     coords 1.118 16.717 2.424
+     angles -2.815 -127.685 2.141
+    }
+    {
+     coords 0.22 0.289 -4.51
+     angles -7.148 0.113 -3.59
+    }
+   }
+  }
+ }
+ Mosque_2 {
+  coords 3364.463 11 2742.684
+  angles 3.573 0.112 1.793
+  {
+   SCR_DefendWaypoint Mosque_WP_Defend_2 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    components {
+     TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+     }
+    }
+    coords -1.922 0.522 0.198
+    angles -0.003 0.441 0.009
+    CompletionRadius 15
+    m_bFastInit 1
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+      m_fFractionOfSA 1
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+     SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+    }
+   }
+   SCR_AIGroup Mosque_AI_Defend_2 : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      Enabled 0
+     }
+    }
+    coords 5.059 0.99 -7.348
+    angles -3.427 -57.648 2.059
+    m_aUnitPrefabSlots {
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+    }
+    m_bSnapToTerrain 0
+    m_aStaticWaypoints {
+     "Mosque_WP_Defend_2"
+    }
+   }
+   $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
+    {
+     coords -2.732 -0.085 -0.011
+     angles -10.715 0.34 -5.416
+    }
+    {
+     coords 1.607 16.905 -0.36
+     angles -10.715 0.34 -5.416
+    }
+    {
+     coords 1.043 17.088 -3.577
+     angles -10.715 0.34 -5.416
+    }
+    {
+     coords -7.152 6.87 9.279
+     angles -10.715 0.34 -5.416
+    }
+   }
+  }
+ }
+ Mosque_3 {
+  coords 3386.876 11.154 2767.442
+  angles 3.573 0.112 1.793
+  {
+   SCR_DefendWaypoint Mosque_WP_Defend_3 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    components {
+     TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
+     }
+    }
+    coords -1.922 0.522 0.198
+    angles -0.003 0.441 0.009
+    CompletionRadius 15
+    m_bFastInit 1
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+      m_fFractionOfSA 1
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+     SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
+      m_aTagsForSearch {
+       "ObservationPost"
+      }
+     }
+    }
+   }
+   SCR_AIGroup Mosque_AI_Defend_3 : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      Enabled 0
+     }
+    }
+    coords 2.12 0.485 -0.736
+    angles -3.427 -57.648 2.059
+    m_aUnitPrefabSlots {
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+     "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+    }
+    m_bSnapToTerrain 0
+    m_aStaticWaypoints {
+     "Mosque_WP_Defend_3"
+    }
+   }
+   $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et" {
+    {
+     coords -7.223 10.054 -9.064
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords -9.644 8.835 9.239
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords 8.471 9.282 11.156
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords 11.056 10.517 -7.31
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords 8.841 5.897 -7.174
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords -5.144 5.558 -8.745
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords -6.988 4.433 8.339
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords -1.112 4.556 9.172
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords 6.511 4.74 10.189
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords 7.412 5.257 2.367
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords 8.274 0.542 -4.484
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords -2.104 0.346 -6.416
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords -5.023 0.077 -3.66
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords -5.72 -0.385 3.371
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords -3.509 -0.484 6.022
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords 0.192 -0.421 7.103
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords 4.087 -0.303 6.951
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords 6.131 -0.039 4.064
+     angles -14.274 0.688 -7.281
+    }
+    {
+     coords 1.761 0.049 0.311
+     angles -14.274 0.688 -7.281
     }
    }
   }

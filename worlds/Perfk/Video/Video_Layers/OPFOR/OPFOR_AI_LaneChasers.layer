@@ -1,0 +1,6 @@
+TILW_FactionTriggerEntity US_Trigger_Left_1 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 3048.116 9.723 2733.4
+ m_flagName "US"
+ m_playersOnly 1
+ m_ownerFactionKey "US"
+}

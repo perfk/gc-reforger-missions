@@ -48,5 +48,27 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{66F53347D5BB26BD}" {
    m_name "=== LaneChasers ==="
   }
+  TILW_MissionEvent "{6726DECBEFCBDF9A}" {
+   m_name "=== OBJECTIVES ==="
+  }
+  TILW_MissionEvent "{6726DECBE0ED8337}" {
+   m_instructions {
+    TILW_SendMessageInstruction "{6726DECCA8621676}" {
+     m_messageTitle "Ammo Cache Destroyed"
+     m_messageBody "GM: Monitor ongoing firefights. Do not call a US Victory until all active combat has finished."
+    }
+   }
+   m_condition TILW_LiteralTerm "{6726DECCD381D12D}" {
+    m_flagName "Objective"
+   }
+  }
+ }
+ m_randomFlags {
+  TILW_FlagSampling "{6726DECB00C5D696}" {
+   m_flagNames {
+    "objective_1"
+    "objective_2"
+   }
+  }
  }
 }

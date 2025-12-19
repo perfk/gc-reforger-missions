@@ -6,6 +6,20 @@ GenericEntity : "{17141C691DCD56C1}Prefabs/Structures/Wreck/bluecar1.et" {
  coords 3039.047 7.393 2809.306
  angles 0 -66.839 0
 }
+$grp GenericEntity : "{1CACF9A5C3CBA652}Prefabs/Structures/Wreck/lada_old.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6726DEDA2A857AF1}" {
+   }
+  }
+  coords 3321.938 8.621 2718.79
+  angles 2.646 -9.589 -0.447
+ }
+ {
+  coords 3185.643 10.773 2808.563
+  angles -0.578 -49.778 0.683
+ }
+}
 GenericEntity : "{1E9ECC41D168521B}Prefabs/Structures/Wreck/lada.et" {
  components {
   TILW_NavmeshRegenComponent "{66F717935A4153F2}" {
@@ -53,14 +67,32 @@ $grp GenericEntity : "{3872E0C19D19A045}Prefabs/Structures/Wreck/pickup.et" {
   coords 3034.052 7.403 2790.611
   angles 0 -68.126 0
  }
-}
-GenericEntity : "{434199706D4BFC9E}Prefabs/Structures/Wreck/volha_old.et" {
- components {
-  TILW_NavmeshRegenComponent "{66F7179270CF475B}" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6726DEDA27BC9EF7}" {
+   }
   }
+  coords 3335.14 7.125 2685.219
+  angles 0 24.787 0
  }
- coords 3040.333 16.292 2843.912
- angles 1.777 96.865 0.214
+}
+$grp GenericEntity : "{434199706D4BFC9E}Prefabs/Structures/Wreck/volha_old.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{66F7179270CF475B}" {
+   }
+  }
+  coords 3040.333 16.292 2843.912
+  angles 1.777 96.865 0.214
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6726DEDA50AFD49C}" {
+   }
+  }
+  coords 3083.438 9.938 2761.683
+  angles 0 -69.124 0
+ }
 }
 $grp GenericEntity : "{7B656DF11E8B4D50}Prefabs/Structures/Wreck/ikarus_g.et" {
  {
@@ -78,6 +110,10 @@ $grp GenericEntity : "{7B656DF11E8B4D50}Prefabs/Structures/Wreck/ikarus_g.et" {
   }
   coords 3057.204 16.623 2843.203
   angles 0 81.186 0
+ }
+ {
+  coords 3346.357 11 2760.324
+  angles 0 -7.253 0
  }
 }
 GenericEntity : "{857C0558076EE658}Prefabs/Structures/Wreck/lada_red.et" {
