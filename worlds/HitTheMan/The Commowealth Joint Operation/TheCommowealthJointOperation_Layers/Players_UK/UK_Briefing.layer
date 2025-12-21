@@ -12,7 +12,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- Platoon Warrant ------------------ 21 Sunray Minor OR 21F - Foctor"\
   "1st Section --------------------------- 21A - Alpha"\
   "2nd Section -------------------------- 21B - Bravo"\
-  "2nd Section -------------------------- 21C - Charlie"\
+  "3rd Section -------------------------- 21C - Charlie"\
   ""\
   "<b>- - - Vehicle/LAV Callsigns when Inf dismounted:</b>"\
   "Z29 or Zulu 29"\
@@ -76,12 +76,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Secure the Coal Mines and destroy the Ammo Depot."\
   ""\
   "<b>1. Concept of the Operation:</b>"\
-  "<i>Company Commander's Discretion."\
-  "It is adviced to the Platoon to setup the RTO to reach the Canadians, coordinate and attack the Coal Mine."\
+  "Company Commander's Discretion."\
+  "It is advised to the Platoon to setup the RTO to reach the Canadians, coordinate and attack the Coal Mine."\
   ""\
   "<b>2. Maneuver</b>"\
-  "<i>Company Commander's Discretion."\
-  "It is adviced to NOT split up the sections so they can MUTUALLY support one another as needed in the assault."
+  "Company Commander's Discretion."\
+  "It is advised to NOT split up the sections so they can MUTUALLY support one another as needed in the assault."
   m_aVisibleForFactions {
    "UK"
   }

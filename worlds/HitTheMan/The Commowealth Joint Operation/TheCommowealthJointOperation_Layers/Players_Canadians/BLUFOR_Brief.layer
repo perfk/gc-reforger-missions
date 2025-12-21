@@ -43,7 +43,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- Platoon Leader -------------------- 23 Sunray"\
   "1st Section --------------------------- 23A - Alpha"\
   "2nd Section -------------------------- 23B - Bravo"\
-  "2nd Section -------------------------- 23C - Charlie"\
+  "3rd Section -------------------------- 23C - Charlie"\
   ""\
   "<b>- - - Vehicle/LAV Callsigns when Inf dismounted:</b>"\
   "Z29 or Zulu 29"\
@@ -67,12 +67,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Secure the Coal Mines and destroy the Ammo Depot."\
   ""\
   "<b>1. Concept of the Operation:</b>"\
-  "<i>Company Commander's Discretion."\
-  "It is adviced to the Platoon to setup the RTO to reach the Royal Marines, coordinate and attack the Coal Mine."\
+  "Company Commander's Discretion."\
+  "It is advised to the Platoon to setup the RTO to reach the Royal Marines, coordinate and attack the Coal Mine."\
   ""\
   "<b>2. Maneuver</b>"\
-  "<i>Company Commander's Discretion."\
-  "It is adviced to NOT split up the sections so they can MUTUALLY support one another as needed in the assault."
+  "Company Commander's Discretion."\
+  "It is advised to NOT split up the sections so they can MUTUALLY support one another as needed in the assault."
   m_aVisibleForFactions {
    "GC_CAF"
   }
@@ -151,9 +151,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5770.217 101.246 10124.798
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Move in, secure the Coal Mines and destroy the Ammo Dump.."\
+  "Move in, secure the Coal Mines and destroy the Ammo Dump."\
   ""\
-  "Doesnt hurt to work together though with the Royal Marines.."\
+  "Doesnt hurt to work together though with the Royal Marines."\
   ""\
   "Use Demo Blocks to blow up any sandbags blocking our advance"
   m_aVisibleForFactions {

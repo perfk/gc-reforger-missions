@@ -18,7 +18,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "342 Victor"\
   "etc."\
   ""\
-  "III. Frequencies:</b>"\
+  "<b>III. Frequencies:</b>"\
   "Platoon Net ------------------------- 42.00MHz"
   m_aVisibleForFactions {
    "USSR"
@@ -76,7 +76,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "B. Friendly Forces:"
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
-  "Soviet Platoon is located within the Pasatjen Coal Mine."\
+  "Soviet Platoon is located within the Pasastejn Coal Mine."\
   ""\
   "<b>b. Higher Units Mission:</b>"\
   "Soviet Platoon is acting as a security unit for the Ammo Depot located within the Coal Mine."\
@@ -104,7 +104,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5156.968 341.544 5343.003
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Defend the Ammo Dump from both the Royal Marines & Canadians.. Fortify the Coal Mine with Sandbags"
+  "Defend the Ammo Dump from both the Royal Marines & Canadians. Fortify the Coal Mine with Sandbags"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -119,11 +119,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Company Commander's Discretion."\
-  "It is adviced to setup hard and difficult Sandbag positions to make any attacker's advance hard to push through, while giving cover to the defenders."\
+  "It is advised to setup hard and difficult Sandbag positions to make any attacker's advance hard to push through, while giving cover to the defenders."\
   ""\
   "<b>2. Maneuver</b>"\
-  "<i>Company Commander's Discretion."\
-  "It is adviced to not spread the squad to far away, the coal mine sits on a hill."\
+  "Company Commander's Discretion."\
+  "It is advised to not spread the squad to far away, the coal mine sits on a hill."\
   ""
   m_aVisibleForFactions {
    "USSR"
