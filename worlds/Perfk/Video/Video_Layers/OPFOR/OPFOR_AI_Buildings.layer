@@ -1173,7 +1173,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     coords -0.631 -1.988 -1.377
     angles -0.003 0.441 0.009
     CompletionRadius 18
-    m_bFastInit 1
     m_aDefendPresets {
      SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
       m_fFractionOfSA 1
@@ -1191,7 +1190,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
      TILW_PrefabSpawnerEntity Building_3_Defend_AI5 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
       coords -3.632 -1.681 0.202
       angles 0.005 17.473 -0.008
-      m_prefab "{6B66F8E0B49D4CA1}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et"
+      m_prefab "{6B66F8E0B49D4CA1}worlds/Perfk/Prefabs/Groups/PK_MUJ_13_Fighters.et"
       m_conditionFlag "SpawnOne"
       m_waypointNames {
        "Building_3_Defend_WP5"
@@ -1355,10 +1354,10 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
      }
     }
     {
-     TILW_PrefabSpawnerEntity Building_3_Defend_AI19 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+     TILW_PrefabSpawnerEntity Building_8_Defend_AI19 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
       coords -4.518 -0.383 8.454
       angles 0.014 28.384 -0.013
-      m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_7_Fighters.et"
+      m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
       m_conditionFlag "SpawnOne"
       m_waypointNames {
        "Building_3_Defend_WP6"
@@ -1415,6 +1414,18 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 9"
     m_Size 0.6
    }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI7 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 4.134 0 -5.394
+    angles -0.004 -31.525 -0.019
+    m_prefab "{5245AD1550BD5281}worlds/Perfk/Prefabs/Groups/PK_MUJ_02_Fighters.et"
+    m_conditionFlag "SpawnOne"
+    m_spawnTimings {
+     0.5
+    }
+    m_waypointNames {
+     "Building_3_Defend_WP7"
+    }
+   }
    SCR_DefendWaypoint Building_3_Defend_WP7 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
     components {
      TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
@@ -1434,25 +1445,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
      SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
       m_aTagsForSearch {
        "ObservationPost"
-      }
-     }
-    }
-    {
-     SCR_AIGroup Building_3_Defend_AI7 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-      components {
-       AIFormationComponent "{507E9DC12F541FE6}" {
-        Enabled 0
-       }
-      }
-      coords -1.544 0.533 -0.391
-      angles 0.027 54.808 -0.008
-      m_aUnitPrefabSlots {
-       "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-       "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      }
-      m_bSnapToTerrain 0
-      m_aStaticWaypoints {
-       "Building_3_Defend_WP7"
       }
      }
     }
@@ -1502,10 +1494,13 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     }
     {
      TILW_PrefabSpawnerEntity Building_3_Defend_AI6 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
-      coords -1.312 -0.418 7.952
+      coords -8.875 -0.385 -6.307
       angles 0.021 27.943 -0.02
       m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et.et"
       m_conditionFlag "SpawnOne"
+      m_spawnTimings {
+       1
+      }
       m_waypointNames {
        "Building_3_Defend_WP8"
       }
@@ -1625,7 +1620,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     coords -3.193 -3.997 -4.009
     angles -0.003 0.441 0.009
     CompletionRadius 10
-    m_bFastInit 1
     m_aDefendPresets {
      SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
       m_fFractionOfSA 1
@@ -1640,22 +1634,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
      }
     }
     {
-     SCR_AIGroup Building_3_Defend_AI9 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-      components {
-       AIFormationComponent "{507E9DC12F541FE6}" {
-        Enabled 0
-       }
+     TILW_PrefabSpawnerEntity Building_8_Defend_AI2 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+      coords -0.385 -1.408 -2.279
+      angles 0.021 27.943 -0.02
+      m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_4_Fighters.et"
+      m_conditionFlag "SpawnOne"
+      m_spawnTimings {
+       1.5
       }
-      coords -6.454 -1.306 -4.902
-      angles 0.022 30.757 -0.018
-      m_aUnitPrefabSlots {
-       "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-       "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-       "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-       "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      }
-      m_bSnapToTerrain 0
-      m_aStaticWaypoints {
+      m_waypointNames {
        "Building_3_Defend_WP9"
       }
      }
@@ -1702,22 +1689,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 12"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI10 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI3 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 1.722 -0.109 5.112
+    angles 0.016 37.987 -0.01
+    m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_4_Fighters.et"
+    m_conditionFlag "SpawnOne"
+    m_spawnTimings {
+     2
     }
-    coords -4.077 2.071 -3.924
-    angles 0.015 31.198 -0.012
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP10"
     }
    }
@@ -1729,7 +1709,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     coords -1.007 2.433 -0.231
     angles -0.003 0.441 0.009
     CompletionRadius 9
-    m_bFastInit 1
     m_aDefendPresets {
      SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
       m_fFractionOfSA 1
@@ -1773,29 +1752,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 13"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI11 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI4 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords -4.405 -0.001 9.663
+    angles 0.015 33.574 -0.012
+    m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et.et"
+    m_conditionFlag "SpawnOne"
+    m_spawnTimings {
+     2.5
     }
-    coords -1.755 -1.297 7.942
-    angles 0.014 31.198 -0.012
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP11"
     }
    }
@@ -1883,29 +1848,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 14"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI12 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI5 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords -5.375 0.033 -5.019
+    angles 0.015 31.424 -0.012
+    m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et.et"
+    m_conditionFlag "SpawnOne"
+    m_spawnTimings {
+     3
     }
-    coords -9.628 0.031 -5.87
-    angles 0.014 31.198 -0.012
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP12"
     }
    }
@@ -1917,7 +1868,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     coords -0.178 0.383 -3.916
     angles -0.003 0.441 0.009
     CompletionRadius 20
-    m_bFastInit 1
     m_aDefendPresets {
      SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
       m_fFractionOfSA 1
@@ -2025,33 +1975,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 15"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI13 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI6 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords -8.592 0.002 -0.153
+    angles 0.015 32.314 -0.012
+    m_prefab "{6B66F8E0B49D4CA1}worlds/Perfk/Prefabs/Groups/PK_MUJ_13_Fighters.et"
+    m_conditionFlag "SpawnOne"
+    m_spawnTimings {
+     3.5
     }
-    coords -11.219 0 -1.546
-    angles 0.014 31.198 -0.012
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP13"
     }
    }
@@ -2179,23 +2111,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 16"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI14 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI8 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords -11.404 -0.001 -0.748
+    angles -0.016 -73.348 -0.011
+    m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+    m_conditionFlag "SpawnTwo"
+    m_spawnTimings {
+     0
     }
-    coords -9.628 0.031 -5.87
-    angles 0.014 31.198 -0.012
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP14"
     }
    }
@@ -2291,29 +2215,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 17"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI15 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI9 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 3.396 0.051 2.696
+    angles 0.018 47.93 -0.008
+    m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et"
+    m_conditionFlag "SpawnTwo"
+    m_spawnTimings {
+     0.5
     }
-    coords 0.449 -1.296 9.477
-    angles 0.017 48.056 -0.007
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP15"
     }
    }
@@ -2495,7 +2405,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
    }
   }
  }
- Building_18 {
+ Building_18_Front {
   coords 3068.119 16.689 2861.599
   {
    EditorCommentEntity {
@@ -2665,7 +2575,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
    }
   }
  }
- Building_19 {
+ Building_19_Front {
   coords 3113.895 21.247 2858.328
   {
    EditorCommentEntity {
@@ -2760,24 +2670,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 20"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI18 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI10 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords -4.278 0.035 4.211
+    angles 0.838 116.119 2.386
+    m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+    m_conditionFlag "US_Trigger_Left_3"
+    m_spawnTimings {
+     0
     }
-    coords -3.266 -0.125 1.315
-    angles 0 120.985 0
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP18"
     }
    }
@@ -2870,56 +2771,28 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 21"
     m_Size 0.6
    }
-   $grp SCR_AIGroup : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    Building_3_Defend_AI21_inside {
-     components {
-      AIFormationComponent "{507E9DC12F541FE6}" {
-       Enabled 0
-      }
+   $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    Building_8_Defend_AI21 {
+     coords -10.1 -0.213 10.215
+     angles 0 50.138 0
+     m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et"
+     m_conditionFlag "US_Trigger_Center_2"
+     m_spawnTimings {
+      0
      }
-     coords -10.403 -0.125 7.911
-     angles 0 47.44 0
-     m_aUnitPrefabSlots {
-      "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     }
-     m_bSnapToTerrain 0
-     m_aStaticWaypoints {
+     m_waypointNames {
       "Building_3_Defend_WP21_inside"
      }
     }
-    Building_3_Defend_AI21_roof {
-     components {
-      AIFormationComponent "{507E9DC12F541FE6}" {
-       Enabled 0
-      }
+    Building_8_Defend_AI22 {
+     coords -13.172 -0.144 7.436
+     angles 0 50.178 0
+     m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et"
+     m_conditionFlag "US_Trigger_Center_2"
+     m_spawnTimings {
+      1
      }
-     coords -13.204 -0.209 8.041
-     angles 2.528 47.471 0.108
-     m_aUnitPrefabSlots {
-      "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-      "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     }
-     m_bSnapToTerrain 0
-     m_aStaticWaypoints {
+     m_waypointNames {
       "Building_3_Defend_WP21_Roof"
      }
     }
@@ -2956,7 +2829,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
      coords 3.591 1.531 7.075
      angles 1.8 0.441 -1.767
      CompletionRadius 35
-     m_bFastInit 1
      m_aDefendPresets {
       SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
        m_fFractionOfSA 1
@@ -3504,23 +3376,14 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 22"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI22 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI23 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 19.96 1.157 -0.791
+    m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+    m_conditionFlag "US_Trigger_Right_3"
+    m_spawnTimings {
+     0
     }
-    coords 3.32 0 -6.803
-    angles 0 31.198 0
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP22"
     }
    }
@@ -3609,26 +3472,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 23"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI23 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI11 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords -0.376 0.199 6.837
+    angles 3.262 61.757 3.114
+    m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+    m_conditionFlag "US_Trigger_Left_3"
+    m_spawnTimings {
+     0.5
     }
-    coords -2.127 -0.125 4.745
-    angles 0 67.582 0
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP23"
     }
    }
@@ -3741,22 +3593,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 24"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI24 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI12 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 1.515 -0.041 1.112
+    angles 2.692 148.124 5.583
+    m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+    m_conditionFlag "US_Trigger_Left_3"
+    m_spawnTimings {
+     1
     }
-    coords 2.138 -0.125 6.636
-    angles 0 67.582 0
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP24"
     }
    }
@@ -3825,22 +3670,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 25"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI25 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI13 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords -10.625 0.103 -1.37
+    angles 6.671 148.037 5.21
+    m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+    m_conditionFlag "US_Trigger_Left_3"
+    m_spawnTimings {
+     1.5
     }
-    coords 2.138 -0.125 6.636
-    angles 0 67.582 0
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP25"
     }
    }
@@ -3909,24 +3747,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 26"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI26 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI14 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 0.054 -1.002 -0.857
+    angles -0.56 130.139 2.948
+    m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+    m_conditionFlag "US_Trigger_Left_3"
+    m_spawnTimings {
+     1
     }
-    coords 2.138 -0.125 6.636
-    angles 0 67.582 0
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP26"
     }
    }
@@ -4035,28 +3864,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 27"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI27 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI15 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 3.563 0.091 -4.277
+    angles -0.897 -148.382 3.276
+    m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et"
+    m_conditionFlag "US_Trigger_Left_2"
+    m_spawnTimings {
+     0
     }
-    coords 2.716 -0.306 12.219
-    angles -2.27 28.824 -3.291
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP27"
     }
    }
@@ -4068,7 +3884,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     coords -5.005 0.547 -1.753
     angles -0.003 0.441 0.009
     CompletionRadius 25
-    m_bFastInit 1
     m_aDefendPresets {
      SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
       m_fFractionOfSA 1
@@ -4221,28 +4036,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 27"
     m_Size 0.6
    }
-   SCR_AIGroup Building_3_Defend_AI28 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI16 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords -21.339 0.934 -24.732
+    angles -5.522 -12.578 -3.943
+    m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et"
+    m_conditionFlag "US_Trigger_Left_2"
+    m_spawnTimings {
+     0.5
     }
-    coords -5.146 0.256 -0.718
-    angles -3.937 -16.643 -0.692
-    m_aUnitPrefabSlots {
-     "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Building_3_Defend_WP28"
     }
    }
@@ -4254,7 +4056,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     coords -12.486 0.565 -5.793
     angles -0.003 0.441 0.009
     CompletionRadius 35
-    m_bFastInit 1
     m_aDefendPresets {
      SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
       m_fFractionOfSA 1
@@ -4425,21 +4226,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
   coords 3356.986 11 2789.649
   angles 3.573 0.112 1.793
   {
-   SCR_AIGroup Mosque_AI_Defend_1 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI18 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 3.529 0.17 -3.27
+    angles -9.4 -12.507 -4.921
+    m_prefab "{3D3547C1CDF10CBE}worlds/Perfk/Prefabs/Groups/PK_MUJ_03_Fighters.et"
+    m_conditionFlag "US_Trigger_Left_2"
+    m_spawnTimings {
+     3.5
     }
-    coords 5.059 0.99 -7.348
-    angles -3.427 -57.648 2.059
-    m_aUnitPrefabSlots {
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Mosque_WP_Defend_1"
     }
    }
@@ -4486,21 +4281,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
   coords 3364.463 11 2742.684
   angles 3.573 0.112 1.793
   {
-   SCR_AIGroup Mosque_AI_Defend_2 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI17 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 2.037 -0.242 1.386
+    angles -9.4 -12.507 -4.921
+    m_prefab "{3D3547C1CDF10CBE}worlds/Perfk/Prefabs/Groups/PK_MUJ_03_Fighters.et"
+    m_conditionFlag "US_Trigger_Left_2"
+    m_spawnTimings {
+     1.5
     }
-    coords 5.059 0.99 -7.348
-    angles -3.427 -57.648 2.059
-    m_aUnitPrefabSlots {
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Mosque_WP_Defend_2"
     }
    }
@@ -4551,25 +4340,15 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
   coords 3386.876 11.154 2767.442
   angles 3.573 0.112 1.793
   {
-   SCR_AIGroup Mosque_AI_Defend_3 : "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
+   TILW_PrefabSpawnerEntity Building_8_Defend_AI20 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 0.247 0.638 -4.404
+    angles -10.848 -78.901 9.699
+    m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et"
+    m_conditionFlag "US_Trigger_Left_4"
+    m_spawnTimings {
+     10
     }
-    coords 2.12 0.485 -0.736
-    angles -3.427 -57.648 2.059
-    m_aUnitPrefabSlots {
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-     "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
+    m_waypointNames {
      "Mosque_WP_Defend_3"
     }
    }

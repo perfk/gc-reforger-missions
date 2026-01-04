@@ -6,6 +6,153 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  coords 3052.448 10 3058.805
+ m_denyJIPTime 600
+}
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ AO_Limit_US {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 10
+    m_factionKeys {
+     "US"
+    }
+    m_defaultColor 0 0.034 0.136 1
+    m_lineWidth 5
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_drawLine 1
+   }
+  }
+  coords 2445.447 17.992 3247.192
+  Points {
+   ShapePoint "{6848C8DC58D29882}" {
+    Position 159.275 0 -100.024
+   }
+   ShapePoint "{6848C8DC5AEF7DE4}" {
+    Position 221.164 0 -51.189
+   }
+   ShapePoint "{6848C8DC2BDFB1CC}" {
+    Position 373.878 0 -161.843
+   }
+   ShapePoint "{6848C8DC19B353BA}" {
+    Position 574.783 0 -304.595
+   }
+   ShapePoint "{6848C8DC18C165FF}" {
+    Position 691.058 0 -298.938
+   }
+   ShapePoint "{6848C8DC141E7B53}" {
+    Position 785.292 0 -336.999
+   }
+   ShapePoint "{6848C8DC175DD38D}" {
+    Position 831.898 0 -351.494
+   }
+   ShapePoint "{6848C8DC17EFAE25}" {
+    Position 873.436 0 -360.723
+   }
+   ShapePoint "{6848C8DC11896BCA}" {
+    Position 948.77 0 -357.65
+   }
+   ShapePoint "{6848C8DC131C2897}" {
+    Position 1024.087 0 -410.916
+   }
+   ShapePoint "{6848C8DCEDDB2ADF}" {
+    Position 1042.871 0 -534.104
+   }
+   ShapePoint "{6848C8DCEF2C069C}" {
+    Position 964.364 0 -768.08
+   }
+   ShapePoint "{6848C8DCE820A549}" {
+    Position 825.474 0 -731.582
+   }
+   ShapePoint "{6848C8DCE43782CE}" {
+    Position 725.867 0 -675.38
+   }
+   ShapePoint "{6848C8DCE7C941B4}" {
+    Position 617.152 0 -601.11
+   }
+   ShapePoint "{6848C8DCE1871E5A}" {
+    Position 567.474 0 -537.967
+   }
+   ShapePoint "{6848C8DCE3A4ADD1}" {
+    Position 525.466 0 -499.292
+   }
+   ShapePoint "{6848C8DCE2DDE0F2}" {
+    Position 455.578 0 -482.113
+   }
+   ShapePoint "{6848C8DCFC2B02E2}" {
+    Position 348.102 0 -447.173
+   }
+   ShapePoint "{6848C8DCFE6FBA4E}" {
+    Position 269.868 0 -434.362
+   }
+   ShapePoint "{6848C8DCFB4212BB}" {
+    Position 187.477 0 -353.189
+   }
+   ShapePoint "{6848C8DCF4021C2D}" {
+    Position 108.335 0 -222.092
+   }
+  }
+ }
+ AO_Limit_GC_MUJ {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 10
+    m_factionKeys {
+     "GC_MUJ"
+    }
+    m_visibility FACTION
+    m_defaultColor 0 0.503 0.125 1
+    m_useFactionColor 0
+    m_lineWidth 5
+   }
+  }
+  coords 2445.447 17.992 3247.192
+  Points {
+   ShapePoint "{6848C8DC19B353BA}" {
+    Position 599.54 0 -355.854
+   }
+   ShapePoint "{6848C8DC18C165FF}" {
+    Position 626.177 0 -351.406
+   }
+   ShapePoint "{6848C8DC1B152ABE}" {
+    Position 698.785 0 -367.428
+   }
+   ShapePoint "{6848C8DC141E7B53}" {
+    Position 733.837 0 -378.856
+   }
+   ShapePoint "{6848C8DC175DD38D}" {
+    Position 798.729 0 -394.578
+   }
+   ShapePoint "{6848C8DC17EFAE25}" {
+    Position 862.715 0 -399.549
+   }
+   ShapePoint "{6848C8DC11896BCA}" {
+    Position 940.05 0 -406.148
+   }
+   ShapePoint "{6848C8DC131C2897}" {
+    Position 1024.087 0 -410.916
+   }
+   ShapePoint "{6848C8DCEDDB2ADF}" {
+    Position 1042.871 0 -534.104
+   }
+   ShapePoint "{6848C8DCEF2C069C}" {
+    Position 964.364 0 -768.08
+   }
+   ShapePoint "{6848C8DCE820A549}" {
+    Position 825.474 0 -731.582
+   }
+   ShapePoint "{6848C8DCE43782CE}" {
+    Position 725.867 0 -675.38
+   }
+   ShapePoint "{6848C8DCE7C941B4}" {
+    Position 617.152 0 -601.11
+   }
+   ShapePoint "{6848C8DCE1871E5A}" {
+    Position 567.474 0 -537.967
+   }
+  }
+ }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3028.382 10.107 3061.011
