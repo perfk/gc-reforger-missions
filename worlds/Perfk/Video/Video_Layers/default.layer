@@ -227,12 +227,66 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
+  TILW_MetaFlag "{684AF3148E1118B6}" {
+   m_flagName "Objective_1_A"
+   m_definition TILW_ConjunctionTerm "{684AF31484E709A6}" {
+    m_operands {
+     TILW_LiteralTerm "{684AF3149C444F1C}" {
+      m_flagName "Objective_1"
+     }
+     TILW_LiteralTerm "{684AF31494908D12}" {
+      m_flagName "SpawnPosition_A"
+     }
+    }
+   }
+  }
+  TILW_MetaFlag "{684AF31560CC6327}" {
+   m_flagName "Objective_1_B"
+   m_definition TILW_ConjunctionTerm "{684AF31560CC60E8}" {
+    m_operands {
+     TILW_LiteralTerm "{684AF31560CC60E9}" {
+      m_flagName "Objective_1"
+     }
+     TILW_LiteralTerm "{684AF31560CC6094}" {
+      m_flagName "SpawnPosition_B"
+     }
+    }
+   }
+  }
+  TILW_MetaFlag "{684AF31578B36726}" {
+   m_flagName "Objective_1_C"
+   m_definition TILW_ConjunctionTerm "{684AF31578B364E1}" {
+    m_operands {
+     TILW_LiteralTerm "{684AF31578B364E3}" {
+      m_flagName "Objective_1"
+     }
+     TILW_LiteralTerm "{684AF31578B364ED}" {
+      m_flagName "SpawnPosition_C"
+     }
+    }
+   }
+  }
+  TILW_MetaFlag "{684AF315718BBDFB}" {
+   m_flagName "Objective_1_D"
+   m_definition TILW_ConjunctionTerm "{684AF315718BBDA3}" {
+    m_operands {
+     TILW_LiteralTerm "{684AF315718BBDAD}" {
+      m_flagName "Objective_1"
+     }
+     TILW_LiteralTerm "{684AF315718BBDAF}" {
+      m_flagName "SpawnPosition_D"
+     }
+    }
+   }
+  }
  }
  m_randomFlags {
   TILW_FlagSampling "{6726DECB00C5D696}" {
    m_flagNames {
-    "objective_1"
-    "objective_2"
+    "SpawnPosition_A"
+    "SpawnPosition_B"
+    "SpawnPosition_C"
+    "SpawnPosition_D"
    }
   }
  }

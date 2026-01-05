@@ -153,8 +153,8 @@ $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   coords 2746.761 8.469 2972.155
   angles 0 34.057 0
   m_aUnitPrefabSlots {
-   "{4C598EBE3147080C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_COY_CO_DCU_1998_P.et.et"
-   "{D4C869C0F8C718AE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_COY_XO_DCU_1998_P.et.et.et"
+   "{4C598EBE3147080C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_COY_CO_DCU_1998_P.et"
+   "{D4C869C0F8C718AE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_COY_XO_DCU_1998_P.et"
    "{1CEF367286E0AFD6}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_RTO_DCU_1998_P.et"
   }
   m_sCustomNameSet "Company Headquarters"
@@ -169,7 +169,7 @@ $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
    }
   }
   coords 2706.769 8.469 3003.198
-  angles 0 -8.366 0
+  angles 0 29.674 0
   m_aUnitPrefabSlots {
    "{0CA99063388D5B0E}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_PL_DCU_1998_P.et"
    "{2B3FDB0EA9112C3A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Sergeant_DCU_1998_P.et"
