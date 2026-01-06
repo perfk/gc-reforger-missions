@@ -26,7 +26,7 @@ $grp SCR_AIGroup : "{F0C5E14EBC0C9566}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_R
     m_iSquadCallsign 2
    }
   }
-  coords 3248.132 9.344 2552.223
+  coords 3248.132 9.909 2552.223
   angles 0 25.006 0
   m_aUnitPrefabSlots {
    "{E786F2A16BDD3655}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_SL_P.et"
@@ -46,7 +46,7 @@ $grp SCR_AIGroup : "{F0C5E14EBC0C9566}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_R
     m_iSquadCallsign 1
    }
   }
-  coords 3250.168 9.471 2556.322
+  coords 3250.168 9.916 2556.322
   angles 0 25.189 0
   m_aUnitPrefabSlots {
    "{E786F2A16BDD3655}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_SL_P.et"

@@ -646,7 +646,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
       Enabled 0
      }
     }
-    coords -2.371 1.539 1.612
+    coords -2.371 2.045 1.612
     angles 0 94.16 0
     m_aUnitPrefabSlots {
      "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
@@ -1496,7 +1496,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
      TILW_PrefabSpawnerEntity Building_3_Defend_AI6 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
       coords -8.875 -0.385 -6.307
       angles 0.021 27.943 -0.02
-      m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et.et"
+      m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et"
       m_conditionFlag "SpawnOne"
       m_spawnTimings {
        1
@@ -1637,7 +1637,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
      TILW_PrefabSpawnerEntity Building_8_Defend_AI2 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
       coords -0.385 -1.408 -2.279
       angles 0.021 27.943 -0.02
-      m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_4_Fighters.et"
+      m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
       m_conditionFlag "SpawnOne"
       m_spawnTimings {
        1.5
@@ -1692,7 +1692,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
    TILW_PrefabSpawnerEntity Building_8_Defend_AI3 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
     coords 1.722 -0.109 5.112
     angles 0.016 37.987 -0.01
-    m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_4_Fighters.et"
+    m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
     m_conditionFlag "SpawnOne"
     m_spawnTimings {
      2
@@ -1755,7 +1755,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
    TILW_PrefabSpawnerEntity Building_8_Defend_AI4 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
     coords -4.405 -0.001 9.663
     angles 0.015 33.574 -0.012
-    m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et.et"
+    m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et"
     m_conditionFlag "SpawnOne"
     m_spawnTimings {
      2.5
@@ -1851,7 +1851,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
    TILW_PrefabSpawnerEntity Building_8_Defend_AI5 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
     coords -5.375 0.033 -5.019
     angles 0.015 31.424 -0.012
-    m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et.et"
+    m_prefab "{98909778EFEFAF8B}worlds/Perfk/Prefabs/Groups/PK_MUJ_11_Fighters.et"
     m_conditionFlag "SpawnOne"
     m_spawnTimings {
      3

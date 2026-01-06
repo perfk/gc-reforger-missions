@@ -59,7 +59,7 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
     m_conditionFlag "US_Trigger_Center_1"
     m_spawnTimings {
      0
-     60
+     140
     }
     m_waypointNames {
      "US_WP_Center_1_1"
@@ -97,7 +97,7 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
     m_conditionFlag "US_Trigger_Left_1"
     m_spawnTimings {
      0
-     60
+     130
     }
     m_waypointNames {
      "US_WP_Left_1_1"

@@ -5,6 +5,16 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 3059.167 10.036 3054.997
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{684AF9EC80A44493}" {
+    }
+   }
+   m_iMonth 8
+  }
+ }
  coords 3052.448 10 3058.805
  m_denyJIPTime 600
 }
@@ -57,10 +67,10 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position 1024.087 0 -410.916
    }
    ShapePoint "{6848C8DCEDDB2ADF}" {
-    Position 1042.871 0 -534.104
+    Position 1095.799 0 -532.9
    }
    ShapePoint "{6848C8DCEF2C069C}" {
-    Position 964.364 0 -768.08
+    Position 1089.079 0 -763.874
    }
    ShapePoint "{6848C8DCE820A549}" {
     Position 825.474 0 -731.582
@@ -134,10 +144,10 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position 1024.087 0 -410.916
    }
    ShapePoint "{6848C8DCEDDB2ADF}" {
-    Position 1042.871 0 -534.104
+    Position 1095.849 0 -532.96
    }
    ShapePoint "{6848C8DCEF2C069C}" {
-    Position 964.364 0 -768.08
+    Position 1089.184 0 -763.752
    }
    ShapePoint "{6848C8DCE820A549}" {
     Position 825.474 0 -731.582
@@ -199,15 +209,45 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "=== OBJECTIVES ==="
   }
   TILW_MissionEvent "{6726DECBE0ED8337}" {
+   m_name "Cache Destroyed"
    m_instructions {
     TILW_SendMessageInstruction "{6726DECCA8621676}" {
      m_messageTitle "Ammo Cache Destroyed"
-     m_messageBody "GM: Monitor ongoing firefights. Do not call a US Victory until all active combat has finished."
+     m_messageBody "US Force is expected to set up a blocking force to the west before GM can call the mission"
     }
    }
    m_condition TILW_LiteralTerm "{6726DECCD381D12D}" {
     m_flagName "Objective"
    }
+  }
+  TILW_MissionEvent "{684B230AF13C6C9B}" {
+   m_name "Timelimit"
+   m_instructions {
+    TILW_SendMessageInstruction "{684B230ACA22E3C5}" {
+     m_executionDelay 4200
+     m_messageTitle "Timelimit reached"
+     m_messageBody "GM Discretion when to end the mission"
+    }
+   }
+  }
+  TILW_MissionEvent "{684CEBA232D624D0}" {
+   m_name "Blufor Casualty"
+   m_instructions {
+    TILW_SendMessageInstruction "{684CEBA019F5B75C}" {
+     m_messageTitle "Mujahideen Victory"
+     m_messageBody "US Forces Sustained 90% casualties.. GM Discretion when to end the mission"
+    }
+   }
+   m_condition TILW_LiteralTerm "{684CEBA00362457D}" {
+    m_flagName "Blufor90"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{684CEBA3821058AB}" {
+   m_flagName "Blufor90"
+   m_factionKey "US"
+   m_casualtyRatio 0.9
   }
  }
  m_metaFlags {

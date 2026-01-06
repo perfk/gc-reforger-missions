@@ -141,3 +141,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
 }
+GenericEntity : "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et" {
+ coords 3272.287 9.344 2553.377
+}

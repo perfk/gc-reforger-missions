@@ -24,8 +24,8 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
     m_iSquadCallsign 2
    }
   }
-  coords 2744.387 8.469 2978.453
-  angles 0 -146.114 0
+  coords 2735.451 8.469 2984.584
+  angles 0 33.886 0
   m_sCustomNameSet "Rifle Squard"
  }
  US_13 {
@@ -52,8 +52,8 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
     m_iSquadCallsign 2
    }
   }
-  coords 2696.687 8.469 3014.202
-  angles 0 -146.114 0
+  coords 2687.422 8.469 3018.398
+  angles 0 33.886 0
   m_sCustomNameSet "Rifle Squard"
  }
  US_23 {
@@ -94,12 +94,6 @@ GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes
   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
    Enabled 1
    MultiSlots {
-    MultiSlotConfiguration "{66EF51A7E6B6A24A}" {
-     SlotTemplate InventoryStorageSlot Tourniquets {
-      Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
-     }
-     NumSlots 120
-    }
     MultiSlotConfiguration "{66EF51A789EFBD98}" {
      SlotTemplate InventoryStorageSlot Tourniquets {
       Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
