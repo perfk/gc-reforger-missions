@@ -33,7 +33,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
         TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
         }
        }
-       coords 3.775 0.193 4.988
+       coords 4.625 0.193 4.414
        angles -0.003 -93.719 0.009
        CompletionRadius 10
        m_bFastInit 1
