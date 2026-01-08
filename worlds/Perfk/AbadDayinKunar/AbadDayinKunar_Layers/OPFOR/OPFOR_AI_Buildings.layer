@@ -1060,7 +1060,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
         Enabled 0
        }
       }
-      coords 2.391 5.501 5.296
+      coords 7.245 0.228 2.662
       angles 0.014 111.322 0.012
       m_aUnitPrefabSlots {
        "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et"
@@ -1073,7 +1073,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
        "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
        "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
       }
-      m_bSnapToTerrain 0
       m_aStaticWaypoints {
        "Building_3_Defend_WP4"
       }
@@ -2803,7 +2802,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
       TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
       }
      }
-     coords 3.591 1.531 7.075
+     coords 3.595 1.423 7.078
      angles -0.003 0.441 0.009
      CompletionRadius 35
      m_bFastInit 1
@@ -2826,9 +2825,10 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
       TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
       }
      }
-     coords 3.591 1.531 7.075
+     coords 3.595 1.423 7.078
      angles 1.8 0.441 -1.767
      CompletionRadius 35
+     m_bFastInit 1
      m_aDefendPresets {
       SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
        m_fFractionOfSA 1

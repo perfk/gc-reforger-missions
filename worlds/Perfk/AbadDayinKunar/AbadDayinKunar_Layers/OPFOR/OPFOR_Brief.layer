@@ -1,5 +1,5 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- BRIEF_03_Situation2 {
+ BRIEF_03_FRIENDLY_FORCES {
   coords 2968.688 10.001 3183.986
   m_sTitle "FRIENDLY FORCES"
   m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
@@ -8,15 +8,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Another platoon has been assigned to guard the ammunition cache at the compound in grid 0324-0261."\
   ""\
   "Our transport buses that brought us from Asadabad and the Shuryak Valley have been positioned as roadblocks on the western approaches to deny the Americans easy entry."\
+  ""\
+  "Note: AI will be spawned in as blufor moves through the city."\
   ""
   m_aVisibleForFactions {
    "GC_MUJ"
   }
   m_iOrder 3
  }
- BRIEF_07_Command2 {
+ BRIEF_07_COMMANDANDSIGNALS {
   coords 3018.409 10.001 3269.07
-  m_sTitle "COMMAND & SIGNALS"
+  m_sTitle "COMMAND AND SIGNALS"
   m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
   m_sTextData "Only the radioman carries a radio (R-148). All communication with other sections must be through runners or face-to-face contact. Conserve radio batteries - only critical information should be transmitted."\
   ""\
@@ -35,7 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 7
  }
- BRIEF_05_Execution2 {
+ BRIEF_05_TASKSANDORDERS {
   coords 2988.151 10.001 3216.794
   m_sTitle "TASKS AND ORDERS"
   m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
@@ -57,7 +59,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 5
  }
- BRIEF_02_METREP2 {
+ BRIEF_02_ENEMY {
   coords 2964.3 10 3175.592
   m_sTitle "ENEMY"
   m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
@@ -72,7 +74,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 2
  }
- BRIEF_06_Sustainment2 {
+ BRIEF_06_SUPPORT {
   coords 3007.025 10.001 3243.311
   m_sTitle "SUPPORT"\
   ""
@@ -83,7 +85,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 6
  }
- BRIEF_04_Mission2 {
+ BRIEF_04_MISSION {
   coords 2975.845 10 3196.893
   m_sTitle "MISSION"
   m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
@@ -96,11 +98,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 4
  }
- BRIEF_07_Command3 {
+ BRIEF_08_WEATHER {
   coords 3018.409 10.001 3269.07
   m_sTitle "WEATHER"
-  m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
-  m_sTextData "Date: 2001/08/01"\
+  m_sTextData " Date: 2001/08/01"\
   "Time Now: 0500h (first light)"\
   "Weather: Clear and sunny with light haze"\
   "Visibility: Good, approximately 2000 metres"\
@@ -111,10 +112,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 8
  }
- BRIEF_07_Command4 {
+ BRIEF_09_FINALGUIDANCE {
   coords 3018.409 10.001 3269.07
   m_sTitle "FINAL GUIDANCE"
-  m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
   m_sTextData "Brothers, we fight for our land and our future. The Americans have superior equipment and training, but we have determination and knowledge of this ground. Use the buildings, use the narrow streets, make them pay for every metre. When they come in strength, fall back and regroup - live to fight again."\
   ""\
   "The hostages at the market are valuable. Do not let the Americans rescue them easily."\
