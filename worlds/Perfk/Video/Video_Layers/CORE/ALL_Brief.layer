@@ -4,7 +4,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "VI. Mission notes:"
   m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
   m_sTextData "<h2>Mission Intent</h2>"\
-  "US Force is expected to clear through every building in Kunar Abad. If Ammo Storages are located they are to be blown up"\
+  "US Force is expected to clear through every building in Kunar Abad. If Ammo Caches are located they are to be blown up"\
   "MUJ Force is expected to survive for as long as possible causing problems for the US Force."\
   ""\
   "<h2>Setup timer</h2>"\
@@ -35,7 +35,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   ""\
   "<h2>Mission by Perfk</h2>"\
-  "Last updated: 2026-01-04"\
+  "Last updated: 2026-01-08"\
   ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
@@ -44,9 +44,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  BRIEF_00_overview {
   coords 2922.541 10 3129.165
   m_sTitle "Mission Overview:"
-  m_sTextData "Uprest in the country has boiled over and Mujahideen fighters have taken over Kunar Abad by force sending civilians fleeing from the city. With it’s close proximity to FOB Michigan is the US Army forced to respond in force."\
+  m_sTextData "Unrest in the country has boiled over and Mujahideen fighters have taken over Kunar Abad by force sending civilians fleeing from the city. With its close proximity to FOB Michigan is the US Army forced to respond in force."\
   ""\
-  "US objective: Clear the city of enemy combattents and blow up any ammo storage crates found"\
+  "US objective: Clear the city of enemy combatants and blow up any ammo storage crates found"\
   "MUJ Objective: Fight along AI blocking the US force from moving through the city"\
   ""\
   "This Mission does not have any hard end conditions. GM´s discretion (see mission notes)"\
