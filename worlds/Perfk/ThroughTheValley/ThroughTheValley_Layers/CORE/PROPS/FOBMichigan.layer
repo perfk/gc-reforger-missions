@@ -1,0 +1,265 @@
+$grp GenericEntity : "{03740F1BD7C816A9}Prefabs/Props/Airport/RunwayLightPortable_01/RunwayLightPortable_01_yellow.et" {
+ {
+  coords 2946.867 10.024 3069.412
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.175 0.339 -5.408
+   }
+  }
+ }
+ {
+  coords 2939.424 10.025 3057.731
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.175 0.339 -5.409
+   }
+  }
+ }
+ {
+  coords 2928.181 10.025 3064.787
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.175 0.339 -5.408
+   }
+  }
+ }
+ {
+  coords 2935.474 10.025 3076.471
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.174 0.339 -5.408
+   }
+  }
+ }
+ {
+  coords 2971.637 10.024 3054.528
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.175 0.339 -5.409
+   }
+  }
+ }
+ {
+  coords 2952.951 10.025 3049.903
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.175 0.339 -5.408
+   }
+  }
+ }
+ {
+  coords 2960.244 10.025 3061.587
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.175 0.339 -5.408
+   }
+  }
+ }
+ {
+  coords 2964.194 10.025 3042.847
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.175 0.339 -5.408
+   }
+  }
+ }
+ {
+  coords 2998.209 10.024 3038.562
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.175 0.339 -5.408
+   }
+  }
+ }
+ {
+  coords 2979.523 10.025 3033.937
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.175 0.339 -5.408
+   }
+  }
+ }
+ {
+  coords 2986.816 10.025 3045.621
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.175 0.339 -5.409
+   }
+  }
+ }
+ {
+  coords 2990.766 10.025 3026.881
+  angles 0 121 0
+  {
+   GenericEntity {
+    ID "5A26B380A8E7BDB9"
+    coords -0.175 0.339 -5.409
+   }
+  }
+ }
+}
+$grp GenericEntity : "{3B3733845DE0144A}Prefabs/Props/Civilian/Chock_01/Chock_01_yellow.et" {
+ {
+  coords 2992.427 9.999 3043.457
+  angles 0 54 0
+ }
+ {
+  coords 2991.377 9.999 3043.682
+  angles 0 32 0
+ }
+ {
+  coords 2941.084 9.999 3074.307
+  angles 0 54 0
+ }
+ {
+  coords 2940.035 9.999 3074.532
+  angles 0 32 0
+ }
+ {
+  coords 2965.855 9.999 3059.423
+  angles 0 54 0
+ }
+ {
+  coords 2964.805 9.999 3059.648
+  angles 0 32 0
+ }
+}
+$grp SCR_DestructibleEntity : "{595F29E55480E432}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_B.et" {
+ {
+  coords 2964.194 -7.572 2966.451
+  angles 0 -147.169 0
+  scale 5
+ }
+ {
+  coords 2932.137 -7.572 2987.136
+  angles 0 -147.169 0
+  scale 5
+ }
+}
+$grp GenericEntity : "{7FC0782750D4F881}Prefabs/Structures/Signs/SignsLarge_Base.et" {
+ {
+  components {
+   MeshObject "{54969A6AAAADA251}" {
+    Materials {
+     MaterialAssignClass "{68513A26EF0D14CC}" {
+      SourceMaterial "SignLarge_01"
+      AssignedMaterial "{5CA026C1C4C9031E}worlds/Perfk/ThroughTheValley/PK_SignLarge_01.emat"
+     }
+    }
+   }
+  }
+  coords 2918.338 7.659 2994.371
+  angles 0 -147.169 0
+  scale 2.5
+ }
+ {
+  components {
+   MeshObject "{54969A6AAAADA251}" {
+    Materials {
+     MaterialAssignClass "{68513A26EF0D14CC}" {
+      SourceMaterial "SignLarge_01"
+      AssignedMaterial "{5CA026C1C4C9031E}worlds/Perfk/ThroughTheValley/PK_SignLarge_01.emat"
+     }
+    }
+   }
+  }
+  coords 2918.338 7.659 2994.371
+  angles 0 -149.333 0
+  scale 2.5
+ }
+ {
+  components {
+   MeshObject "{54969A6AAAADA251}" {
+    Materials {
+     MaterialAssignClass "{68513A26EF0D14CC}" {
+      SourceMaterial "SignLarge_01"
+      AssignedMaterial "{5CA026C1C4C9031E}worlds/Perfk/ThroughTheValley/PK_SignLarge_01.emat"
+     }
+    }
+   }
+  }
+  coords 2950.349 7.659 2973.716
+  angles 0 -147.169 0
+  scale 2.5
+ }
+ {
+  components {
+   MeshObject "{54969A6AAAADA251}" {
+    Materials {
+     MaterialAssignClass "{68513A26EF0D14CC}" {
+      SourceMaterial "SignLarge_01"
+      AssignedMaterial "{5CA026C1C4C9031E}worlds/Perfk/ThroughTheValley/PK_SignLarge_01.emat"
+     }
+    }
+   }
+  }
+  coords 2940.336 7.437 3028.875
+  angles 0 -149.333 0
+  scale 2.5
+ }
+}
+GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Equipment_01_US.et" {
+ components {
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{66EF51A789EFBD98}" {
+     SlotTemplate InventoryStorageSlot Tourniquets {
+      Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{66EF51A787613850}" {
+     SlotTemplate InventoryStorageSlot Tourniquets {
+      Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+     }
+     NumSlots 6
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+ }
+ coords 2760.716 8.469 2976.451
+ angles 0 -145.681 0
+}
+$grp GenericEntity : "{B5FDCA49E8753CDF}Prefabs/Structures/Decal/HeliPad_military.et" {
+ {
+  coords 2932.902 10 3070.119
+  angles 0 32 0
+ }
+ {
+  coords 2957.673 10 3055.235
+  angles 0 32 0
+ }
+ {
+  coords 2984.245 10 3039.27
+  angles 0 32 0
+ }
+}

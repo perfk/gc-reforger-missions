@@ -199,4 +199,28 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 7
  }
+ BRIEF_13_Respawns {
+  coords 2942.032 10.001 3148.713
+  m_sTitle "RESPAWN INSTRUCTIONS - CO READ"
+  m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
+  m_sTextData "Company Commander please read the following to ensure players understand."\
+  ""\
+  "This mission handles respawns differently than normal. It is not automatic."\
+  ""\
+  "15 min into the mission a new platoon is spawned if you have died you can then manually Hold 'U', find 3rd Platoon, and select a slot to spawn in."\
+  ""\
+  "We have strict protocols for leaving base: "\
+  "- First, Pilots: You are grounded until a Platoon Leader has been selected. No PL, no flights."\
+  "- Second, Infantry: You cannot board a helicopter alone. You must have your Squad Leader present to get a seat."\
+  "- The only exception: If your Squad Leader has already deployed to the field, you may fly out, but only if you are accompanied by a Team Leader from your squad."\
+  ""\
+  "Summary: No solo flights. You need a Platoon Leader to unlock the helis, and a Squad or Team Leader to get a seat."\
+  ""\
+  "Lastly, if you just want to go to spectator, hold “U” and select one of the slots in the “RESPAWN ME” faction"\
+  ""
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 13
+ }
 }

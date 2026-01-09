@@ -34,73 +34,46 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_drawLine 1
    }
   }
-  coords 2445.447 17.992 3247.192
+  coords 2108.568 20.843 3030.129
   Points {
-   ShapePoint "{6848C8DC58D29882}" {
-    Position 159.275 0 -100.024
-   }
-   ShapePoint "{6848C8DC5AEF7DE4}" {
-    Position 221.164 0 -51.189
-   }
    ShapePoint "{6848C8DC2BDFB1CC}" {
-    Position 373.878 0 -161.843
+    Position 0 0 0
    }
-   ShapePoint "{6848C8DC19B353BA}" {
-    Position 574.783 0 -304.595
+   ShapePoint "{6850EB01DEF02002}" {
+    Position -23.745 0 886.902
    }
-   ShapePoint "{6848C8DC18C165FF}" {
-    Position 691.058 0 -298.938
+   ShapePoint "{6850EB01DB205482}" {
+    Position 1056.91 0 829.988
    }
-   ShapePoint "{6848C8DC141E7B53}" {
-    Position 785.292 0 -336.999
+   ShapePoint "{6850EB01DA6287A4}" {
+    Position 1816.667 0 425.356
    }
-   ShapePoint "{6848C8DC175DD38D}" {
-    Position 831.898 0 -351.494
+   ShapePoint "{6850EB01D4820BAF}" {
+    Position 1987.621 0 -399.283
    }
-   ShapePoint "{6848C8DC17EFAE25}" {
-    Position 873.436 0 -360.723
+   ShapePoint "{6850EB01D24FF6EA}" {
+    Position 1971.344 0 -3015.768
    }
-   ShapePoint "{6848C8DC11896BCA}" {
-    Position 948.77 0 -357.65
+   ShapePoint "{6850EB01AE1B6FE9}" {
+    Position 752.839 0 -2998.605
    }
-   ShapePoint "{6848C8DC131C2897}" {
-    Position 1024.087 0 -410.916
+   ShapePoint "{6850EB01A8DAE35E}" {
+    Position 864.551 0 -2349.236
    }
-   ShapePoint "{6848C8DCEDDB2ADF}" {
-    Position 1095.799 0 -532.9
+   ShapePoint "{6850EB01A611EB47}" {
+    Position 1025.954 0 -2220.255
    }
-   ShapePoint "{6848C8DCEF2C069C}" {
-    Position 1089.079 0 -763.874
+   ShapePoint "{6850EB01A0162F53}" {
+    Position 1178.803 0 -1671.843
    }
-   ShapePoint "{6848C8DCE820A549}" {
-    Position 825.474 0 -731.582
+   ShapePoint "{6850EB01A326377A}" {
+    Position 1365.761 0 -1081.572
    }
-   ShapePoint "{6848C8DCE43782CE}" {
-    Position 725.867 0 -675.38
+   ShapePoint "{6850EB01A22986F3}" {
+    Position 1384.208 0 -811.665
    }
-   ShapePoint "{6848C8DCE7C941B4}" {
-    Position 617.152 0 -601.11
-   }
-   ShapePoint "{6848C8DCE1871E5A}" {
-    Position 567.474 0 -537.967
-   }
-   ShapePoint "{6848C8DCE3A4ADD1}" {
-    Position 525.466 0 -499.292
-   }
-   ShapePoint "{6848C8DCE2DDE0F2}" {
-    Position 455.578 0 -482.113
-   }
-   ShapePoint "{6848C8DCFC2B02E2}" {
-    Position 348.102 0 -447.173
-   }
-   ShapePoint "{6848C8DCFE6FBA4E}" {
-    Position 269.868 0 -434.362
-   }
-   ShapePoint "{6848C8DCFB4212BB}" {
-    Position 187.477 0 -353.189
-   }
-   ShapePoint "{6848C8DCF4021C2D}" {
-    Position 108.335 0 -222.092
+   ShapePoint "{6850EB01BF0B8B76}" {
+    Position 1329.529 0 -615.906
    }
   }
  }
@@ -117,49 +90,19 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_lineWidth 5
    }
   }
-  coords 2445.447 17.992 3247.192
+  coords 3694.49 253.288 1294.037
   Points {
-   ShapePoint "{6848C8DC19B353BA}" {
-    Position 599.54 0 -355.854
+   ShapePoint "{6850EB018637A944}" {
+    Position -41.815 0 21.895
    }
-   ShapePoint "{6848C8DC18C165FF}" {
-    Position 626.177 0 -351.406
+   ShapePoint "{6850EB018692490B}" {
+    Position -112.557 0 2.674
    }
-   ShapePoint "{6848C8DC1B152ABE}" {
-    Position 698.785 0 -367.428
+   ShapePoint "{6850EB01815ED4FE}" {
+    Position -58.151 0 -41.283
    }
-   ShapePoint "{6848C8DC141E7B53}" {
-    Position 733.837 0 -378.856
-   }
-   ShapePoint "{6848C8DC175DD38D}" {
-    Position 798.729 0 -394.578
-   }
-   ShapePoint "{6848C8DC17EFAE25}" {
-    Position 862.715 0 -399.549
-   }
-   ShapePoint "{6848C8DC11896BCA}" {
-    Position 940.05 0 -406.148
-   }
-   ShapePoint "{6848C8DC131C2897}" {
-    Position 1024.087 0 -410.916
-   }
-   ShapePoint "{6848C8DCEDDB2ADF}" {
-    Position 1095.849 0 -532.96
-   }
-   ShapePoint "{6848C8DCEF2C069C}" {
-    Position 1089.184 0 -763.752
-   }
-   ShapePoint "{6848C8DCE820A549}" {
-    Position 825.474 0 -731.582
-   }
-   ShapePoint "{6848C8DCE43782CE}" {
-    Position 725.867 0 -675.38
-   }
-   ShapePoint "{6848C8DCE7C941B4}" {
-    Position 617.152 0 -601.11
-   }
-   ShapePoint "{6848C8DCE1871E5A}" {
-    Position 567.474 0 -537.967
+   ShapePoint "{6850EB0181703A16}" {
+    Position 16.219 0 -15.688
    }
   }
  }

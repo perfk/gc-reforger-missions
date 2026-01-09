@@ -1,3 +1,17 @@
+$grp Vehicle : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
+ AUS_UH60_armed1 {
+  coords 2931.833 10 3068.254
+  angles 0 -147.169 0
+ }
+ AUS_UH60_armed2 {
+  coords 2956.604 10 3053.37
+  angles 0 -147.169 0
+ }
+ AUS_UH60_armed3 {
+  coords 2983.175 10 3037.405
+  angles 0 -147.169 0
+ }
+}
 Vehicle M998_covered_long_GulfWar : "{55A3575FAE3ED7C4}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_D_2004.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
@@ -47,9 +61,58 @@ Vehicle M998_covered_long_GulfWar : "{55A3575FAE3ED7C4}Prefabs/Vehicles/Wheeled/
    }
   }
  }
- coords 2747.687 8.63 2966.842
- angles -0.884 80.973 0.14
+ coords 3705.18 220.518 1336.307
+ angles -1.133 108.488 0.565
  m_sAttachmentGroupName "US_00"
+}
+Tank M2A2_BUSK_Desert1 : "{71E416DCB2BE86D7}Prefabs/Vehicles/Tracked/BFV/M2A2_BUSK_Desert.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+   MultiSlots {
+    MultiSlotConfiguration "{63136615702DA907}" {
+     SlotTemplate InventoryStorageSlot UGLammo {
+     }
+    }
+   }
+  }
+ }
+ coords 3745.818 221.995 1325.033
+ angles 6.292 101.743 0.396
+ m_sAttachmentGroupName "BFV_01_Group"
+}
+$grp Vehicle : "{A87793B810A65873}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_D_2004.et" {
+ M923A1_transport_D_1 {
+  coords 3719.636 220.432 1332.349
+  angles 0.873 102.653 0.196
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD16491CCBB"
+    coords 0 2.079 1.001
+   }
+  }
+ }
+ M923A1_transport_D_2 {
+  coords 3680.048 221.155 1343.769
+  angles -1.725 105.506 -0.478
+  {
+   GameEnvironmentProbeEntity {
+    ID "654C8CD16491CCBB"
+    coords 0 2.08 1
+   }
+  }
+ }
+}
+$grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
+ M1025_armed_M2HB_GulfWar1 {
+  coords 3732.85 220.879 1328.298
+  angles 2.829 108.173 -0.013
+  m_sAttachmentGroupName "Rifle11"
+ }
+ M1025_armed_M2HB_GulfWar2 {
+  coords 3668.267 220.802 1345.781
+  angles 4.467 90.034 0.003
+  m_sAttachmentGroupName "Rifle11"
+ }
 }
 Vehicle M997_maxi_ambulance_GulfWar : "{D555F22BF4C0ADAC}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_D_2004.et" {
  components {
@@ -97,8 +160,8 @@ Vehicle M997_maxi_ambulance_GulfWar : "{D555F22BF4C0ADAC}Prefabs/Vehicles/Wheele
    }
   }
  }
- coords 2740.402 8.703 2970.306
- angles -1.253 77.82 -1.561
+ coords 3691.644 220.886 1340.31
+ angles -1.697 108.558 -0.57
  m_eVehicleType VEHICLE
  m_sAttachmentGroupName "US_00"
 }
