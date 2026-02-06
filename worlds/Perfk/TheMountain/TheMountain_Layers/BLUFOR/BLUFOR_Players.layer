@@ -1,0 +1,311 @@
+SCR_AIGroup : "{0D9521B629020FD3}Prefabs/Groups/BLUFOR/US/Army/1981/101st Airborne/P/Group_US_Army_1982_AirAsltCoyHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   Enabled 0
+  }
+ }
+ coords 3135.314 286.438 9632.72
+}
+$grp SCR_AIGroup : "{31166D9F24B6B734}Prefabs/Groups/BLUFOR/US/Army/1981/101st Airborne/P/Group_US_Army_1982_AirAsltPHQ_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 3145.75 286.594 9628.443
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 3136.75 286.594 9628.443
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 3128.75 286.594 9628.443
+ }
+}
+SCR_AIGroup : "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st Airborne/P/Group_US_Army_1982_Pilots_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   Enabled 0
+  }
+ }
+ coords 3133.088 286.532 9610.99
+}
+$grp SCR_AIGroup : "{4C901AC86BFE7706}Prefabs/Groups/BLUFOR/US/Army/1981/101st Airborne/P/Group_US_Army_1982_AirAsltSquad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+    DefaultFormation "Column"
+   }
+  }
+  coords 3149.451 286.645 9625.295
+  angles 0 90 0
+  m_aUnitPrefabSlots {
+   "{DD02AEAEA46E84B8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_SL_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+    DefaultFormation "Column"
+   }
+  }
+  coords 3146.951 286.645 9625.295
+  angles 0 90 0
+  m_aUnitPrefabSlots {
+   "{DD02AEAEA46E84B8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_SL_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+    DefaultFormation "Column"
+   }
+  }
+  coords 3144.451 286.645 9625.295
+  angles 0 90 0
+  m_aUnitPrefabSlots {
+   "{DD02AEAEA46E84B8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_SL_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+    DefaultFormation "Column"
+   }
+  }
+  coords 3140.451 286.645 9625.295
+  angles 0 90 0
+  m_aUnitPrefabSlots {
+   "{DD02AEAEA46E84B8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_SL_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+    DefaultFormation "Column"
+   }
+  }
+  coords 3137.951 286.645 9625.295
+  angles 0 90 0
+  m_aUnitPrefabSlots {
+   "{DD02AEAEA46E84B8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_SL_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+    DefaultFormation "Column"
+   }
+  }
+  coords 3135.451 286.645 9625.295
+  angles 0 90 0
+  m_aUnitPrefabSlots {
+   "{DD02AEAEA46E84B8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_SL_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+    DefaultFormation "Column"
+   }
+  }
+  coords 3132.451 286.645 9625.295
+  angles 0 90 0
+  m_aUnitPrefabSlots {
+   "{DD02AEAEA46E84B8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_SL_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+    DefaultFormation "Column"
+   }
+  }
+  coords 3129.951 286.645 9625.295
+  angles 0 90 0
+  m_aUnitPrefabSlots {
+   "{DD02AEAEA46E84B8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_SL_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+    DefaultFormation "Column"
+   }
+  }
+  coords 3127.451 286.645 9625.295
+  angles 0 90 0
+  m_aUnitPrefabSlots {
+   "{DD02AEAEA46E84B8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_SL_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+   "{0F849EA83D1920BA}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_TL_P.et"
+   "{78871623702830D2}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_AR_P.et"
+   "{A2BD6DF5CCAAD69C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_GL_P.et"
+   "{9E4E285179FFD505}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RF_P.et"
+  }
+ }
+}
+TILW_PrefabSpawnerEntity Spawn_E2 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ coords 8041.601 414.322 10708.219
+ angles 0 -84.242 0
+ m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+ m_conditionFlag "TownSpawnActive"
+ m_spawnTimings {
+  0
+  5
+  1800
+  2520
+  2768
+  3008
+  3428
+ }
+ m_waypointNames {
+  "SD_Hilltop"
+ }
+}
+$grp GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Equipment_01_US.et" {
+ {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{66E10EFC90B0BF46}" {
+      SlotTemplate InventoryStorageSlot M14Mines {
+       Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
+      }
+      NumSlots 1000
+     }
+     MultiSlotConfiguration "{67316E162FBB96A3}" {
+      SlotTemplate InventoryStorageSlot M14Mines {
+       Prefab "{25F3E9A9A45B3C58}Prefabs/Items/Equipment/Backpacks/Backpack_Para_Bergen.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+  }
+  coords 3126.253 286.781 9632.967
+  angles 0 -95.434 0
+ }
+ {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{66E10EFC90B0BF46}" {
+      SlotTemplate InventoryStorageSlot M14Mines {
+       Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
+      }
+      NumSlots 1000
+     }
+     MultiSlotConfiguration "{67316E162FBB96A3}" {
+      SlotTemplate InventoryStorageSlot M14Mines {
+       Prefab "{25F3E9A9A45B3C58}Prefabs/Items/Equipment/Backpacks/Backpack_Para_Bergen.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+  }
+  coords 7795.183 500.048 10705.381
+  angles 0 -61.046 0
+ }
+}

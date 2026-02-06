@@ -1,0 +1,561 @@
+SCR_AIWaypoint SD_Hilltop : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ coords 7799.073 500.074 10708.341
+}
+$grp SCR_AIGroup : "{0D845365C4493687}Prefabs/Groups/BLUFOR/US/Army/1981/101st Airborne/Group_US_Army_1982_AirAsltSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 7748.419 484.164 10747.823
+  angles 0 -80.62 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 7758.553 490.763 10701.883
+  angles 0 -120.182 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 7789.578 497.852 10687.354
+  angles 0 -179.516 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 7845.534 489.513 10694.091
+  angles 0 148.259 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 7911.239 480.734 10757.188
+  angles 0 87.939 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 7881.701 464.839 10882.794
+  angles 0 27.394 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 7790.391 476.534 10811.187
+  angles 0 -30.326 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 7738.712 468 10798.401
+  angles 0 102.592 0
+ }
+}
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ Spawn_N {
+  coords 7809.6 414.077 10946.278
+  m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   180
+   540
+   1320
+   1808
+   2280
+   2760
+   3000
+   3420
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_NNE {
+  coords 7897.737 426.851 10927.896
+  m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   182
+   542
+   1322
+   1810
+   2282
+   2762
+   3002
+   3422
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_NE {
+  coords 7973.645 447.373 10880.976
+  m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   184
+   900
+   1560
+   2048
+   2284
+   2764
+   3004
+   3424
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_ENE {
+  coords 8022.213 437.452 10803.42
+  angles 0 -74.322 0
+  m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   186
+   902
+   1562
+   2050
+   2286
+   2766
+   3006
+   3426
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_E {
+  coords 8041.601 414.322 10708.219
+  angles 0 -84.242 0
+  m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   188
+   720
+   1800
+   2520
+   2768
+   3008
+   3428
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_ESE {
+  coords 8024.609 400.161 10625.063
+  angles 0 -30.225 0
+  m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   190
+   722
+   1802
+   2522
+   2770
+   3010
+   3430
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_SE {
+  coords 7972.356 397.119 10552.769
+  m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   192
+   1080
+   1324
+   2040
+   2288
+   2772
+   3012
+   3432
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_SSE {
+  coords 7893.08 390.103 10503.238
+  m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   194
+   1082
+   1326
+   2042
+   2290
+   2774
+   3014
+   3434
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_S {
+  coords 7812.071 376.286 10487.072
+  m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   196
+   544
+   1564
+   2524
+   2776
+   3240
+   3436
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_SSW {
+  coords 7721.705 375.795 10502.912
+  m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   198
+   546
+   1566
+   2526
+   2778
+   3242
+   3438
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_SW {
+  coords 7648.803 383.378 10551.005
+  m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   200
+   904
+   1804
+   2528
+   2780
+   3244
+   3440
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_WSW {
+  coords 7596.883 395.946 10623.809
+  angles 0 79.304 0
+  m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   202
+   906
+   1806
+   2530
+   2782
+   3246
+   3442
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_W {
+  coords 7579.721 393.516 10715.404
+  m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   204
+   724
+   1328
+   2292
+   2784
+   3248
+   3444
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_WNW {
+  coords 7597.229 398.099 10803.42
+  m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   206
+   726
+   1330
+   2294
+   2786
+   3250
+   3446
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_NW {
+  coords 7647.086 401.635 10878.039
+  m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   208
+   1084
+   1568
+   2044
+   2532
+   2788
+   3252
+   3448
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_NNW {
+  coords 7721.705 406.167 10927.896
+  m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   210
+   1086
+   1570
+   2046
+   2534
+   2790
+   3254
+   3450
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_N_AT {
+  coords 7809.195 413.188 10947.244
+  m_prefab "{247DB5CD3CBA7418}worlds/Perfk/Prefabs/Groups/PK_MUJ_03_AT_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   2052
+   3016
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_E_AT {
+  coords 8039.721 417.431 10715.404
+  m_prefab "{247DB5CD3CBA7418}worlds/Perfk/Prefabs/Groups/PK_MUJ_03_AT_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   2536
+   3018
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_S_AT {
+  coords 7811.564 376.395 10486.74
+  m_prefab "{247DB5CD3CBA7418}worlds/Perfk/Prefabs/Groups/PK_MUJ_03_AT_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   2296
+   3256
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_W_AT {
+  coords 7579.721 393.516 10715.404
+  m_prefab "{247DB5CD3CBA7418}worlds/Perfk/Prefabs/Groups/PK_MUJ_03_AT_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   2298
+   3258
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_NE_MG {
+  coords 7974.824 449.066 10881.646
+  m_prefab "{6FD18265B1F81D25}worlds/Perfk/Prefabs/Groups/PK_MUJ_03_MG_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   1812
+   3020
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_SE_MG {
+  coords 7972.356 397.12 10552.769
+  m_prefab "{6FD18265B1F81D25}worlds/Perfk/Prefabs/Groups/PK_MUJ_03_MG_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   2054
+   3022
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_SW_MG {
+  coords 7647.086 383.378 10552.769
+  m_prefab "{6FD18265B1F81D25}worlds/Perfk/Prefabs/Groups/PK_MUJ_03_MG_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   2056
+   3260
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+ Spawn_NW_MG {
+  coords 7647.086 401.707 10878.039
+  m_prefab "{6FD18265B1F81D25}worlds/Perfk/Prefabs/Groups/PK_MUJ_03_MG_Fighters.et"
+  m_conditionFlag "TownSpawnActive"
+  m_spawnTimings {
+   2538
+   3262
+  }
+  m_waypointNames {
+   "SD_Hilltop"
+  }
+ }
+}
+TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 7811.698 496.701 10733.536
+ m_queryRadius 100
+ m_flagName "TownSpawnActive"
+ m_stopAfterFirstChange 1
+ m_playersOnly 1
+ m_ownerFactionKey "US"
+ m_ratioThreshold 0.01
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3282.294 285.619 9525.426
+ m_missionEvents {
+  TILW_MissionEvent "{68910E076A9A6D35}" {
+   m_instructions {
+    TILW_SendMessageInstruction "{68910E0761B0D796}" {
+     m_executionDelay 180
+     m_messageTitle "Wave 0 - Opening Volley"
+     m_messageBody "ALL 16 dirs: N(7) NNE(4) NE(7) ENE(4) E(7) ESE(4) SE(7) SSE(4) S(7) SSW(4) SW(7) WSW(4) W(7) WNW(4) NW(7) NNW(4) = 88 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D0447}" {
+     m_executionDelay 540
+     m_messageTitle "Wave 1 - N/S Pincer"
+     m_messageBody "N(7) NNE(4) S(7) SSW(4) = 22 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D0448}" {
+     m_executionDelay 720
+     m_messageTitle "Wave 2 - E/W Pincer"
+     m_messageBody "E(7) ESE(4) W(7) WNW(4) = 22 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D0449}" {
+     m_executionDelay 900
+     m_messageTitle "Wave 3 - NE/SW Pincer"
+     m_messageBody "NE(7) ENE(4) SW(7) WSW(4) = 22 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D044A}" {
+     m_executionDelay 1080
+     m_messageTitle "Wave 4 - SE/NW Pincer"
+     m_messageBody "SE(7) SSE(4) NW(7) NNW(4) = 22 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D044B}" {
+     m_executionDelay 1320
+     m_messageTitle "Wave 5 - N/SE/W Trident"
+     m_messageBody "N(7) NNE(4) SE(7) SSE(4) W(7) WNW(4) = 33 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D044C}" {
+     m_executionDelay 1560
+     m_messageTitle "Wave 6 - NE/S/NW Trident"
+     m_messageBody "NE(7) ENE(4) S(7) SSW(4) NW(7) NNW(4) = 33 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D044D}" {
+     m_executionDelay 1800
+     m_messageTitle "Wave 7 - E/SW/N Trident + NE_MG"
+     m_messageBody "E(7) ESE(4) SW(7) WSW(4) NE_MG(3) = 25 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D044E}" {
+     m_executionDelay 2040
+     m_messageTitle "Wave 8 - SE/NW/NE + AT/MG"
+     m_messageBody "SE(7) NE(7) NW(7) N_AT(3) SE_MG(3) SW_MG(3) = 30 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D044F}" {
+     m_executionDelay 2280
+     m_messageTitle "Wave 9 - 4-Prong N/NE/SE/W + AT"
+     m_messageBody "N(7) NE(7) ENE(4) SE(7) SSE(4) W(7) WNW(4) S_AT(3) W_AT(3) = 46 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D0450}" {
+     m_executionDelay 2520
+     m_messageTitle "Wave 10 - 4-Prong E/S/SW/NW + AT/MG"
+     m_messageBody "E(7) ESE(4) S(7) SSW(4) SW(7) WSW(4) NW(7) NNW(4) E_AT(3) NW_MG(3) = 50 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D0451}" {
+     m_executionDelay 2760
+     m_messageTitle "Wave 11 - ALL Directions"
+     m_messageBody "ALL 16 dirs + NW_MG = 91 AI total"
+    }
+    TILW_SendMessageInstruction "{68910E07408D0452}" {
+     m_executionDelay 3000
+     m_messageTitle "Wave 12 - East Half + Specialists"
+     m_messageBody "N(7) NNE(4) NE(7) ENE(4) E(7) ESE(4) SE(7) SSE(4) N_AT(3) E_AT(3) NE_MG(3) SE_MG(3) = 56 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D0453}" {
+     m_executionDelay 3240
+     m_messageTitle "Wave 13 - West Half + Specialists"
+     m_messageBody "S(7) SSW(4) SW(7) WSW(4) W(7) WNW(4) NW(7) NNW(4) S_AT(3) W_AT(3) SW_MG(3) NW_MG(3) = 56 AI"
+    }
+    TILW_SendMessageInstruction "{68910E07408D0454}" {
+     m_executionDelay 3420
+     m_messageTitle "Wave 14 - FINAL ALL Directions"
+     m_messageBody "ALL 16 dirs = 88 AI - Last wave!"
+    }
+   }
+   m_condition TILW_LiteralTerm "{68910E07701A6B28}" {
+    m_flagName "TownSpawnActive"
+   }
+  }
+ }
+}
+SCR_SearchAndDestroyWaypoint SD_Hilltop_ : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ coords 7809.721 498.946 10715.404
+ CompletionRadius 60
+ m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60DAE2484F999078}" {
+ }
+}
