@@ -50,12 +50,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Call Signs-"\
   "Ranger- Charger"\
   "Delta- Spear"\
+  "Blackhawk- Lima"\
+  "Littlebird- Star"\
   ""\
   "Radio Freq:"\
   "PLT NET= 48.00"\
-  "AIR NET= 50.00"\
-  ""\
-  ""
+  "AIR NET= 50.00"
   m_aVisibleForFactions {
    "RHS_USAF"
   }
