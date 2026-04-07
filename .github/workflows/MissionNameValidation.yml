@@ -1,8 +1,8 @@
 name: Mission Name Validation
 
 on:
-  push: # Runs on EVERY commit pushed to ANY branch
-  # pull_request: # Uncomment this line when you are ready to run this on PRs
+  #push: # Runs on EVERY commit pushed to ANY branch
+  pull_request: # Uncomment this line when you are ready to run this on PRs
 
 jobs:
   validate-missions:
