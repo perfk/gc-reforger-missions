@@ -1,0 +1,62 @@
+name: Mission Name Validation
+
+on:
+  push: # Runs on EVERY commit pushed to ANY branch
+  # pull_request: # Uncomment this line when you are ready to run this on PRs
+
+jobs:
+  validate-missions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check m_sName in all Mission conf files
+        run: |
+          # 1. Define the Regex (using single quotes so bash doesn't mess with it)
+          REGEX='^(COOP|TVT|COTVT|LOL|OTHER|SD|AAS)\s+(\(\d+\s*-\s*\d+\)|\(∞\))\s+[^"]+$'
+          
+          # Flag to track if any checks fail so we can exit at the very end
+          FAILED=0
+          
+          # 2. Find all .conf files inside the Missions directory
+          # Using a while loop and 'find' safely handles filenames with spaces
+          while IFS= read -r file; do
+            
+            # 3. Extract ONLY the string inside the quotes for m_sName
+            # -o prints only the matching part
+            # -P enables Perl-compatible regex
+            # \K ignores everything matched before it, leaving just the text inside the quotes
+            MISSION_NAME=$(grep -oP 'm_sName\s+"\K([^"]+)' "$file" || true)
+            
+            # If the file doesn't contain an m_sName, skip it
+            if [ -z "$MISSION_NAME" ]; then
+              echo "⚠️  Skipping $file (no m_sName found)"
+              continue
+            fi
+            
+            # 4. A file might technically have multiple m_sName lines, so we loop through whatever we found
+            while IFS= read -r name; do
+              
+              # Validate the extracted name against your Regex
+              # -i makes it case-insensitive
+              # -q makes it quiet (we just want the exit code)
+              if echo "$name" | grep -Pqi "$REGEX"; then
+                echo "✅ PASS: '$name' in $file"
+              else
+                echo "❌ FAIL: '$name' in $file"
+                FAILED=1
+              fi
+              
+            done <<< "$MISSION_NAME"
+            
+          done < <(find Missions -type f -name "*.conf")
+          
+          # 5. Determine the final outcome
+          if [ $FAILED -ne 0 ]; then
+            echo "🛑 Workflow failed! One or more mission names do not match the required format."
+            exit 1
+          else
+            echo "🎉 All mission names are formatted perfectly!"
+            exit 0
+          fi
